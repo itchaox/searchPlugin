@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-25 20:49
+ * @LastTime   : 2023-12-25 21:50
  * @desc       : 
 -->
 
@@ -226,10 +226,12 @@
 
   async function getActiveGifUrl(recordId) {
     activeGif.value = await getGifUrl(recordId);
+    gifLoading.value = false;
   }
 
   async function getActiveIconUrl(recordId) {
     activeIcon.value = await getIconUrl(recordId);
+    iconLoading.value = false;
   }
 
   // console.log(getGifUrl('recCPSfQIT'));
@@ -421,8 +423,9 @@
         <div class="item">
           <div class="label">功能预览图：</div>
 
+          <div v-if="activeGif === '无'">暂无功能预览图</div>
           <el-image
-            v-if="activeGif"
+            v-else-if="activeGif"
             :src="activeGif"
             :zoom-rate="1.2"
             :max-scale="7"
@@ -431,7 +434,11 @@
             hide-on-click-modal
             fit="cover"
           />
-          <div v-else>暂无功能预览图</div>
+
+          <div
+            v-else
+            v-loading="gifLoading"
+          ></div>
 
           <!-- <div v-if="gifUrl === '无'">暂无功能预览图</div>
           <el-image
@@ -458,8 +465,9 @@
         <div class="item">
           <div class="label">图标：</div>
 
+          <div v-if="activeIcon === '无'">暂无图标</div>
           <el-image
-            v-if="activeIcon"
+            v-else-if="activeIcon"
             style="width: 40px; height: 40px"
             :src="activeIcon"
             :zoom-rate="1.2"
@@ -470,7 +478,12 @@
             fit="cover"
           />
 
-          <div v-else>暂无图标</div>
+          <div
+            v-else
+            v-loading="iconLoading"
+          ></div>
+
+          <!-- <div v-else>暂无图标</div> -->
 
           <!-- <div v-if="iconUrl === '无'">暂无图标</div>
 

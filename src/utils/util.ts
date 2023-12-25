@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-16 10:45
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-25 01:03
+ * @LastTime   : 2023-12-25 21:48
  * @desc       :
  */
 
@@ -25,7 +25,7 @@ export async function getGifUrl(name) {
   }
 
   // console.error('Image not found for name:', name);
-  return '';
+  return '无';
 }
 
 // 获取图标
@@ -42,7 +42,7 @@ export async function getIconUrl(name) {
   }
 
   // console.error('Image not found for name:', name);
-  return '';
+  return '无';
 }
 
 // 检查图片是否存在
