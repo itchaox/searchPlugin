@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-25 22:26
+ * @LastTime   : 2023-12-25 22:50
  * @desc       : 
 -->
 
@@ -579,24 +579,25 @@
 
         <div class="item">
           <div class="label">项目地址：</div>
-          <el-link
+          <a
+            class="link"
             v-if="activeItem?.projectUrl && activeItem.projectUrl[0]?.link"
             type="primary"
-            :href="activeItem.projectUrl[0].link"
+            :href="activeItem.projectUrl && activeItem.projectUrl[0].link"
             target="_blank"
-            >{{ activeItem.projectUrl[0].link }}</el-link
+            >{{ activeItem.projectUrl && activeItem.projectUrl[0].link }}</a
           >
           <div v-else>{{ '暂无项目地址' }}</div>
         </div>
 
         <div class="item">
           <div class="label">插件详情页地址：</div>
-          <el-link
-            type="primary"
+          <a
+            class="link"
             v-if="activeItem?.detailUrl && activeItem.detailUrl[0]?.link"
             :href="activeItem?.detailUrl && activeItem.detailUrl[0]?.link"
             target="_blank"
-            >{{ activeItem?.detailUrl && activeItem.detailUrl[0]?.link }}</el-link
+            >{{ activeItem?.detailUrl && activeItem.detailUrl[0]?.link }}</a
           >
 
           <div v-else>{{ '暂无插件详情页地址' }}</div>
@@ -658,11 +659,6 @@
     cursor: pointer;
   }
 
-  .highlighted {
-    /* 其他高亮样式 */
-    background-color: yellow;
-  }
-
   .cursor {
     cursor: pointer;
   }
@@ -682,6 +678,19 @@
       cursor: pointer;
       background: #2955e710;
       border-radius: 100%;
+    }
+  }
+
+  .link {
+    color: #1456f0;
+    max-width: 60%;
+    word-wrap: break-word;
+    text-decoration: none;
+    white-space: normal;
+
+    &:hover {
+      text-decoration: underline;
+      opacity: 0.6;
     }
   }
 </style>
