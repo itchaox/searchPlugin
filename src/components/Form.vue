@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-25 01:15
+ * @LastTime   : 2023-12-25 20:49
  * @desc       : 
 -->
 
@@ -16,6 +16,8 @@
 
   import _ from 'lodash';
   import { getGifUrl, getIconUrl } from '@/utils/util';
+
+  import HightLightText from '@/components/HightLightText';
 
   const fieldMeteList = ref([]);
   const tableDataList = ref([
@@ -110,38 +112,56 @@
   const pluginDescription = ref();
   const pluginAuthor = ref();
 
-  const isSearch = ref(false);
+  // 插件描述
+  const pluginInfo = ref();
 
+  const isShowTable = ref(true);
   function search() {
-    isSearch.value = true;
+    isShowTable.value = false;
     // 先重新获取全部数据
     filterTableDataList.value = tableDataList.value;
 
-    if (!pluginName.value && !pluginDescription.value && !pluginAuthor.value) {
-      isSearch.value = false;
-      filterTableDataList.value = tableDataList.value;
-      return;
-    }
+    // if (!pluginName.value && !pluginDescription.value && !pluginAuthor.value) {
+    //   filterTableDataList.value = tableDataList.value;
+    //   return;
+    // }
 
-    // 筛选视图类型和视图名字
+    // if (!pluginInfo.value) {
+    //   filterTableDataList.value = tableDataList.value;
+    //   return;
+    // }
+
+    // 筛选插件信息
     filterTableDataList.value = filterTableDataList.value.filter((item) => {
       let _name = item.name[0].text;
       let _description = item.description[0].text;
-      let _author = item.author[0].text;
 
-      const nameMatch = !pluginName.value || _name?.includes(pluginName.value);
-      const descriptionMatch = !pluginDescription.value || _description?.includes(pluginDescription.value);
-      const authorMatch = !pluginAuthor.value || _author?.includes(pluginAuthor.value);
-      return nameMatch && descriptionMatch && authorMatch;
+      const nameMatch = !pluginInfo.value || _name?.includes(pluginInfo.value);
+      const descriptionMatch = !pluginInfo.value || _description?.includes(pluginInfo.value);
+      // debugger;
+      return nameMatch || descriptionMatch;
     });
+
+    isShowTable.value = true;
+
+    // 筛选视图类型和视图名字
+    // filterTableDataList.value = filterTableDataList.value.filter((item) => {
+    //   let _name = item.name[0].text;
+    //   let _description = item.description[0].text;
+    //   let _author = item.author[0].text;
+
+    //   const nameMatch = !pluginName.value || _name?.includes(pluginName.value);
+    //   const descriptionMatch = !pluginDescription.value || _description?.includes(pluginDescription.value);
+    //   const authorMatch = !pluginAuthor.value || _author?.includes(pluginAuthor.value);
+    //   return nameMatch && descriptionMatch && authorMatch;
+    // });
   }
 
   function reset() {
-    isSearch.value = false;
-
-    pluginName.value = '';
-    pluginDescription.value = '';
-    pluginAuthor.value = '';
+    // pluginName.value = '';
+    // pluginDescription.value = '';
+    // pluginAuthor.value = '';
+    pluginInfo.value = '';
 
     filterTableDataList.value = tableDataList.value;
   }
@@ -213,6 +233,15 @@
   }
 
   // console.log(getGifUrl('recCPSfQIT'));
+
+  /**
+   * @desc  : 提交插件
+   */
+  function submit() {
+    let url = 'https://bytedance.larkoffice.com/share/base/form/shrcnKhFtxdtBSiIUkIAp43iUug';
+
+    window.open(url, '_blank');
+  }
 </script>
 
 <template>
@@ -224,18 +253,31 @@
         strokeLinecap="square"
       />
       <span> 欢迎使用多维表格插件 </span>
+
+      <el-tooltip
+        placement="right"
+        effect="customized"
+      >
+        <template #content>没找到想要的插件?<br />提交一个需求吧。</template>
+        <el-icon
+          class="tip-icon cursor"
+          @click="submit"
+          ><QuestionFilled
+        /></el-icon>
+      </el-tooltip>
     </div>
     <div class="addView-line">
-      <div class="addView-line-label">插件名字:</div>
+      <div class="addView-line-label">插件信息:</div>
       <el-input
         style="width: 50%"
-        v-model="pluginName"
+        v-model="pluginInfo"
         clearable
-        size="small"
-        placeholder="请输入插件名字"
+        placeholder="请输入插件名字或描述"
+        @keydown.enter="search"
       />
     </div>
-    <div class="addView-line">
+
+    <!-- <div class="addView-line">
       <div class="addView-line-label">插件描述:</div>
       <el-input
         style="width: 50%"
@@ -244,9 +286,9 @@
         size="small"
         placeholder="请输入插件描述"
       />
-    </div>
+    </div> -->
 
-    <div class="addView-line">
+    <!-- <div class="addView-line">
       <div class="addView-line-label">插件作者:</div>
       <el-input
         style="width: 50%"
@@ -255,7 +297,7 @@
         size="small"
         placeholder="请输入插件作者"
       />
-    </div>
+    </div> -->
 
     <div class="button">
       <el-button
@@ -284,30 +326,43 @@
       <div>共 {{ filterTableDataList.length }} 个插件</div>
       <el-table
         :data="filterTableDataList"
-        max-height="70vh"
+        max-height="78vh"
         empty-text="暂无数据"
       >
         <el-table-column type="index" />
         <el-table-column label="插件名字">
           <template #default="scope">
-            <span
-              :class="!isSearch ? 'nowrap' : ''"
+            <!-- <span
               text
               :title="scope.row.name[0].text"
             >
               {{ scope.row.name[0].text }}
-            </span>
+            </span> -->
+
+            <!-- {{ scope.row.name[0].text }} -->
+            <HightLightText
+              :key="scope.row.recordId"
+              :inputText="pluginInfo"
+              :allText="scope.row.name[0].text"
+            />
           </template>
         </el-table-column>
         <el-table-column label="插件描述">
           <template #default="scope">
-            <span
-              :class="!isSearch ? 'nowrap' : ''"
+            <!-- <span
               text
               :title="scope.row.description[0].text"
             >
               {{ scope.row.description[0].text }}
-            </span>
+            </span> -->
+
+            <!-- {{ scope.row.description[0].text }} -->
+
+            <HightLightText
+              :key="scope.row.recordId"
+              :inputText="pluginInfo"
+              :allText="scope.row.description[0].text"
+            />
           </template>
         </el-table-column>
         <el-table-column
@@ -316,15 +371,15 @@
           width="60"
         >
           <template #default="scope">
-            <el-button text>
-              <doc-detail
-                @click="detail(scope.row)"
-                theme="outline"
-                size="20"
-                fill="rgb(20, 86, 240)"
-                strokeLinecap="square"
-              />
-            </el-button>
+            <doc-detail
+              title="查看插件详情"
+              class="detail-icon"
+              @click="detail(scope.row)"
+              theme="outline"
+              size="24"
+              fill="rgb(20, 86, 240)"
+              strokeLinecap="square"
+            />
           </template>
         </el-table-column>
       </el-table>
@@ -373,7 +428,7 @@
             :max-scale="7"
             :min-scale="0.2"
             :preview-src-list="[activeGif]"
-            :initial-index="0"
+            hide-on-click-modal
             fit="cover"
           />
           <div v-else>暂无功能预览图</div>
@@ -411,7 +466,7 @@
             :max-scale="7"
             :min-scale="0.2"
             :preview-src-list="[activeIcon]"
-            :initial-index="0"
+            hide-on-click-modal
             fit="cover"
           />
 
@@ -498,7 +553,8 @@
   }
 
   .button {
-    margin-bottom: 14px;
+    margin-top: 14px;
+    margin-bottom: 20px;
   }
 
   .nowrap {
@@ -516,5 +572,30 @@
         white-space: nowrap;
       }
     }
+  }
+
+  .detail-icon {
+    cursor: pointer;
+  }
+
+  .highlighted {
+    /* 其他高亮样式 */
+    background-color: yellow;
+  }
+
+  .cursor {
+    cursor: pointer;
+  }
+</style>
+
+<style>
+  .el-popper.is-customized {
+    padding: 6px 12px;
+    background: linear-gradient(90deg, rgb(159, 229, 151), rgb(204, 229, 129));
+  }
+
+  .el-popper.is-customized .el-popper__arrow::before {
+    background: linear-gradient(45deg, #b2e68d, #bce689);
+    right: 0;
   }
 </style>
