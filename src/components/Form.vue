@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-25 22:04
+ * @LastTime   : 2023-12-25 22:26
  * @desc       : 
 -->
 
@@ -322,7 +322,7 @@
     <div class="addView-line">
       <div class="addView-line-label">插件信息:</div>
       <el-input
-        style="width: 50%"
+        style="width: 55%"
         v-model="pluginInfo"
         clearable
         placeholder="请输入插件名字或描述"
@@ -401,7 +401,10 @@
             />
           </template>
         </el-table-column>
-        <el-table-column label="插件描述">
+        <el-table-column
+          label="插件描述"
+          min-width="130%"
+        >
           <template #default="scope">
             <!-- <span
               text
