@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-25 21:50
+ * @LastTime   : 2023-12-25 22:04
  * @desc       : 
 -->
 
@@ -101,11 +101,27 @@
 
     filterTableDataList.value = tableDataList.value;
   }
+
+  const tableRef = ref(null);
+  const showTableTop = ref(false);
+
   onMounted(async () => {
     // loading.value = true;
     await initBase();
     await handleTableRecordList();
     // loading.value = false;
+
+    // 监听 table 滚动事件
+    const scrollDom = tableRef.value?.scrollBarRef?.wrapRef;
+    scrollDom.addEventListener('scroll', () => {
+      // 滚动距离
+      let scrollTop = scrollDom?.scrollTop;
+      if (scrollTop > 200) {
+        showTableTop.value = true;
+      } else {
+        showTableTop.value = false;
+      }
+    });
   });
 
   const pluginName = ref();
@@ -244,6 +260,41 @@
 
     window.open(url, '_blank');
   }
+
+  /**
+   * @desc  : 滚动表格
+   */
+  const scrollTable = (targetY) => {
+    const scrollDom = tableRef.value?.scrollBarRef?.wrapRef;
+    const startY = scrollDom?.scrollTop;
+
+    // const targetY = 0;
+    const duration = 500; // 动画持续时间，单位：毫秒
+    let startTime;
+
+    // 增加动画效果, 使回到顶部的过程更加丝滑、流畅
+    const animateScroll = (timestamp) => {
+      if (!startTime) {
+        startTime = timestamp;
+      }
+
+      const progress = Math.min((timestamp - startTime) / duration, 1);
+      const newY = easeInOutQuad(progress) * (targetY - startY) + startY;
+
+      scrollDom?.scrollTo(0, newY);
+
+      if (progress < 1) {
+        requestAnimationFrame(animateScroll);
+      }
+    };
+
+    requestAnimationFrame(animateScroll);
+  };
+
+  // 缓动函数，此处使用 easeInOutQuad，你可以根据需要选择其他缓动函数
+  const easeInOutQuad = (t) => {
+    return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+  };
 </script>
 
 <template>
@@ -327,6 +378,7 @@
     <div class="table">
       <div>共 {{ filterTableDataList.length }} 个插件</div>
       <el-table
+        ref="tableRef"
         :data="filterTableDataList"
         max-height="78vh"
         empty-text="暂无数据"
@@ -385,6 +437,18 @@
           </template>
         </el-table-column>
       </el-table>
+    </div>
+
+    <div
+      class="table-top"
+      v-show="showTableTop"
+      @click="() => scrollTable(0)"
+    >
+      <el-icon
+        color="rgb(20, 86, 240)"
+        size="36"
+        ><CaretTop
+      /></el-icon>
     </div>
 
     <!-- 详情页 -->
@@ -598,6 +662,24 @@
 
   .cursor {
     cursor: pointer;
+  }
+
+  .table-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+    position: absolute;
+    bottom: 3%;
+    right: 16%;
+    border-radius: 100%;
+    border: 1px solid #2955e750;
+    background: #eef5fe;
+    :hover {
+      cursor: pointer;
+      background: #2955e710;
+      border-radius: 100%;
+    }
   }
 </style>
 
