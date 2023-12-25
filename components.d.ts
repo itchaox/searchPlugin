@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    copy: typeof import('./src/components/Form copy.vue')['default']
     Drawer: typeof import('./src/components/Drawer.vue')['default']
     ElAffix: typeof import('element-plus/es')['ElAffix']
     ElBacktop: typeof import('element-plus/es')['ElBacktop']
@@ -31,6 +32,7 @@ declare module 'vue' {
     ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
     ElTooltip: typeof import('element-plus/es')['ElTooltip']
     Form: typeof import('./src/components/Form.vue')['default']
+    GetData: typeof import('./src/components/GetData.vue')['default']
   }
   export interface ComponentCustomProperties {
     vLoading: typeof import('element-plus/es')['ElLoadingDirective']

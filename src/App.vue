@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-09-25 20:55
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-24 13:37
+ * @LastTime   : 2023-12-25 21:05
  * @desc       : 
 -->
 
@@ -11,12 +11,18 @@
   import Form from './components/Form.vue';
   import { useTheme } from '@/hooks/useTheme';
 
+  import GetData from './forUpdateData/GetData.vue';
+
   useTheme();
 </script>
 
 <template>
   <main>
+    <!-- FIXME 真实组件 -->
     <Form />
+
+    <!-- 用于获取数据的组件 -->
+    <!-- <GetData /> -->
   </main>
 </template>
 
