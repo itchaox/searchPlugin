@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-26 23:24
+ * @LastTime   : 2023-12-26 23:54
  * @desc       : 
 -->
 
@@ -300,7 +300,19 @@
    * @return {any}
    */
   const getLink = (item) => {
+    // 兼容文本和链接字段
     return item && (item[0]?.link || item[0]?.text);
+  };
+
+  /**
+   * @desc  : 试用插件
+   * @param  {any} record：记录
+   * @return {any}
+   */
+  const tryPlugin = (record) => {
+    let url = getLink(record?.detailUrl);
+
+    window.open(url, '_blank');
   };
 </script>
 
@@ -431,11 +443,11 @@
         </el-table-column>
         <el-table-column
           property="name"
-          label="详情"
+          label="操作"
           width="60"
         >
           <template #default="scope">
-            <doc-detail
+            <!-- <doc-detail
               title="插件详情"
               class="detail-icon"
               @click="detail(scope.row)"
@@ -444,6 +456,30 @@
               fill="rgb(20, 86, 240)"
               strokeLinecap="square"
             />
+            <doc-detail
+              title="插件详情"
+              class="detail-icon"
+              @click="detail(scope.row)"
+              theme="outline"
+              size="24"
+              fill="rgb(20, 86, 240)"
+              strokeLinecap="square"
+            /> -->
+            <div class="operation">
+              <div
+                class="tryPlugin"
+                v-if="getLink(scope.row?.detailUrl)"
+                @click="tryPlugin(scope.row)"
+              >
+                试用
+              </div>
+              <div
+                class="pluginDetail"
+                @click="detail(scope.row)"
+              >
+                详情
+              </div>
+            </div>
           </template>
         </el-table-column>
       </el-table>
@@ -698,6 +734,20 @@
     &:hover {
       text-decoration: underline;
       opacity: 0.6;
+    }
+  }
+
+  .operation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #1456f0;
+    div {
+      cursor: pointer;
+    }
+
+    .tryPlugin {
+      margin-bottom: 10px;
     }
   }
 </style>
