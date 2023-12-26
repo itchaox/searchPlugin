@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-25 23:25
+ * @LastTime   : 2023-12-26 23:24
  * @desc       : 
 -->
 
@@ -192,8 +192,6 @@
   const iconLoading = ref(false);
 
   async function detail(item) {
-    console.log('🚀  item:', item);
-
     modelValue.value = true;
     activeItem.value = item;
 
@@ -294,6 +292,15 @@
   // 缓动函数，此处使用 easeInOutQuad，你可以根据需要选择其他缓动函数
   const easeInOutQuad = (t) => {
     return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+  };
+
+  /**
+   * @desc  : 获取记录
+   * @param  {any} item：链接数据对象
+   * @return {any}
+   */
+  const getLink = (item) => {
+    return item && (item[0]?.link || item[0]?.text);
   };
 </script>
 
@@ -581,11 +588,11 @@
           <div class="label">项目地址：</div>
           <a
             class="link"
-            v-if="activeItem?.projectUrl && activeItem.projectUrl[0]?.link"
+            v-if="getLink(activeItem?.projectUrl)"
             type="primary"
-            :href="activeItem.projectUrl && activeItem.projectUrl[0].link"
+            :href="getLink(activeItem?.projectUrl)"
             target="_blank"
-            >{{ activeItem.projectUrl && activeItem.projectUrl[0].link }}</a
+            >{{ getLink(activeItem?.projectUrl) }}</a
           >
           <div v-else>{{ '暂无项目地址' }}</div>
         </div>
@@ -594,10 +601,10 @@
           <div class="label">插件详情页地址：</div>
           <a
             class="link"
-            v-if="activeItem?.detailUrl && activeItem.detailUrl[0]?.link"
-            :href="activeItem?.detailUrl && activeItem.detailUrl[0]?.link"
+            v-if="getLink(activeItem?.detailUrl)"
+            :href="getLink(activeItem?.detailUrl)"
             target="_blank"
-            >{{ activeItem?.detailUrl && activeItem.detailUrl[0]?.link }}</a
+            >{{ getLink(activeItem?.detailUrl) }}</a
           >
 
           <div v-else>{{ '暂无插件详情页地址' }}</div>

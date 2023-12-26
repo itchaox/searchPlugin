@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-25 21:02
+ * @LastTime   : 2023-12-26 23:12
  * @desc       : 获取记录和 gif 等时, 使用的组件
 -->
 
@@ -159,7 +159,8 @@
   const iconLoading = ref(false);
 
   async function detail(item) {
-    console.log('🚀  item:', item);
+    console.log('🚀  recordId:', item.recordId);
+    console.log('🚀  【recordItem】:', item);
     // TODO 步骤二
 
     modelValue.value = true;
