@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-26 23:54
+ * @LastTime   : 2023-12-27 00:36
  * @desc       : 
 -->
 
@@ -725,7 +725,7 @@
   }
 
   .link {
-    color: #1456f0;
+    color: #245bdb;
     max-width: 60%;
     word-wrap: break-word;
     text-decoration: none;
@@ -733,7 +733,7 @@
 
     &:hover {
       text-decoration: underline;
-      opacity: 0.6;
+      color: #3370ff;
     }
   }
 
@@ -741,9 +741,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #1456f0;
+    color: #3370ff;
     div {
+      padding: 1px 4px;
       cursor: pointer;
+      &:hover {
+        background-color: #3370ff1a;
+      }
     }
 
     .tryPlugin {
