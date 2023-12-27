@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-27 00:36
+ * @LastTime   : 2023-12-27 21:59
  * @desc       : 
 -->
 
@@ -57,9 +57,8 @@
 
   async function initBase() {
     // table = await bitable.base.getActiveTable();
-    console.log('🚀  table:', table);
+    // console.log('🚀  table:', table);
 
-    // debugger;
     // view = await table.getViewById('vewfDutkxW');
     // fieldMeteList.value = await view.getFieldMetaList();
 
@@ -98,6 +97,8 @@
 
       tableDataList.value.push({ ..._recordData, recordId: item.recordId });
     });
+
+    tableDataList.value = await Promise.all(tableDataList.value.map(processRecord));
 
     filterTableDataList.value = tableDataList.value;
   }
@@ -246,6 +247,15 @@
   async function getActiveIconUrl(recordId) {
     activeIcon.value = await getIconUrl(recordId);
     iconLoading.value = false;
+  }
+
+  async function processRecord(record) {
+    const iconUrl = await getIconUrl(record.recordId);
+
+    return {
+      ...record,
+      iconUrl,
+    };
   }
 
   // console.log(getGifUrl('recCPSfQIT'));
@@ -403,7 +413,10 @@
         empty-text="暂无数据"
       >
         <el-table-column type="index" />
-        <el-table-column label="插件名字">
+        <el-table-column
+          label="插件名字"
+          header-align="center"
+        >
           <template #default="scope">
             <!-- <span
               text
@@ -413,16 +426,30 @@
             </span> -->
 
             <!-- {{ scope.row.name[0].text }} -->
-            <HightLightText
-              :key="scope.row.recordId"
-              :inputText="pluginInfo"
-              :allText="scope.row.name[0].text"
-            />
+            <div class="plugin-name">
+              <div class="plugin-icon-outer">
+                <img
+                  v-if="scope.row.iconUrl !== '无'"
+                  :src="scope.row.iconUrl"
+                  class="plugin-icon"
+                />
+                <div
+                  class="plugin-icon"
+                  v-else
+                ></div>
+              </div>
+              <HightLightText
+                :key="scope.row.recordId"
+                :inputText="pluginInfo"
+                :allText="scope.row.name[0].text"
+              />
+            </div>
           </template>
         </el-table-column>
         <el-table-column
           label="插件描述"
           min-width="130%"
+          header-align="center"
         >
           <template #default="scope">
             <!-- <span
@@ -433,12 +460,13 @@
             </span> -->
 
             <!-- {{ scope.row.description[0].text }} -->
-
-            <HightLightText
-              :key="scope.row.recordId"
-              :inputText="pluginInfo"
-              :allText="scope.row.description[0].text"
-            />
+            <div class="plugin-description">
+              <HightLightText
+                :key="scope.row.recordId"
+                :inputText="pluginInfo"
+                :allText="scope.row.description[0].text"
+              />
+            </div>
           </template>
         </el-table-column>
         <el-table-column
@@ -753,6 +781,27 @@
     .tryPlugin {
       margin-bottom: 10px;
     }
+  }
+
+  .plugin-name {
+    display: flex;
+    align-items: center;
+    color: #1f2329;
+    font-weight: 500;
+    .plugin-icon-outer {
+      margin-right: 5px;
+    }
+
+    .plugin-icon {
+      margin-right: 5px;
+      width: 26px;
+      height: 26px;
+    }
+  }
+
+  .plugin-description {
+    color: #646a73;
+    font-size: 13px;
   }
 </style>
 
