@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-25 19:39
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-25 20:22
+ * @LastTime   : 2023-12-28 05:27
  * @desc       :
  */
 // HighlightText.vue
@@ -41,7 +41,7 @@ export default defineComponent({
 
         // 遍历拆分后的文本，奇数索引部分使用高亮样式
         return parts.map((part, index) => {
-          return index % 2 === 0 ? part : <span style={highlightStyle}>{part}</span>;
+          return index % 2 === 0 ? <span>{part}</span> : <span style={highlightStyle}>{part}</span>;
         });
       }
       // 如果没有输入文本，则返回原始文本数组

@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-27 21:59
+ * @LastTime   : 2023-12-28 05:35
  * @desc       : 
 -->
 
@@ -135,6 +135,7 @@
   const isShowTable = ref(true);
   function search() {
     isShowTable.value = false;
+
     // 先重新获取全部数据
     filterTableDataList.value = tableDataList.value;
 
@@ -427,22 +428,23 @@
 
             <!-- {{ scope.row.name[0].text }} -->
             <div class="plugin-name">
-              <div class="plugin-icon-outer">
-                <img
-                  v-if="scope.row.iconUrl !== '无'"
-                  :src="scope.row.iconUrl"
-                  class="plugin-icon"
-                />
-                <div
-                  class="plugin-icon"
-                  v-else
-                ></div>
-              </div>
-              <HightLightText
-                :key="scope.row.recordId"
-                :inputText="pluginInfo"
-                :allText="scope.row.name[0].text"
+              <img
+                v-if="scope.row.iconUrl !== '无'"
+                :src="scope.row.iconUrl"
+                class="plugin-icon"
               />
+              <div
+                class="plugin-icon"
+                v-else
+              ></div>
+
+              <div>
+                <HightLightText
+                  :key="scope.row.recordId + Math.random()"
+                  :inputText="pluginInfo"
+                  :allText="scope.row.name[0].text"
+                />
+              </div>
             </div>
           </template>
         </el-table-column>
@@ -462,7 +464,7 @@
             <!-- {{ scope.row.description[0].text }} -->
             <div class="plugin-description">
               <HightLightText
-                :key="scope.row.recordId"
+                :key="scope.row.recordId + Math.random()"
                 :inputText="pluginInfo"
                 :allText="scope.row.description[0].text"
               />
@@ -788,13 +790,10 @@
     align-items: center;
     color: #1f2329;
     font-weight: 500;
-    .plugin-icon-outer {
-      margin-right: 5px;
-    }
 
     .plugin-icon {
-      margin-right: 5px;
-      width: 26px;
+      margin-right: 8px;
+      min-width: 26px;
       height: 26px;
     }
   }
