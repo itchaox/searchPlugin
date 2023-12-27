@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-28 05:35
+ * @LastTime   : 2023-12-28 06:49
  * @desc       : 
 -->
 
@@ -450,7 +450,7 @@
         </el-table-column>
         <el-table-column
           label="插件描述"
-          min-width="130%"
+          min-width="100%"
           header-align="center"
         >
           <template #default="scope">
@@ -793,8 +793,8 @@
 
     .plugin-icon {
       margin-right: 8px;
-      min-width: 26px;
-      height: 26px;
+      min-width: 24px;
+      height: 24px;
     }
   }
 
