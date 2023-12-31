@@ -29,7 +29,7 @@
 <style scoped>
   main {
     padding: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 0rem;
     height: 95vh;
   }
   h4 {

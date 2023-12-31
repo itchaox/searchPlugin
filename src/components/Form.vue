@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-28 06:49
+ * @LastTime   : 2023-12-31 12:48
  * @desc       : 
 -->
 
@@ -325,6 +325,43 @@
 
     window.open(url, '_blank');
   };
+
+  const carouselList = ref([
+    {
+      image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_5.png',
+      title: '业务小程序',
+      desc: '一张多维表，仅需3步就可以轻松变成工作台小程序',
+      url: 'https://www.feishu.cn/docx/XCQRdS9jIo8Rq8xuDCdcpbdhnpg',
+    },
+    {
+      image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_1.png',
+      title: '开发者指南',
+      desc: '使用你熟悉的语言，简单、快捷实现自定义功能',
+      url: 'https://feishu.feishu.cn/docx/U3wodO5eqome3uxFAC3cl0qanIe',
+    },
+    {
+      image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_2.png',
+      title: '提交插件需求',
+      desc: '没找到想到的插件？提交一个需求吧。',
+      url: 'https://bytedance.larkoffice.com/share/base/form/shrcnKhFtxdtBSiIUkIAp43iUug',
+    },
+    {
+      image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_3.png',
+      title: '开发者激励计划',
+      desc: '召集优秀开发者，共同拓展多维表格开放能力',
+      url: 'https://bytedance.larkoffice.com/wiki/O7uQw0pp6ilBxRkeeBDcv2bBnEf',
+    },
+    {
+      image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_4.png',
+      title: '开发者激励榜单',
+      desc: '榜单出炉，你常用的插件上榜了吗?',
+      url: 'https://feishu.feishu.cn/base/Ph2Pb2ec7aOyowsIhjpcnXbmnVy?table=ldxEi12i1tvivz3p',
+    },
+  ]);
+
+  function carouselItemClick(item) {
+    window.open(item.url, '_blank');
+  }
 </script>
 
 <template>
@@ -336,8 +373,7 @@
         strokeLinecap="square"
       />
       <span> 欢迎使用多维表格插件 </span>
-
-      <el-tooltip
+      <!-- <el-tooltip
         placement="right"
         effect="customized"
       >
@@ -347,8 +383,27 @@
           @click="submit"
           ><QuestionFilled
         /></el-icon>
-      </el-tooltip>
+      </el-tooltip> -->
     </div>
+
+    <el-carousel
+      class="carousel"
+      height="120px"
+      trigger="click"
+      :interval="5000"
+    >
+      <el-carousel-item
+        v-for="(item, index) in carouselList"
+        :key="item.title"
+        @click="carouselItemClick(item)"
+      >
+        <div :class="`carouse carouse-${index}`">
+          <div class="carouse-title">{{ item.title }}</div>
+          <div class="carouse-desc">{{ item.desc }}</div>
+        </div>
+      </el-carousel-item>
+    </el-carousel>
+
     <div class="addView-line">
       <div class="addView-line-label">插件信息:</div>
       <el-input
@@ -410,7 +465,7 @@
       <el-table
         ref="tableRef"
         :data="filterTableDataList"
-        max-height="78vh"
+        max-height="63vh"
         empty-text="暂无数据"
       >
         <el-table-column type="index" />
@@ -681,13 +736,108 @@
 </template>
 
 <style scoped>
+  .carouse {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .carouse-0 {
+    background: url('https://lf3-static.bytednsdoc.com/obj/eden-cn/yluuhi_uvpzulael/ljhwZthlaukjlkulzlp/_extension_banner_5.png')
+        100% center / max(min(180px, 40%), 180px) no-repeat,
+      linear-gradient(rgb(205, 172, 255), rgb(205, 172, 255)) rgb(205, 172, 255);
+    transform: translate3d(0px, 0px, 0px);
+    color: rgb(71, 52, 99);
+  }
+
+  .carouse-1 {
+    background: url('https://lf3-static.bytednsdoc.com/obj/eden-cn/yluuhi_uvpzulael/ljhwZthlaukjlkulzlp/extension_banner_1.png')
+        100% center / max(min(180px, 40%), 180px) no-repeat,
+      linear-gradient(45deg, rgb(161, 220, 251), rgb(161, 220, 251)) rgb(161, 220, 251);
+    transform: translate3d(0px, 0px, 0px);
+    color: rgb(27, 88, 117);
+  }
+
+  .carouse-2 {
+    background: url('https://lf3-static.bytednsdoc.com/obj/eden-cn/yluuhi_uvpzulael/ljhwZthlaukjlkulzlp/extension_banner_2.png')
+        100% center / max(min(180px, 40%), 180px) no-repeat,
+      linear-gradient(45deg, rgb(122, 237, 177), rgb(122, 237, 177)) rgb(122, 237, 177);
+    transform: translate3d(0px, 0px, 0px);
+    color: rgb(13, 102, 56);
+  }
+
+  .carouse-3 {
+    background: url('https://lf3-static.bytednsdoc.com/obj/eden-cn/yluuhi_uvpzulael/ljhwZthlaukjlkulzlp/extension_banner_3.png')
+        100% center / max(min(180px, 40%), 180px) no-repeat,
+      linear-gradient(45deg, rgb(253, 213, 96), rgb(253, 213, 96)) rgb(253, 213, 96);
+    transform: translate3d(0px, 0px, 0px);
+    color: rgb(101, 54, 0);
+  }
+
+  .carouse-4 {
+    background: url('https://lf3-static.bytednsdoc.com/obj/eden-cn/yluuhi_uvpzulael/ljhwZthlaukjlkulzlp/extension_banner_4.png')
+        100% center / max(min(180px, 40%), 180px) no-repeat,
+      linear-gradient(45deg, rgb(253, 220, 176), rgb(253, 220, 176)) rgb(253, 220, 176);
+    transform: translate3d(0px, 0px, 0px);
+    color: rgb(134, 77, 0);
+  }
+
+  .carouse-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 4px;
+    padding-left: 24px;
+    padding-top: 20px;
+    text-align: left;
+  }
+
+  .carouse-desc {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    padding-left: 24px;
+    text-align: left;
+    width: 45%;
+  }
+
+  :deep(.el-carousel__button) {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+  }
+
+  :deep(.is-active .el-carousel__button) {
+    width: 14px;
+    height: 7px;
+    border-radius: 10px;
+  }
+
+  :deep(.el-carousel__arrow) {
+    width: 26px;
+    height: 26px;
+    background-color: #00000090;
+  }
+
+  :deep(.el-carousel__arrow--left) {
+    left: 10px;
+  }
+
+  :deep(.el-carousel__arrow--right) {
+    right: 10px;
+  }
+
   .home {
     font-size: 14px;
   }
 
   .tip {
-    font-size: 16px;
-    margin-bottom: 10px;
+    color: rgb(20, 86, 240);
+    opacity: 0.7;
+    font-size: 14px;
+    margin-bottom: 5px;
   }
 
   .tip-icon {
@@ -707,8 +857,12 @@
   }
 
   .button {
-    margin-top: 14px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .carousel {
+    margin-bottom: 10px;
   }
 
   .nowrap {

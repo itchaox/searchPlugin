@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-25 19:39
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-28 05:27
+ * @LastTime   : 2023-12-31 12:29
  * @desc       :
  */
 // HighlightText.vue
@@ -29,6 +29,9 @@ export default defineComponent({
     // 定义高亮样式
     const highlightStyle = {
       color: 'rgb(20, 86, 240)',
+      backgroundColor: '#3370ff1a',
+      fontWeight: 700,
+      padding: '1px 2px',
     };
 
     // 高亮文本的处理逻辑
