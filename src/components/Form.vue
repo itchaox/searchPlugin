@@ -3,13 +3,13 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-31 12:48
+ * @LastTime   : 2024-01-03 22:52
  * @desc       : 
 -->
 
 <script setup lang="ts">
   import { bitable } from '@lark-base-open/js-sdk';
-  import { LarkOne, DocDetail } from '@icon-park/vue-next';
+  import { LarkOne, DocDetail, Like } from '@icon-park/vue-next';
   import { dayjs } from 'element-plus';
   import { records } from './records';
   import { fieldMeteListDemo } from './fieldMeteList';
@@ -326,6 +326,23 @@
     window.open(url, '_blank');
   };
 
+  /**
+   * @desc  : 夸夸开发者
+   */
+  const good = () => {
+    let url = 'https://bytedance.larkoffice.com/share/base/form/shrcnD8K1V3yxMaOhGfa9mYggQc';
+    window.open(url, '_blank');
+
+    // let originalUrl =
+    //   'https://bytedance.larkoffice.com/share/base/form/shrcnD8K1V3yxMaOhGfa9mYggQc?prefill_' +
+    //   encodeURIComponent('插件') +
+    //   '=' +
+    //   encodeURIComponent('视图管理器');
+    // debugger;
+
+    // window.open(originalUrl, '_blank');
+  };
+
   const carouselList = ref([
     {
       image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_5.png',
@@ -590,7 +607,12 @@
       size="85%"
     >
       <template #header="{ close, titleId }">
-        <div :id="titleId">插件详情</div>
+        <div
+          :id="titleId"
+          class="header"
+        >
+          插件详情
+        </div>
         <el-button
           type="danger"
           @click="close"
@@ -730,6 +752,20 @@
 
           <div v-else>{{ '暂无插件详情页地址' }}</div>
         </div>
+
+        <div
+          class="item"
+          @click="good"
+          title="邀请你夸一夸插件的开发者，你的鼓励是开发者开发插件的动力"
+        >
+          <div class="label good">
+            <like
+              theme="filled"
+              size="16"
+            />
+            <span>我要去夸夸开发者</span>
+          </div>
+        </div>
       </div>
     </el-drawer>
   </div>
@@ -835,9 +871,10 @@
 
   .tip {
     color: rgb(20, 86, 240);
-    opacity: 0.7;
-    font-size: 14px;
-    margin-bottom: 5px;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
   }
 
   .tip-icon {
@@ -879,6 +916,25 @@
         color: rgb(20, 86, 240);
         white-space: nowrap;
       }
+    }
+  }
+
+  .good {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    font-weight: 500;
+    padding: 4px;
+    font-size: 16px;
+
+    span {
+      margin-left: 5px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: #3370ff1a;
     }
   }
 
@@ -955,6 +1011,16 @@
   .plugin-description {
     color: #646a73;
     font-size: 13px;
+  }
+
+  :deep(.el-drawer__header) {
+    margin-bottom: 12px;
+  }
+
+  .header {
+    font-size: 16px;
+    color: rgb(20, 86, 240);
+    font-weight: 500;
   }
 </style>
 
