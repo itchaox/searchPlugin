@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-04 22:11
+ * @LastTime   : 2024-01-05 00:44
  * @desc       : 
 -->
 
@@ -913,7 +913,7 @@
 
   .button {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
 
   .carousel {
