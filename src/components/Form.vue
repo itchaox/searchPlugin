@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-03 22:52
+ * @LastTime   : 2024-01-04 22:04
  * @desc       : 
 -->
 
@@ -150,15 +150,31 @@
     // }
 
     // 筛选插件信息
-    filterTableDataList.value = filterTableDataList.value.filter((item) => {
-      let _name = item.name[0].text;
-      let _description = item.description[0].text;
 
-      const nameMatch = !pluginInfo.value || _name?.includes(pluginInfo.value);
-      const descriptionMatch = !pluginInfo.value || _description?.includes(pluginInfo.value);
-      // debugger;
-      return nameMatch || descriptionMatch;
-    });
+    // 匹配插件名字或插件描述; 名字匹配的放前面
+    filterTableDataList.value = filterTableDataList.value
+      .filter((item) => {
+        let _name = item.name[0].text;
+        let _description = item.description[0].text;
+
+        const nameMatch = !pluginInfo.value || _name?.includes(pluginInfo.value);
+        const descriptionMatch = !pluginInfo.value || _description?.includes(pluginInfo.value);
+
+        return nameMatch || descriptionMatch;
+      })
+      .sort((a, b) => {
+        const aNameMatch = !pluginInfo.value || a.name[0].text?.includes(pluginInfo.value);
+        const bNameMatch = !pluginInfo.value || b.name[0].text?.includes(pluginInfo.value);
+
+        // 将匹配的数据排在前面
+        if (aNameMatch && !bNameMatch) {
+          return -1;
+        } else if (!aNameMatch && bNameMatch) {
+          return 1;
+        } else {
+          return 0;
+        }
+      });
 
     isShowTable.value = true;
 
@@ -330,17 +346,12 @@
    * @desc  : 夸夸开发者
    */
   const good = () => {
+    // 夸一夸开发者地址
     let url = 'https://bytedance.larkoffice.com/share/base/form/shrcnD8K1V3yxMaOhGfa9mYggQc';
     window.open(url, '_blank');
 
-    // let originalUrl =
-    //   'https://bytedance.larkoffice.com/share/base/form/shrcnD8K1V3yxMaOhGfa9mYggQc?prefill_' +
-    //   encodeURIComponent('插件') +
-    //   '=' +
-    //   encodeURIComponent('视图管理器');
-    // debugger;
-
-    // window.open(originalUrl, '_blank');
+    // let url = 'https://bcmcjimpjd.feishu.cn/share/base/form/shrcnGFTiZDth6odW3Fp58OszTg?prefill_';
+    // window.open(`${url}${encodeURIComponent('插件')}=${encodeURIComponent('已上架')}`, '_blank');
   };
 
   const carouselList = ref([
@@ -755,15 +766,17 @@
 
         <div
           class="item"
-          @click="good"
           title="邀请你夸一夸插件的开发者，你的鼓励是开发者开发插件的动力"
         >
-          <div class="label good">
+          <div
+            class="label good"
+            @click="good"
+          >
             <like
               theme="filled"
               size="16"
             />
-            <span>我要去夸夸开发者</span>
+            <span>我要去夸一夸开发者~</span>
           </div>
         </div>
       </div>
@@ -920,7 +933,7 @@
   }
 
   .good {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-top: 12px;
