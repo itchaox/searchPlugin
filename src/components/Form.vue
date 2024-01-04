@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-04 22:04
+ * @LastTime   : 2024-01-04 22:11
  * @desc       : 
 -->
 
@@ -132,8 +132,13 @@
   // 插件描述
   const pluginInfo = ref();
 
+  // 搜索的数据
+  const inputText = ref();
+
   const isShowTable = ref(true);
   function search() {
+    inputText.value = pluginInfo.value;
+
     isShowTable.value = false;
 
     // 先重新获取全部数据
@@ -524,7 +529,7 @@
               <div>
                 <HightLightText
                   :key="scope.row.recordId + Math.random()"
-                  :inputText="pluginInfo"
+                  :inputText="inputText"
                   :allText="scope.row.name[0].text"
                 />
               </div>
@@ -548,7 +553,7 @@
             <div class="plugin-description">
               <HightLightText
                 :key="scope.row.recordId + Math.random()"
-                :inputText="pluginInfo"
+                :inputText="inputText"
                 :allText="scope.row.description[0].text"
               />
             </div>
