@@ -2,8 +2,8 @@
  * @Version    : v1.00
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
- * @LastAuthor : itchaox
- * @LastTime   : 2024-01-05 00:44
+ * @LastAuthor : wangchao
+ * @LastTime   : 2024-01-05 09:19
  * @desc       : 
 -->
 
@@ -771,7 +771,7 @@
 
         <div
           class="item"
-          title="邀请你夸一夸插件的开发者，你的鼓励是开发者开发插件的动力"
+          title="插件有帮助到你的话，邀请你夸一夸插件的开发者，你的鼓励是开发者开发插件的动力。"
         >
           <div
             class="label good"
