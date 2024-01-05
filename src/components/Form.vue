@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-05 22:57
+ * @LastTime   : 2024-01-05 23:12
  * @desc       : 
 -->
 
@@ -371,14 +371,11 @@
    * @desc  : 夸夸开发者
    */
   const good = () => {
-    copy(activeItem.value.name[0].text);
+    copy(activeItem.value?.name[0]?.text);
     setTimeout(() => {
       // 夸一夸开发者地址
       let url = 'https://bytedance.larkoffice.com/share/base/form/shrcnD8K1V3yxMaOhGfa9mYggQc';
       window.open(url, '_blank');
-
-      // let url = 'https://bcmcjimpjd.feishu.cn/share/base/form/shrcnGFTiZDth6odW3Fp58OszTg?prefill_';
-      // window.open(`${url}${encodeURIComponent('插件')}=${encodeURIComponent('已上架')}`, '_blank');
     }, 700);
   };
 
