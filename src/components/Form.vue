@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-05 22:42
+ * @LastTime   : 2024-01-05 22:57
  * @desc       : 
 -->
 
@@ -28,7 +28,7 @@
       // 复制
       await toClipboard(msg);
       ElMessage({
-        message: '复制插件名字成功',
+        message: '插件名字已复制，即将跳转至表单页面~',
         type: 'success',
         duration: 1500,
         showClose: true,
@@ -379,7 +379,7 @@
 
       // let url = 'https://bcmcjimpjd.feishu.cn/share/base/form/shrcnGFTiZDth6odW3Fp58OszTg?prefill_';
       // window.open(`${url}${encodeURIComponent('插件')}=${encodeURIComponent('已上架')}`, '_blank');
-    }, 500);
+    }, 700);
   };
 
   const carouselList = ref([
@@ -791,22 +791,26 @@
 
           <div v-else>{{ '暂无插件详情页地址' }}</div>
         </div>
-
-        <div
-          class="item"
-          title="插件有帮助到你的话，邀请你夸一夸插件的开发者，你的鼓励是开发者开发插件的动力。"
+        <el-tooltip
+          placement="bottom"
+          effect="customized"
         >
-          <div
-            class="label good"
-            @click="good"
+          <template #content
+            >插件有帮助到你的话，<br />邀请你夸一夸插件的开发者，<br />你的鼓励是开发者开发插件的动力。</template
           >
-            <like
-              theme="filled"
-              size="16"
-            />
-            <span>我要去夸一夸开发者~</span>
+          <div class="item">
+            <div
+              class="label good"
+              @click="good"
+            >
+              <like
+                theme="filled"
+                size="16"
+              />
+              <span>我要去夸一夸开发者~</span>
+            </div>
           </div>
-        </div>
+        </el-tooltip>
       </div>
     </el-drawer>
   </div>
