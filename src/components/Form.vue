@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-05 00:44
+ * @LastTime   : 2024-01-05 22:24
  * @desc       : 
 -->
 
@@ -18,6 +18,26 @@
   import { getGifUrl, getIconUrl } from '@/utils/util';
 
   import HightLightText from '@/components/HightLightText';
+  import useClipboard from 'vue-clipboard3';
+
+  // 使用插件
+  const { toClipboard } = useClipboard();
+
+  const copy = async (msg) => {
+    try {
+      // 复制
+      await toClipboard(msg);
+      ElMessage({
+        message: '复制插件名字成功',
+        type: 'success',
+        duration: 1500,
+        showClose: true,
+      });
+      // 复制成功
+    } catch (e) {
+      // 复制失败
+    }
+  };
 
   const fieldMeteList = ref([]);
   const tableDataList = ref([
@@ -351,12 +371,15 @@
    * @desc  : 夸夸开发者
    */
   const good = () => {
-    // 夸一夸开发者地址
-    let url = 'https://bytedance.larkoffice.com/share/base/form/shrcnD8K1V3yxMaOhGfa9mYggQc';
-    window.open(url, '_blank');
+    copy(activeItem.value.name[0].text);
+    setTimeout(() => {
+      // 夸一夸开发者地址
+      let url = 'https://bytedance.larkoffice.com/share/base/form/shrcnD8K1V3yxMaOhGfa9mYggQc';
+      window.open(url, '_blank');
 
-    // let url = 'https://bcmcjimpjd.feishu.cn/share/base/form/shrcnGFTiZDth6odW3Fp58OszTg?prefill_';
-    // window.open(`${url}${encodeURIComponent('插件')}=${encodeURIComponent('已上架')}`, '_blank');
+      // let url = 'https://bcmcjimpjd.feishu.cn/share/base/form/shrcnGFTiZDth6odW3Fp58OszTg?prefill_';
+      // window.open(`${url}${encodeURIComponent('插件')}=${encodeURIComponent('已上架')}`, '_blank');
+    }, 500);
   };
 
   const carouselList = ref([
