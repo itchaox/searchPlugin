@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-07 09:46
+ * @LastTime   : 2024-01-07 10:35
  * @desc       : 
 -->
 
@@ -788,14 +788,15 @@
 
           <div v-else>{{ '暂无插件试用地址' }}</div>
         </div>
-        <el-tooltip
-          placement="bottom"
-          effect="customized"
-        >
-          <template #content
-            >插件有帮助到你的话，<br />邀请你夸一夸插件的开发者，<br />你的鼓励是开发者开发插件的动力。</template
+        <div class="item">
+          <el-tooltip
+            :hide-after="0"
+            placement="bottom-start"
+            effect="customized"
           >
-          <div class="item">
+            <template #content
+              >插件有帮助到你的话，<br />邀请你夸一夸插件的开发者，<br />你的鼓励是开发者开发插件的动力。</template
+            >
             <div
               class="label good"
               @click="good"
@@ -806,8 +807,8 @@
               />
               <span>我要去夸一夸开发者~</span>
             </div>
-          </div>
-        </el-tooltip>
+          </el-tooltip>
+        </div>
       </div>
     </el-drawer>
   </div>
