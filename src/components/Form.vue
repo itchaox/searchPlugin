@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-05 23:12
+ * @LastTime   : 2024-01-07 09:46
  * @desc       : 
 -->
 
@@ -376,7 +376,7 @@
       // 夸一夸开发者地址
       let url = 'https://bytedance.larkoffice.com/share/base/form/shrcnD8K1V3yxMaOhGfa9mYggQc';
       window.open(url, '_blank');
-    }, 700);
+    }, 600);
   };
 
   const carouselList = ref([
@@ -777,7 +777,7 @@
         </div>
 
         <div class="item">
-          <div class="label">插件详情页地址：</div>
+          <div class="label">插件试用地址：</div>
           <a
             class="link"
             v-if="getLink(activeItem?.detailUrl)"
@@ -786,7 +786,7 @@
             >{{ getLink(activeItem?.detailUrl) }}</a
           >
 
-          <div v-else>{{ '暂无插件详情页地址' }}</div>
+          <div v-else>{{ '暂无插件试用地址' }}</div>
         </div>
         <el-tooltip
           placement="bottom"
