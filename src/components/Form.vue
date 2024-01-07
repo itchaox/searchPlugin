@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-07 10:35
+ * @LastTime   : 2024-01-07 18:16
  * @desc       : 
 -->
 
@@ -710,10 +710,11 @@
           ></div> -->
         </div>
 
-        <div class="item">
+        <!-- FIXME 暂时隐藏, 因为官方表格也没展示这个 -->
+        <!-- <div class="item">
           <div class="label">最后更新时间：</div>
           <div>{{ dayjs(activeItem.lastUpdateTime).format('YYYY-MM-DD HH:mm') }}</div>
-        </div>
+        </div> -->
 
         <div class="item">
           <div class="label">图标：</div>
