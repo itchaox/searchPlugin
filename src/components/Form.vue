@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-07 18:16
+ * @LastTime   : 2024-01-09 09:48
  * @desc       : 
 -->
 
@@ -605,17 +605,17 @@
             /> -->
             <div class="operation">
               <div
+                class="pluginDetail"
+                @click="detail(scope.row)"
+              >
+                详情
+              </div>
+              <div
                 class="tryPlugin"
                 v-if="getLink(scope.row?.detailUrl)"
                 @click="tryPlugin(scope.row)"
               >
                 试用
-              </div>
-              <div
-                class="pluginDetail"
-                @click="detail(scope.row)"
-              >
-                详情
               </div>
             </div>
           </template>
@@ -1035,7 +1035,7 @@
     }
 
     .tryPlugin {
-      margin-bottom: 10px;
+      margin-top: 5px;
     }
   }
 
