@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-09 09:48
+ * @LastTime   : 2024-01-11 00:38
  * @desc       : 
 -->
 
@@ -20,6 +20,9 @@
   import HightLightText from '@/components/HightLightText';
   import useClipboard from 'vue-clipboard3';
 
+  import { useI18n } from 'vue-i18n';
+  const { t } = useI18n();
+
   // 使用插件
   const { toClipboard } = useClipboard();
 
@@ -28,7 +31,7 @@
       // 复制
       await toClipboard(msg);
       ElMessage({
-        message: '插件名字已复制，即将跳转至表单页面~',
+        message: t('Plugin name copied'),
         type: 'success',
         duration: 1500,
         showClose: true,
@@ -382,32 +385,32 @@
   const carouselList = ref([
     {
       image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_5.png',
-      title: '业务小程序',
-      desc: '一张多维表，仅需3步就可以轻松变成工作台小程序',
+      title: 'Operational mini-programs',
+      desc: 'A multi-dimensional table that can be easily turned into a workbench applet in just 3 steps',
       url: 'https://www.feishu.cn/docx/XCQRdS9jIo8Rq8xuDCdcpbdhnpg',
     },
     {
       image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_1.png',
-      title: '开发者指南',
-      desc: '使用你熟悉的语言，简单、快捷实现自定义功能',
+      title: 'Developer',
+      desc: 'Easy and fast customization in a language you are familiar with',
       url: 'https://feishu.feishu.cn/docx/U3wodO5eqome3uxFAC3cl0qanIe',
     },
     {
       image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_2.png',
-      title: '提交插件需求',
-      desc: '没找到想到的插件？提交一个需求吧。',
+      title: 'Submit plugin request',
+      desc: 'Didn',
       url: 'https://bytedance.larkoffice.com/share/base/form/shrcnKhFtxdtBSiIUkIAp43iUug',
     },
     {
       image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_3.png',
-      title: '开发者激励计划',
-      desc: '召集优秀开发者，共同拓展多维表格开放能力',
+      title: 'Developer Incentive Program',
+      desc: 'Bringing together talented developers to expand open capabilitie',
       url: 'https://bytedance.larkoffice.com/wiki/O7uQw0pp6ilBxRkeeBDcv2bBnEf',
     },
     {
       image: 'https://lf3-static.bytednsdoc.com/obj/eden-cn/yluu…zulael/ljhwZthlaukjlkulzlp/extension_banner_4.png',
-      title: '开发者激励榜单',
-      desc: '榜单出炉，你常用的插件上榜了吗?',
+      title: 'Developer Incentive List',
+      desc: 'The list is out',
       url: 'https://feishu.feishu.cn/base/Ph2Pb2ec7aOyowsIhjpcnXbmnVy?table=ldxEi12i1tvivz3p',
     },
   ]);
@@ -425,7 +428,7 @@
         theme="outline"
         strokeLinecap="square"
       />
-      <span> 欢迎使用多维表格插件 </span>
+      <span> {{ $t('Welcome to the Lark plugin') }} </span>
       <!-- <el-tooltip
         placement="right"
         effect="customized"
@@ -451,19 +454,19 @@
         @click="carouselItemClick(item)"
       >
         <div :class="`carouse carouse-${index}`">
-          <div class="carouse-title">{{ item.title }}</div>
-          <div class="carouse-desc">{{ item.desc }}</div>
+          <div class="carouse-title">{{ $t(item.title) }}</div>
+          <div class="carouse-desc">{{ $t(item.desc) }}</div>
         </div>
       </el-carousel-item>
     </el-carousel>
 
     <div class="addView-line">
-      <div class="addView-line-label">插件信息:</div>
+      <div class="addView-line-label">{{ $t('Plugin Description') }}</div>
       <el-input
         style="width: 60%"
         v-model="pluginInfo"
         clearable
-        placeholder="请输入插件名字或描述"
+        :placeholder="$t('Please enter a plugin name or description')"
         @keydown.enter="search"
       />
     </div>
@@ -497,7 +500,7 @@
         @click="search"
       >
         <el-icon><Search /></el-icon>
-        <span>查询</span>
+        <span>{{ $t('search') }}</span>
       </el-button>
 
       <el-button
@@ -506,7 +509,7 @@
         @click="reset"
       >
         <el-icon><Refresh /></el-icon>
-        <span>重置</span>
+        <span>{{ $t('reset') }}</span>
       </el-button>
     </div>
 
@@ -514,7 +517,7 @@
     <!-- v-loading="loading" -->
     <!-- element-loading-text="加载中..." -->
     <div class="table">
-      <div>共 {{ filterTableDataList.length }} 个插件</div>
+      <div>{{ $t('total') + ' ' + filterTableDataList.length + ' ' + $t('info') }}</div>
       <el-table
         ref="tableRef"
         :data="filterTableDataList"
@@ -523,7 +526,7 @@
       >
         <el-table-column type="index" />
         <el-table-column
-          label="插件名字"
+          :label="$t('pluginName')"
           header-align="center"
         >
           <template #default="scope">
@@ -557,7 +560,7 @@
           </template>
         </el-table-column>
         <el-table-column
-          label="插件描述"
+          :label="$t('Plugin Description')"
           min-width="100%"
           header-align="center"
         >
@@ -581,7 +584,7 @@
         </el-table-column>
         <el-table-column
           property="name"
-          label="操作"
+          :label="$t('manipulate')"
           width="60"
         >
           <template #default="scope">
@@ -608,14 +611,14 @@
                 class="pluginDetail"
                 @click="detail(scope.row)"
               >
-                详情
+                {{ $t('particulars') }}
               </div>
               <div
                 class="tryPlugin"
                 v-if="getLink(scope.row?.detailUrl)"
                 @click="tryPlugin(scope.row)"
               >
-                试用
+                {{ $t('probation') }}
               </div>
             </div>
           </template>
@@ -647,7 +650,7 @@
           :id="titleId"
           class="header"
         >
-          插件详情
+          {{ $t('Plugin Details') }}
         </div>
         <el-button
           type="danger"
@@ -655,28 +658,28 @@
           size="small"
         >
           <el-icon class="el-icon--left"><CircleCloseFilled /></el-icon>
-          关闭
+          {{ $t('close') }}
         </el-button>
       </template>
 
       <div class="list">
         <div class="item">
-          <div class="label">插件名字：</div>
+          <div class="label">{{ $t('pluginName') }}：</div>
           <div>{{ activeItem.name[0].text }}</div>
         </div>
         <div class="item">
-          <div class="label">插件描述：</div>
+          <div class="label">{{ $t('Plugin Description') }}：</div>
           <div>{{ activeItem.description[0].text }}</div>
         </div>
         <div class="item">
-          <div class="label">插件作者：</div>
+          <div class="label">{{ $t('Plugin Author') }}</div>
           <div>{{ activeItem.author[0].text }}</div>
         </div>
 
         <div class="item">
-          <div class="label">功能预览图：</div>
+          <div class="label">{{ $t('Feature Preview') }}</div>
 
-          <div v-if="activeGif === '无'">暂无功能预览图</div>
+          <div v-if="activeGif === '无'">{{ $t('No feature preview available') }}</div>
           <el-image
             v-else-if="activeGif"
             :src="activeGif"
@@ -713,13 +716,13 @@
         <!-- FIXME 暂时隐藏, 因为官方表格也没展示这个 -->
         <!-- <div class="item">
           <div class="label">最后更新时间：</div>
-          <div>{{ dayjs(activeItem.lastUpdateTime).format('YYYY-MM-DD HH:mm') }}</div>
+          <div>{{ dayjs(activeItem.lastUpdateTime).format('YYYY-MM-DD Hicon) }}</div>
         </div> -->
 
         <div class="item">
-          <div class="label">图标：</div>
+          <div class="label">{{ $t('icon') }}</div>
 
-          <div v-if="activeIcon === '无'">暂无图标</div>
+          <div v-if="activeIcon === '无'">{{ $t('No icon') }}</div>
           <el-image
             v-else-if="activeIcon"
             style="width: 40px; height: 40px"
@@ -760,12 +763,12 @@
         </div>
 
         <div class="item">
-          <div class="label">如何使用：</div>
+          <div class="label">{{ $t('How to use') }}</div>
           <div>{{ activeItem.useMethod[0].text }}</div>
         </div>
 
         <div class="item">
-          <div class="label">项目地址：</div>
+          <div class="label">{{ $t('Project Address') }}</div>
           <a
             class="link"
             v-if="getLink(activeItem?.projectUrl)"
@@ -774,11 +777,11 @@
             target="_blank"
             >{{ getLink(activeItem?.projectUrl) }}</a
           >
-          <div v-else>{{ '暂无项目地址' }}</div>
+          <div v-else>{{ $t('No project address') }}</div>
         </div>
 
         <div class="item">
-          <div class="label">插件试用地址：</div>
+          <div class="label">{{ $t('Plugin Trial Address') }}</div>
           <a
             class="link"
             v-if="getLink(activeItem?.detailUrl)"
@@ -787,7 +790,7 @@
             >{{ getLink(activeItem?.detailUrl) }}</a
           >
 
-          <div v-else>{{ '暂无插件试用地址' }}</div>
+          <div v-else>{{ $t('No plugin trial address') }}</div>
         </div>
         <div class="item">
           <el-tooltip
@@ -796,7 +799,9 @@
             effect="customized"
           >
             <template #content
-              >插件有帮助到你的话，<br />邀请你夸一夸插件的开发者，<br />你的鼓励是开发者开发插件的动力。</template
+              >{{ $t('The plugin has helped you then') }}<br />{{
+                $t('Inviting you to compliment the developers of the plugin that')
+              }}<br />{{ $t('Your encouragement is what motivates developers to develop plugins') }}</template
             >
             <div
               class="label good"
@@ -806,7 +811,7 @@
                 theme="filled"
                 size="16"
               />
-              <span>我要去夸一夸开发者~</span>
+              <span>{{ $t('I going to compliment the developers') }}</span>
             </div>
           </el-tooltip>
         </div>
