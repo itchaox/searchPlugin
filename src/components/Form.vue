@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-12 23:34
+ * @LastTime   : 2024-01-13 00:05
  * @desc       : 
 -->
 
@@ -47,7 +47,7 @@
       // 复制
       await toClipboard(msg);
       ElMessage({
-        message: '已复制插件分享链接',
+        message: t('Plugin sharing links have been copied'),
         type: 'success',
         duration: 1500,
         showClose: true,
@@ -533,7 +533,7 @@
     <!-- v-loading="loading" -->
     <!-- element-loading-text="加载中..." -->
     <div class="table">
-      <div>{{ $t('total') + ' ' + filterTableDataList.length + ' ' + $t('info') }}</div>
+      <div class="total">{{ $t('total') + ' ' + filterTableDataList.length + ' ' + $t('info') }}</div>
       <el-table
         ref="tableRef"
         :data="filterTableDataList"
@@ -601,7 +601,6 @@
         <el-table-column
           property="name"
           :label="$t('manipulate')"
-          width="60"
         >
           <template #default="scope">
             <!-- <doc-detail
@@ -794,7 +793,7 @@
               theme="outline"
               size="24"
             />
-            <span>开始试用</span>
+            <span>{{ $t('Start Trial') }}</span>
           </el-button>
           <div
             class="icon-btn"
@@ -802,7 +801,7 @@
             @click="() => copyUrl(getLink(activeItem?.detailUrl))"
           >
             <ShareThree
-              title="分享"
+              :title="$t('share')"
               theme="outline"
               size="20"
             />
@@ -813,7 +812,7 @@
             @click="openUrl(getLink(activeItem?.projectUrl))"
           >
             <Code
-              title="查看源代码"
+              :title="$t('View source code')"
               theme="outline"
               size="20"
             />
@@ -1118,6 +1117,10 @@
     font-size: 16px;
     color: rgb(20, 86, 240);
     font-weight: 500;
+  }
+
+  .total {
+    line-height: 16px;
   }
 </style>
 
