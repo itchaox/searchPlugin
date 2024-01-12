@@ -3,13 +3,13 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-11 00:38
+ * @LastTime   : 2024-01-12 23:34
  * @desc       : 
 -->
 
 <script setup lang="ts">
   import { bitable } from '@lark-base-open/js-sdk';
-  import { LarkOne, DocDetail, Like } from '@icon-park/vue-next';
+  import { LarkOne, DocDetail, Like, Code, ShareThree, PlayOne } from '@icon-park/vue-next';
   import { dayjs } from 'element-plus';
   import { records } from './records';
   import { fieldMeteListDemo } from './fieldMeteList';
@@ -32,6 +32,22 @@
       await toClipboard(msg);
       ElMessage({
         message: t('Plugin name copied'),
+        type: 'success',
+        duration: 1500,
+        showClose: true,
+      });
+      // 复制成功
+    } catch (e) {
+      // 复制失败
+    }
+  };
+
+  const copyUrl = async (msg) => {
+    try {
+      // 复制
+      await toClipboard(msg);
+      ElMessage({
+        message: '已复制插件分享链接',
         type: 'success',
         duration: 1500,
         showClose: true,
@@ -415,8 +431,8 @@
     },
   ]);
 
-  function carouselItemClick(item) {
-    window.open(item.url, '_blank');
+  function openUrl(url) {
+    window.open(url, '_blank');
   }
 </script>
 
@@ -451,7 +467,7 @@
       <el-carousel-item
         v-for="(item, index) in carouselList"
         :key="item.title"
-        @click="carouselItemClick(item)"
+        @click="openUrl(item.url)"
       >
         <div :class="`carouse carouse-${index}`">
           <div class="carouse-title">{{ $t(item.title) }}</div>
@@ -767,31 +783,43 @@
           <div>{{ activeItem.useMethod[0].text }}</div>
         </div>
 
-        <div class="item">
-          <div class="label">{{ $t('Project Address') }}</div>
-          <a
-            class="link"
-            v-if="getLink(activeItem?.projectUrl)"
+        <div class="item startUseDiv">
+          <el-button
             type="primary"
-            :href="getLink(activeItem?.projectUrl)"
-            target="_blank"
-            >{{ getLink(activeItem?.projectUrl) }}</a
-          >
-          <div v-else>{{ $t('No project address') }}</div>
-        </div>
-
-        <div class="item">
-          <div class="label">{{ $t('Plugin Trial Address') }}</div>
-          <a
-            class="link"
+            class="startUse"
+            @click="openUrl(getLink(activeItem?.detailUrl))"
             v-if="getLink(activeItem?.detailUrl)"
-            :href="getLink(activeItem?.detailUrl)"
-            target="_blank"
-            >{{ getLink(activeItem?.detailUrl) }}</a
           >
-
-          <div v-else>{{ $t('No plugin trial address') }}</div>
+            <PlayOne
+              theme="outline"
+              size="24"
+            />
+            <span>开始试用</span>
+          </el-button>
+          <div
+            class="icon-btn"
+            v-if="getLink(activeItem?.detailUrl)"
+            @click="() => copyUrl(getLink(activeItem?.detailUrl))"
+          >
+            <ShareThree
+              title="分享"
+              theme="outline"
+              size="20"
+            />
+          </div>
+          <div
+            v-if="getLink(activeItem?.projectUrl)"
+            class="icon-btn"
+            @click="openUrl(getLink(activeItem?.projectUrl))"
+          >
+            <Code
+              title="查看源代码"
+              theme="outline"
+              size="20"
+            />
+          </div>
         </div>
+
         <div class="item">
           <el-tooltip
             :hide-after="0"
@@ -959,6 +987,7 @@
     /* display: flex; */
     .item {
       display: flex;
+      align-items: center;
       margin-bottom: 14px;
       .label {
         min-width: 115px;
@@ -966,6 +995,25 @@
         white-space: nowrap;
       }
     }
+  }
+
+  .startUseDiv {
+    margin-top: 24px;
+  }
+
+  .icon-btn {
+    margin-left: 10px;
+    border: 1px solid #d1d3d6;
+    border-radius: 4px;
+    padding: 2px 4px;
+    &:hover {
+      cursor: pointer;
+      background-color: #eff0f3;
+    }
+  }
+
+  .startUse {
+    flex: 1;
   }
 
   .good {
