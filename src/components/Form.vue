@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-13 00:05
+ * @LastTime   : 2024-01-13 00:34
  * @desc       : 
 -->
 
@@ -956,6 +956,7 @@
   .tip-icon {
     position: relative;
     top: 2px;
+    margin-right: 5px;
   }
 
   .addView-line {
