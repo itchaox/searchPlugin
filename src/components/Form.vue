@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-13 13:02
+ * @LastTime   : 2024-01-13 13:19
  * @desc       : 
 -->
 
@@ -253,6 +253,7 @@
     // pluginDescription.value = '';
     // pluginAuthor.value = '';
     pluginInfo.value = '';
+    inputText.value = '';
 
     filterTableDataList.value = tableDataList.value;
   }
