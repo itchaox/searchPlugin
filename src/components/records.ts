@@ -80,6 +80,12 @@ export const records = [
       ],
     },
     recordId: 'recl4zLxqX',
+    nameEn: 'Batch Upload Attachments',
+    descriptionEn:
+      'Batch upload attachments, support uploading and creating new records, or uploading matching fields to improve the efficiency of uploading files',
+    authorEn: 'XP',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Batch Upload Attachments" to add and use.',
   },
   {
     fields: {
@@ -162,6 +168,11 @@ export const records = [
       ],
     },
     recordId: 'rectZbfN8R5AKa',
+    nameEn: 'View Manager',
+    descriptionEn: 'Manage multiple Base views in bulk, delete personal views',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "View Manager" to add and use.',
   },
   {
     fields: {
@@ -244,6 +255,11 @@ export const records = [
       ],
     },
     recordId: 'recH9XcUFU',
+    nameEn: 'Time Zone Conversion',
+    descriptionEn: 'One-click conversion of date and time to any time zone.',
+    authorEn: 'Guan Shangkang',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Time Zone Conversion" to add and use.',
   },
   {
     fields: {
@@ -326,6 +342,11 @@ export const records = [
       ],
     },
     recordId: 'recn6LSjSF',
+    nameEn: 'Export as Markdown',
+    descriptionEn: 'Export visible range or selected content of the Base as Markdown with a single click.',
+    authorEn: 'Erding',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Export as Markdown" to add and use.',
   },
   {
     fields: {
@@ -408,6 +429,12 @@ export const records = [
       ],
     },
     recordId: 'rectZxqfigFPgx',
+    nameEn: 'Image Exif Information Extraction',
+    descriptionEn:
+      'Extract Key Metadata (Exif) from Image: Resolution, Size, Modification Date, Camera Model, and Geolocation.',
+    authorEn: 'Li Jianing',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Image Exif Information Extraction" to add and use.',
   },
   {
     fields: {
@@ -490,6 +517,12 @@ export const records = [
       ],
     },
     recordId: 'recu0nyT4XDcMi',
+    nameEn: 'Extension Search',
+    descriptionEn:
+      'Efficiently search and intelligently filter to master the Extension marketplace, easily and quickly finding the desired Extension.',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Extension Search" to add and use.',
   },
   {
     fields: {
@@ -559,6 +592,11 @@ export const records = [
       ],
     },
     recordId: 'recu0sG5Eb1XCI',
+    nameEn: 'Lottery Carousel',
+    descriptionEn: 'A ceremonial lucky draw wheel, suitable for annual meetings and prize events.',
+    authorEn: '阿梦',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Lottery Carousel" to add and use.',
   },
   {
     fields: {
@@ -654,6 +692,11 @@ export const records = [
       ],
     },
     recordId: 'recu0WT2pAb9KH',
+    nameEn: 'Xiaohongshu Assistant',
+    descriptionEn: 'Retrieve title, likes, and other data from Xiaohongshu article links.',
+    authorEn: 'Wuyi',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Xiaohongshu Assistant" to add and use.',
   },
   {
     fields: {
@@ -736,6 +779,11 @@ export const records = [
       ],
     },
     recordId: 'recQN93umD',
+    nameEn: 'Bank Card Number Extraction',
+    descriptionEn: 'Analyze the bank card number to obtain the corresponding bank name and card type',
+    authorEn: 'Li Youtian',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Bank Card Number Extraction" to add and use.',
   },
   {
     fields: {
@@ -805,6 +853,11 @@ export const records = [
       ],
     },
     recordId: 'reciAGEI89',
+    nameEn: 'Link Preview',
+    descriptionEn: 'Click a cell to preview the webpage link in the cell.',
+    authorEn: 'Zem',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Link Preview" to add and use.',
   },
   {
     fields: {
@@ -874,6 +927,12 @@ export const records = [
       ],
     },
     recordId: 'recgYi6Thc',
+    nameEn: 'Excel Compare and Import',
+    descriptionEn:
+      'Easily import local Excel files into existing Base tables, with support for appending data and comparison import',
+    authorEn: 'Wei Wei',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Excel Compare and Import" to add and use.',
   },
   {
     fields: {
@@ -956,6 +1015,12 @@ export const records = [
       ],
     },
     recordId: 'rec2XfnZmS',
+    nameEn: 'After-Tax Salary Calculator',
+    descriptionEn:
+      'Calculate annual net income after tax, average monthly net salary, and total annual personal income tax.',
+    authorEn: 'Aubrey Luo',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "After-Tax Salary Calculator" to add and use.',
   },
   {
     fields: {
@@ -1038,6 +1103,12 @@ export const records = [
       ],
     },
     recordId: 'recSbPoFyg',
+    nameEn: 'Mini Chart',
+    descriptionEn:
+      'Quickly create line charts, bar charts, and radar charts based on records, supporting bulk generation and writing into attachment fields.',
+    authorEn: 'WumaCoder',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Mini Chart" to add and use.',
   },
   {
     fields: {
@@ -1120,6 +1191,11 @@ export const records = [
       ],
     },
     recordId: 'rec3bxLjIj',
+    nameEn: 'Option Deduplication',
+    descriptionEn: 'Support for one-click removal of duplicate content in single-choice and multiple-choice options.',
+    authorEn: 'Ye Shu',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Option Deduplication" to add and use.',
   },
   {
     fields: {
@@ -1189,6 +1265,12 @@ export const records = [
       ],
     },
     recordId: 'recqDn9COx',
+    nameEn: 'Field Translation',
+    descriptionEn:
+      'With a Base text field as input, translate it into the specified language and output it to another text column.',
+    authorEn: 'Chris Chou',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Field Translation" to add and use.',
   },
   {
     fields: {
@@ -1271,6 +1353,12 @@ export const records = [
       ],
     },
     recordId: 'recBmHAbL5',
+    nameEn: 'Quantile Calculation',
+    descriptionEn:
+      'Select a numerical list to easily generate the 0%, 25%, 50%, 75%, and 100% quantiles or just the median',
+    authorEn: 'Master  Li',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Quantile Calculation" to add and use.',
   },
   {
     fields: {
@@ -1353,8 +1441,13 @@ export const records = [
       ],
     },
     recordId: 'rec9OgJNxb',
+    nameEn: 'DocuGenius (Word Version)',
+    descriptionEn:
+      'Use Word template to insert Base data and export, supporting additional images and associated detailed data.',
+    authorEn: 'Dianhuo (Hangzhou) Software Co., Ltd.',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "DocuGenius (Word Version)" to add and use.',
   },
-
   {
     fields: {
       fldjG7c2PH: 1704437570000,
@@ -1436,6 +1529,12 @@ export const records = [
       ],
     },
     recordId: 'rectZxb8RRjxMh',
+    nameEn: 'Data View',
+    descriptionEn:
+      'Use SQL to quickly generate Base charts, provide H5 links for easy embedding into other systems, and view on mobile devices.',
+    authorEn: 'WumaCoder',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Data View" to add and use.',
   },
   {
     fields: {
@@ -1518,6 +1617,11 @@ export const records = [
       ],
     },
     recordId: 'rec2zxNu7G',
+    nameEn: 'Sankey Diagram',
+    descriptionEn: 'Draw a Sankey Diagram based on the selected fields',
+    authorEn: 'klz',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Sankey Diagram" to add and use.',
   },
   {
     fields: {
@@ -1600,6 +1704,11 @@ export const records = [
       ],
     },
     recordId: 'recPgilhMQ',
+    nameEn: 'Base Table Manager',
+    descriptionEn: 'Manage the Base like managing files',
+    authorEn: 'Wei Wei',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Base Table Manager" to add and use.',
   },
   {
     fields: {
@@ -1682,6 +1791,11 @@ export const records = [
       ],
     },
     recordId: 'recAvvgjDy',
+    nameEn: 'Customize charts',
+    descriptionEn: 'Supports a wide range of custom 2D and 3D charts.',
+    authorEn: 'Huang Hongqi',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Customize charts" to add and use.',
   },
   {
     fields: {
@@ -1751,6 +1865,12 @@ export const records = [
       ],
     },
     recordId: 'recuoiat2y',
+    nameEn: 'Geo Location Conversion',
+    descriptionEn:
+      'Convert address text or latitude and longitude text into the geographic location field of a Base table.',
+    authorEn: 'Chris Chou',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Geo Location Conversion" to add and use.',
   },
   {
     fields: {
@@ -1820,6 +1940,11 @@ export const records = [
       ],
     },
     recordId: 'recXOysfDr',
+    nameEn: 'Currency Conversion',
+    descriptionEn: 'Convert currency based on real-time exchange rates and save to fields',
+    authorEn: 'DongDong',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Currency Conversion" to add and use.',
   },
   {
     fields: {
@@ -1902,6 +2027,12 @@ export const records = [
       ],
     },
     recordId: 'recYXgzbY0',
+    nameEn: 'Dev-tool for Base',
+    descriptionEn:
+      'This tool is used to obtain IDs related to Base, including BaseID, FieldID, TableID, RecordID, ViewID, etc.',
+    authorEn: 'Du Jianjun',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Dev-tool for Base" to add and use.',
   },
   {
     fields: {
@@ -1984,6 +2115,11 @@ export const records = [
       ],
     },
     recordId: 'rec3kHfUyD',
+    nameEn: 'Image to Text',
+    descriptionEn: 'Easily extract text from images and save it directly as written content.',
+    authorEn: 'Wonderful',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Image to Text" to add and use.',
   },
   {
     fields: {
@@ -2066,6 +2202,11 @@ export const records = [
       ],
     },
     recordId: 'rechAUjrLL',
+    nameEn: 'Anomaly Detection',
+    descriptionEn: 'Use statistical algorithms to detect anomalies in a numeric column and generate detection results.',
+    authorEn: 'scp3125',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Anomaly Detection" to add and use.',
   },
   {
     fields: {
@@ -2148,6 +2289,11 @@ export const records = [
       ],
     },
     recordId: 'rectZISjrqrH0J',
+    nameEn: 'Record Relationship Diagram',
+    descriptionEn: 'Extension that displays the relationship of record data with other records.',
+    authorEn: 'WumaCoder',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Record Relationship Diagram" to add and use.',
   },
   {
     fields: {
@@ -2230,6 +2376,12 @@ export const records = [
       ],
     },
     recordId: 'reclDyfvlW',
+    nameEn: 'Field Manager',
+    descriptionEn:
+      '1.Supports filtering fields by name and type, batch selection, and one-click hiding/showing of fields.2.One-click beautification of tables, batch adjustment of field width.',
+    authorEn: '杜建军',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Field Manager" to add and use.',
   },
   {
     fields: {
@@ -2312,6 +2464,11 @@ export const records = [
       ],
     },
     recordId: 'reczh02chS',
+    nameEn: 'Time Interval Data Splitting',
+    descriptionEn: 'Automatically split data based on monthly and annual time proportions',
+    authorEn: 'Xie Bowen',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Time Interval Data Splitting" to add and use.',
   },
   {
     fields: {
@@ -2394,6 +2551,11 @@ export const records = [
       ],
     },
     recordId: 'recu177zXc0pJ5',
+    nameEn: 'Bilibili Assistant',
+    descriptionEn: 'Based on Bilibili video links, obtain public data such as play counts and likes.',
+    authorEn: 'Wuyi',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Bilibili Assistant" to add and use.',
   },
   {
     fields: {
@@ -2463,6 +2625,12 @@ export const records = [
       ],
     },
     recordId: 'recgYqamqN',
+    nameEn: 'Link to Attachment',
+    descriptionEn:
+      'Convert links in Base into attachments and write them into fields (supports pictures and file links)',
+    authorEn: 'XP',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Link to Attachment" to add and use.',
   },
   {
     fields: {
@@ -2532,6 +2700,12 @@ export const records = [
       ],
     },
     recordId: 'recE7kvlr5',
+    nameEn: 'Proper Function',
+    descriptionEn:
+      'Select a text field and change all English words in it to uppercase the first letter and all other characters to lowercase.',
+    authorEn: 'DongDong',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Proper Function" to add and use.',
   },
   {
     fields: {
@@ -2614,6 +2788,12 @@ export const records = [
       ],
     },
     recordId: 'recByc4Mmz',
+    nameEn: 'Base Search',
+    descriptionEn:
+      'Supports quick search of all data in Base tables, without switching data tables, easy to find all content',
+    authorEn: 'XP',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Base Search" to add and use.',
   },
   {
     fields: {
@@ -2696,6 +2876,12 @@ export const records = [
       ],
     },
     recordId: 'recVLBXHFu',
+    nameEn: 'Javascript Runner',
+    descriptionEn:
+      'You can operate the base quickly using JavaScript, without the need to develop an extesnion for base, which is more efficient. Supporting axios, console.log for result display, etc.',
+    authorEn: 'Du Jianjun',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Javascript Runner" to add and use.',
   },
   {
     fields: {
@@ -2778,6 +2964,12 @@ export const records = [
       ],
     },
     recordId: 'recdLHEZGF',
+    nameEn: 'Convert digital amount to Chinese',
+    descriptionEn:
+      'The amount is converted into uppercase Chinese characters, ¥123.45 → RMB one hundred, twenty-three, four cents and five cents',
+    authorEn: 'Wudi',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Convert digital amount to Chinese" to add and use.',
   },
   {
     fields: {
@@ -2860,6 +3052,11 @@ export const records = [
       ],
     },
     recordId: 'recgVEuN53',
+    nameEn: 'Image Compression',
+    descriptionEn: 'Compress images in the attachment field, with options for compression ratio and batch processing.',
+    authorEn: 'Lin Lu',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Image Compression" to add and use.',
   },
   {
     fields: {
@@ -2942,6 +3139,12 @@ export const records = [
       ],
     },
     recordId: 'recEjQXdlL',
+    nameEn: 'Book ISBN Information Extraction',
+    descriptionEn:
+      "Automatically retrieve and populate information such as the title, author, pricing, and cover based on the book's ISBN number.",
+    authorEn: 'Wu Yi',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Book ISBN Information Extraction" to add and use.',
   },
   {
     fields: {
@@ -3024,6 +3227,11 @@ export const records = [
       ],
     },
     recordId: 'rec3sUPd1q',
+    nameEn: 'Quickly Filter Records',
+    descriptionEn: 'Quickly set filters, with support for field search, saving, and switching filter schemes',
+    authorEn: 'Du Jianjun',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Quickly Filter Records" to add and use.',
   },
   {
     fields: {
@@ -3106,6 +3314,12 @@ export const records = [
       ],
     },
     recordId: 'recQrZjeXl',
+    nameEn: 'Split into table',
+    descriptionEn:
+      'Split text, multi-choice, etc. data into other table, and support data synchronization of other fields',
+    authorEn: 'Master Li',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Split into table" to add and use.',
   },
   {
     fields: {
@@ -3188,6 +3402,11 @@ export const records = [
       ],
     },
     recordId: 'recMjvnySE',
+    nameEn: 'SQL Query',
+    descriptionEn: 'Use SQL to quickly query the content of Base, and support exporting the results to Excel.',
+    authorEn: 'WumaCoder',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "SQL Query" to add and use.',
   },
   {
     fields: {
@@ -3270,6 +3489,11 @@ export const records = [
       ],
     },
     recordId: 'reczq7Mo9v',
+    nameEn: 'Picture Editor',
+    descriptionEn: 'Quick edit attachment field images: Crop, Annotate, Add Watermark, Adjust Colors, Rename.',
+    authorEn: 'WumaCoder',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Picture Editor" to add and use.',
   },
   {
     fields: {
@@ -3352,6 +3576,12 @@ export const records = [
       ],
     },
     recordId: 'recg0PIvLK',
+    nameEn: 'Pinyin Lookup and Conversion',
+    descriptionEn:
+      'It provides a convenient phonetic and definition quick search function, which is particularly useful when reading obscure Chinese characters. It also supports the batch conversion of Chinese in fields into pinyin.',
+    authorEn: 'Liu Hao Yi',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Pinyin Lookup and Conversion" to add and use.',
   },
   {
     fields: {
@@ -3434,6 +3664,11 @@ export const records = [
       ],
     },
     recordId: 'rec9o5lm2J',
+    nameEn: 'Shortcut Key Design',
+    descriptionEn: 'Assist PM, UX, UI in completing shortcut key design work',
+    authorEn: 'IMDJ',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Shortcut Key Design" to add and use.',
   },
   {
     fields: {
@@ -3516,6 +3751,11 @@ export const records = [
       ],
     },
     recordId: 'recu0XnmxLf1Lo',
+    nameEn: 'Batch Copy Records',
+    descriptionEn: 'Effortlessly batch copy records.',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Batch Copy Records" to add and use.',
   },
   {
     fields: {
@@ -3585,6 +3825,11 @@ export const records = [
       ],
     },
     recordId: 'receIDwtkU',
+    nameEn: 'Find and Replace',
+    descriptionEn: 'Batch find and replace data in Base',
+    authorEn: '飞书科技',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Find and Replace" to add and use.',
   },
   {
     fields: {
@@ -3654,6 +3899,11 @@ export const records = [
       ],
     },
     recordId: 'recciYCITq',
+    nameEn: 'Random Values',
+    descriptionEn: 'Populate fields with random numbers',
+    authorEn: '飞书科技',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Random Values" to add and use.',
   },
   {
     fields: {
@@ -3723,6 +3973,12 @@ export const records = [
       ],
     },
     recordId: 'recliqDvsN',
+    nameEn: 'Random Sorting',
+    descriptionEn:
+      'Randomly shuffle the order of records in the data table, applicable to scenarios such as "randomly arranging the order of teams in a competition ',
+    authorEn: 'ycx1523@gmail.com',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Random Sorting" to add and use.',
   },
   {
     fields: {
@@ -3805,6 +4061,12 @@ export const records = [
       ],
     },
     recordId: 'rec0mjqCje',
+    nameEn: 'Simplified and Traditional Chinese conversion',
+    descriptionEn:
+      'Used for converting between Simplified and Traditional Chinese, supporting multiple Traditional Chinese variants and conversion modes',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Simplified and Traditional Chinese conversion" to add and use.',
   },
   {
     fields: {
@@ -3887,6 +4149,11 @@ export const records = [
       ],
     },
     recordId: 'rectZrOWK8YHz6',
+    nameEn: 'Base Assistant',
+    descriptionEn: 'For all questions about Base, just ask me.',
+    authorEn: 'Chris Chou',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Base Assistant" to add and use.',
   },
   {
     fields: {
@@ -3956,6 +4223,11 @@ export const records = [
       ],
     },
     recordId: 'recoBNYiFa',
+    nameEn: 'Export to Excel: With Images',
+    descriptionEn: 'When exporting Base to Excel, you can embed the attached pictures directly into Excel cells.',
+    authorEn: 'Dianhuo (Hangzhou) Software Co., Ltd.',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Export to Excel: With Images" to add and use.',
   },
   {
     fields: {
@@ -4025,6 +4297,11 @@ export const records = [
       ],
     },
     recordId: 'recLl7Tw0m',
+    nameEn: 'Delete Duplicate Records',
+    descriptionEn: 'Find duplicate records according to certain conditions and delete them',
+    authorEn: '飞书科技',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Delete Duplicate Records" to add and use.',
   },
   {
     fields: {
@@ -4107,6 +4384,12 @@ export const records = [
       ],
     },
     recordId: 'recq19U8Qy',
+    nameEn: 'Delete fields in batches',
+    descriptionEn:
+      'Used to delete the entire view or multiple field data in batches, which can exceed the upper limit of 5000',
+    authorEn: 'Master Li',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Delete fields in batches" to add and use.',
   },
   {
     fields: {
@@ -4189,6 +4472,12 @@ export const records = [
       ],
     },
     recordId: 'rec3AV4rwm',
+    nameEn: 'Working Day Calculator',
+    descriptionEn:
+      'This extension calculates the number of working days within a specific date range, suitable for scheduling scenarios, and takes into account holidays and makeup days. Based on the latest holiday schedule announced by the State Council at the end of the year, it currently supports the date range between 2023 and 2024.',
+    authorEn: 'Li You Tian',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Working Day Calculator" to add and use.',
   },
   {
     fields: {
@@ -4271,6 +4560,12 @@ export const records = [
       ],
     },
     recordId: 'recJaK5FvR',
+    nameEn: 'Split View',
+    descriptionEn:
+      'Supports embedding a specified view in the plugin, combined with the dashboard, to create a display effect with a chart on the left and a table on the right.',
+    authorEn: 'Chris Chou',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Split View" to add and use.',
   },
   {
     fields: {
@@ -4353,6 +4648,11 @@ export const records = [
       ],
     },
     recordId: 'recMjQdrEe',
+    nameEn: 'Merge tables',
+    descriptionEn: 'It supports merging multiple data tables into one, easy consolidation of large amounts of data',
+    authorEn: 'Master Li',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Merge tables" to add and use.',
   },
   {
     fields: {
@@ -4422,6 +4722,11 @@ export const records = [
       ],
     },
     recordId: 'recu18kZ0m23MX',
+    nameEn: 'PDF Split and Merge Assistant',
+    descriptionEn: 'Easily split or merge PDF files according to specified page numbers.',
+    authorEn: 'Ocyss_04',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "PDF Split and Merge Assistant" to add and use.',
   },
   {
     fields: {
@@ -4491,6 +4796,11 @@ export const records = [
       ],
     },
     recordId: 'recP1vUYj1',
+    nameEn: 'Simple Lottery',
+    descriptionEn: 'Simple lottery, powerful function, support thousands of people lottery',
+    authorEn: 'Master Li',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Simple Lottery" to add and use.',
   },
   {
     fields: {
@@ -4560,6 +4870,12 @@ export const records = [
       ],
     },
     recordId: 'recy9aWtwr',
+    nameEn: 'Instant Translation',
+    descriptionEn:
+      'Select the cell, it can be automatically translated into Chinese/English or a custom language, and replace the original text with one click',
+    authorEn: 'Du Jianjun',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Instant Translation" to add and use.',
   },
   {
     fields: {
@@ -4643,6 +4959,11 @@ export const records = [
       ],
     },
     recordId: 'rec5ELFOKF',
+    nameEn: 'Table Fusion',
+    descriptionEn: 'Cross-join (Cartesian product) multiple data tables and write the results to a new data table',
+    authorEn: 'ycx1523@gmail.com',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Table Fusion" to add and use.',
   },
   {
     fields: {
@@ -4712,6 +5033,11 @@ export const records = [
       ],
     },
     recordId: 'recMuM4TV5',
+    nameEn: 'Spliting Text Into Columns',
+    descriptionEn: 'Split text fields into multiple fields and support multiple delimiters. ',
+    authorEn: 'Master Li',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Spliting Text Into Columns" to add and use.',
   },
   {
     fields: {
@@ -4781,6 +5107,12 @@ export const records = [
       ],
     },
     recordId: 'receQ9YzMs',
+    nameEn: 'QR Code/barcode Generator',
+    descriptionEn:
+      'Easily convert URLs or text into QR codes or barcodes and automatically upload to Base as attachments ',
+    authorEn: 'XP',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "QR Code/barcode Generator" to add and use.',
   },
   {
     fields: {
@@ -4863,6 +5195,11 @@ export const records = [
       ],
     },
     recordId: 'rec1gTbIjh',
+    nameEn: 'Simple Rich Text',
+    descriptionEn: 'Supports rendering plain text Markdown into rich text.',
+    authorEn: 'Tree Root',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Simple Rich Text" to add and use.',
   },
   {
     fields: {
@@ -4945,6 +5282,11 @@ export const records = [
       ],
     },
     recordId: 'reciMDUAwo',
+    nameEn: 'Cross-table Content Completion',
+    descriptionEn: 'Display content across table fields to assist in quick selection and input.',
+    authorEn: 'Xmerge',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Cross-table Content Completion" to add and use.',
   },
   {
     fields: {
@@ -5027,6 +5369,12 @@ export const records = [
       ],
     },
     recordId: 'recu0nNRNOdhDH',
+    nameEn: 'SN Code Manager',
+    descriptionEn:
+      'An efficient serial number management system, easily track inventory circulation, supports various verification processes.',
+    authorEn: 'Ocyss_04',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "SN Code Manager" to add and use.',
   },
   {
     fields: {
@@ -5109,6 +5457,12 @@ export const records = [
       ],
     },
     recordId: 'rec8v2z5E1',
+    nameEn: 'Order Recording Master',
+    descriptionEn:
+      'Through a custom form, enter data into multiple tables at once, also usable for viewing all information.',
+    authorEn: 'Dianhuo (Hangzhou) Software Co., Ltd.',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Order Recording Master" to add and use.',
   },
   {
     fields: {
@@ -5191,6 +5545,12 @@ export const records = [
       ],
     },
     recordId: 'recNIlYWkn',
+    nameEn: 'Split Into Records',
+    descriptionEn:
+      'Split data into records: support fields such as text, multiple selections, people (multiple selections), lookup references, formulas, etc.',
+    authorEn: 'Master Li',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Split Into Records" to add and use.',
   },
   {
     fields: {
@@ -5273,6 +5633,11 @@ export const records = [
       ],
     },
     recordId: 'rectRzXShh',
+    nameEn: 'Automatically Associate Fields',
+    descriptionEn: 'Automatically populate bidirectional/unidirectional related field data based on index value',
+    authorEn: 'Dianhuo (Hangzhou) Software Co., Ltd.',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Automatically Associate Fields" to add and use.',
   },
   {
     fields: {
@@ -5355,6 +5720,11 @@ export const records = [
       ],
     },
     recordId: 'recTEsaXWF',
+    nameEn: 'Multi-relationship Diagram',
+    descriptionEn: 'Automatically generate relationship diagrams for all data tables',
+    authorEn: 'WumaCoder',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Multi-relationship Diagram" to add and use.',
   },
   {
     fields: {
@@ -5437,6 +5807,11 @@ export const records = [
       ],
     },
     recordId: 'recZjES7qm',
+    nameEn: 'Regular Expression',
+    descriptionEn: 'Easily use Regular Expressions to efficiently match, extract, replace, and split content.',
+    authorEn: 'Xmerge',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Regular Expression" to add and use.',
   },
   {
     fields: {
@@ -5519,6 +5894,11 @@ export const records = [
       ],
     },
     recordId: 'recsMuiCOi',
+    nameEn: 'Save to Cubox',
+    descriptionEn: 'Save the selected cell content to Cubox',
+    authorEn: 'Check',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Save to Cubox" to add and use.',
   },
   {
     fields: {
@@ -5589,6 +5969,12 @@ export const records = [
       ],
     },
     recordId: 'rec2zCPVq1',
+    nameEn: 'Attachment Batch Downloader',
+    descriptionEn:
+      'Batch download attachment field files to your computer, faster download speed, and support more than  1G of attachment download',
+    authorEn: 'ysy135@hotmail.com',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Attachment Batch Downloader" to add and use.',
   },
   {
     fields: {
@@ -5658,6 +6044,12 @@ export const records = [
       ],
     },
     recordId: 'rec0Z1NztO',
+    nameEn: 'Auto Numbering',
+    descriptionEn:
+      'Create self-increment numbers for data, and the order of existing data can be reset after interruption',
+    authorEn: 'Dianhuo (Hangzhou) Software Co., Ltd.',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Auto Numbering" to add and use.',
   },
   {
     fields: {
@@ -5740,6 +6132,12 @@ export const records = [
       ],
     },
     recordId: 'recW78KIPp',
+    nameEn: 'Date Filter',
+    descriptionEn:
+      'Quickly filter data by week or month, and support operating the current view or creating a new view',
+    authorEn: 'Dong Bo',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Date Filter" to add and use.',
   },
   {
     fields: {
@@ -5822,6 +6220,12 @@ export const records = [
       ],
     },
     recordId: 'recCPSfQIT',
+    nameEn: 'Fileman',
+    descriptionEn:
+      'Powerful attachment management tool, supporting functions such as renaming, adjusting order, previewing attachments, etc.',
+    authorEn: 'WumaCoder',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Fileman" to add and use.',
   },
   {
     fields: {
@@ -5905,6 +6309,11 @@ export const records = [
       ],
     },
     recordId: 'recpnZas3A',
+    nameEn: 'Text to Multiple Selection',
+    descriptionEn: 'Convert multi-line text field contents into multi-select field values in batches',
+    authorEn: 'ycx1523@gmail.com',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Text to Multiple Selection" to add and use.',
   },
   {
     fields: {
@@ -5974,6 +6383,12 @@ export const records = [
       ],
     },
     recordId: 'rec4PKcDaB',
+    nameEn: 'Caoliao QR code',
+    descriptionEn:
+      'Based on the ISV Caoliao QR code + base open capability, we have developed the integrated ability to generate each row of a base as a separate QR code.- Supports batch generation- Generated QR codes are stored as separate fields, one code per row- A variety of templates are available. you can preview template effects and customize returned fields for QR content- On average, generating a QR code takes about 8 seconds, influenced by network conditions- The maximum concurrent number is 20 (meaning at any moment, up to 20 collaborators can use the extension to create QR codes at the same time)',
+    authorEn: 'Ryan Cui',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Caoliao QR code" to add and use.',
   },
   {
     fields: {
@@ -6056,6 +6471,11 @@ export const records = [
       ],
     },
     recordId: 'recSjeK4u6',
+    nameEn: 'Save to Flomo',
+    descriptionEn: 'Save the content of the selected cell to Flomo.',
+    authorEn: 'Check',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Save to Flomo" to add and use.',
   },
   {
     fields: {
@@ -6138,6 +6558,12 @@ export const records = [
       ],
     },
     recordId: 'rectZxqfigHfg9',
+    nameEn: 'Address Parsing',
+    descriptionEn:
+      "Intelligently parse address information, quickly obtain recipient's name, contact number, provincial/city/district information, detailed street address, postal code, and provincial/city/district code.",
+    authorEn: 'Code and dreams',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Address Parsing" to add and use.',
   },
   {
     fields: {
@@ -6220,6 +6646,12 @@ export const records = [
       ],
     },
     recordId: 'recWwU1pFH',
+    nameEn: 'Copy fields in batches',
+    descriptionEn:
+      'Batch copy fields from one data table to other data tables or the current data table (breaking the single-time 5k row limit), allowing you to manually refer to data from other tables when advanced permissions are enabled.',
+    authorEn: 'Master Li',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Copy fields in batches" to add and use.',
   },
   {
     fields: {
@@ -6302,6 +6734,12 @@ export const records = [
       ],
     },
     recordId: 'recxzA0gTX',
+    nameEn: 'Gregorian and lunar conversion',
+    descriptionEn:
+      '1.Select data tables and views 2.Select the conversion method Gregorian calendar > Lunar calendar Lunar calendar > Gregorian calendar 3.Select the input fields 4.Select the output fields',
+    authorEn: 'Master Li',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Gregorian and lunar conversion" to add and use.',
   },
   {
     fields: {
@@ -6384,6 +6822,12 @@ export const records = [
       ],
     },
     recordId: 'recJAXgR8l',
+    nameEn: 'JSON Converter',
+    descriptionEn:
+      'Easily convert two-column content (such as keys and values) in a table into JSON format, suitable for scenarios where you need to save or share multilingual information, settings, and other key-value data',
+    authorEn: 'Yang Zemin & Yuan Ruixue',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "JSON Converter" to add and use.',
   },
   {
     fields: {
@@ -6466,6 +6910,12 @@ export const records = [
       ],
     },
     recordId: 'rec6ZUTSF3',
+    nameEn: 'ID Number Parser',
+    descriptionEn:
+      'Parse information such as birthdate, gender, zodiac sign, Chinese zodiac, and place of origin from an ID number.',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "ID Number Parser" to add and use.',
   },
   {
     fields: {
@@ -6535,5 +6985,10 @@ export const records = [
       ],
     },
     recordId: 'recu194itL290u',
+    nameEn: 'Save as Long Image',
+    descriptionEn: 'Automatically generate images from selected records for quick and easy sharing.',
+    authorEn: 'Ocyss_04',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Save as Long Image" to add and use.',
   },
 ];

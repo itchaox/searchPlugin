@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-13 00:34
+ * @LastTime   : 2024-01-13 13:02
  * @desc       : 
 -->
 
@@ -25,6 +25,19 @@
 
   // 使用插件
   const { toClipboard } = useClipboard();
+
+  const isZh = ref(false);
+
+  onMounted(() => {
+    bitable.bridge.getLanguage().then((_lang) => {
+      // 是否显示中文
+      if (_lang === 'zh' || _lang === 'zh-HK' || _lang === 'zh-TW') {
+        isZh.value = true;
+      } else {
+        isZh.value = false;
+      }
+    });
+  });
 
   const copy = async (msg) => {
     try {
@@ -134,7 +147,14 @@
         }
       }
 
-      tableDataList.value.push({ ..._recordData, recordId: item.recordId });
+      tableDataList.value.push({
+        ..._recordData,
+        recordId: item.recordId,
+        nameEn: item.nameEn,
+        descriptionEn: item.descriptionEn,
+        authorEn: item.authorEn,
+        useMethodEn: item.useMethodEn,
+      });
     });
 
     tableDataList.value = await Promise.all(tableDataList.value.map(processRecord));
@@ -198,8 +218,8 @@
     // 匹配插件名字或插件描述; 名字匹配的放前面
     filterTableDataList.value = filterTableDataList.value
       .filter((item) => {
-        let _name = item.name[0].text;
-        let _description = item.description[0].text;
+        let _name = isZh.value ? item.name[0].text : item.nameEn;
+        let _description = isZh.value ? item.description[0].text : item.descriptionEn;
 
         const nameMatch = !pluginInfo.value || _name?.includes(pluginInfo.value);
         const descriptionMatch = !pluginInfo.value || _description?.includes(pluginInfo.value);
@@ -207,8 +227,13 @@
         return nameMatch || descriptionMatch;
       })
       .sort((a, b) => {
-        const aNameMatch = !pluginInfo.value || a.name[0].text?.includes(pluginInfo.value);
-        const bNameMatch = !pluginInfo.value || b.name[0].text?.includes(pluginInfo.value);
+        const aNameMatch =
+          !pluginInfo.value ||
+          (isZh.value ? a.name[0].text?.includes(pluginInfo.value) : a.nameEn?.includes(pluginInfo.value));
+
+        const bNameMatch =
+          !pluginInfo.value ||
+          (isZh.value ? b.name[0].text?.includes(pluginInfo.value) : b.nameEn?.includes(pluginInfo.value));
 
         // 将匹配的数据排在前面
         if (aNameMatch && !bNameMatch) {
@@ -221,18 +246,6 @@
       });
 
     isShowTable.value = true;
-
-    // 筛选视图类型和视图名字
-    // filterTableDataList.value = filterTableDataList.value.filter((item) => {
-    //   let _name = item.name[0].text;
-    //   let _description = item.description[0].text;
-    //   let _author = item.author[0].text;
-
-    //   const nameMatch = !pluginName.value || _name?.includes(pluginName.value);
-    //   const descriptionMatch = !pluginDescription.value || _description?.includes(pluginDescription.value);
-    //   const authorMatch = !pluginAuthor.value || _author?.includes(pluginAuthor.value);
-    //   return nameMatch && descriptionMatch && authorMatch;
-    // });
   }
 
   function reset() {
@@ -569,7 +582,7 @@
                 <HightLightText
                   :key="scope.row.recordId + Math.random()"
                   :inputText="inputText"
-                  :allText="scope.row.name[0].text"
+                  :allText="isZh ? scope.row.name[0].text : scope.row.nameEn"
                 />
               </div>
             </div>
@@ -593,7 +606,7 @@
               <HightLightText
                 :key="scope.row.recordId + Math.random()"
                 :inputText="inputText"
-                :allText="scope.row.description[0].text"
+                :allText="isZh ? scope.row.description[0].text : scope.row.descriptionEn"
               />
             </div>
           </template>
@@ -679,16 +692,16 @@
 
       <div class="list">
         <div class="item">
-          <div class="label">{{ $t('pluginName') }}：</div>
-          <div>{{ activeItem.name[0].text }}</div>
+          <div class="label">{{ $t('pluginName') }}</div>
+          <div>{{ isZh ? activeItem.name[0].text : activeItem.nameEn }}</div>
         </div>
         <div class="item">
-          <div class="label">{{ $t('Plugin Description') }}：</div>
-          <div>{{ activeItem.description[0].text }}</div>
+          <div class="label">{{ $t('Plugin Description') }}</div>
+          <div>{{ isZh ? activeItem.description[0].text : activeItem.descriptionEn }}</div>
         </div>
         <div class="item">
           <div class="label">{{ $t('Plugin Author') }}</div>
-          <div>{{ activeItem.author[0].text }}</div>
+          <div>{{ isZh ? activeItem.author[0].text : activeItem.authorEn }}</div>
         </div>
 
         <div class="item">
@@ -779,7 +792,7 @@
 
         <div class="item">
           <div class="label">{{ $t('How to use') }}</div>
-          <div>{{ activeItem.useMethod[0].text }}</div>
+          <div>{{ isZh ? activeItem.useMethod[0].text : activeItem.useMethodEn }}</div>
         </div>
 
         <div class="item startUseDiv">
@@ -990,7 +1003,7 @@
       align-items: center;
       margin-bottom: 14px;
       .label {
-        min-width: 115px;
+        min-width: 135px;
         color: rgb(20, 86, 240);
         white-space: nowrap;
       }
