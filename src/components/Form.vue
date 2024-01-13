@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-13 13:19
+ * @LastTime   : 2024-01-13 14:21
  * @desc       : 
 -->
 
@@ -203,46 +203,64 @@
     // 先重新获取全部数据
     filterTableDataList.value = tableDataList.value;
 
-    // if (!pluginName.value && !pluginDescription.value && !pluginAuthor.value) {
-    //   filterTableDataList.value = tableDataList.value;
-    //   return;
-    // }
-
-    // if (!pluginInfo.value) {
-    //   filterTableDataList.value = tableDataList.value;
-    //   return;
-    // }
-
     // 筛选插件信息
 
     // 匹配插件名字或插件描述; 名字匹配的放前面
+    // filterTableDataList.value = filterTableDataList.value
+    //   .filter((item) => {
+    //     let _name = isZh.value ? item.name[0].text : item.nameEn;
+    //     let _description = isZh.value ? item.description[0].text : item.descriptionEn;
+
+    //     const nameMatch =
+    //       !pluginInfo.value || _name.toLocaleLowerCase()?.includes(pluginInfo.value.toLocaleLowerCase());
+    //     const descriptionMatch =
+    //       !pluginInfo.value || _description.toLocaleLowerCase()?.includes(pluginInfo.value.toLocaleLowerCase());
+
+    //     return nameMatch || descriptionMatch;
+    //   })
+    //   .sort((a, b) => {
+    //     const aNameMatch =
+    //       !pluginInfo.value ||
+    //       (isZh.value
+    //         ? a.name[0].text.toLocaleLowerCase()?.includes(pluginInfo.value.toLocaleLowerCase())
+    //         : a.nameEn?.includes(pluginInfo.value.toLocaleLowerCase()));
+
+    //     const bNameMatch =
+    //       !pluginInfo.value ||
+    //       (isZh.value
+    //         ? b.name[0].text.toLocaleLowerCase()?.includes(pluginInfo.value.toLocaleLowerCase())
+    //         : b.nameEn?.includes(pluginInfo.value.toLocaleLowerCase()));
+
+    //     // 将匹配的数据排在前面
+    //     if (aNameMatch && !bNameMatch) {
+    //       return -1;
+    //     } else if (!aNameMatch && bNameMatch) {
+    //       return 1;
+    //     } else {
+    //       return 0;
+    //     }
+    //   });
+
     filterTableDataList.value = filterTableDataList.value
       .filter((item) => {
-        let _name = isZh.value ? item.name[0].text : item.nameEn;
-        let _description = isZh.value ? item.description[0].text : item.descriptionEn;
+        const _name = isZh.value ? item.name[0].text : item.nameEn;
+        const _description = isZh.value ? item.description[0].text : item.descriptionEn;
 
-        const nameMatch = !pluginInfo.value || _name?.includes(pluginInfo.value);
-        const descriptionMatch = !pluginInfo.value || _description?.includes(pluginInfo.value);
+        const nameMatch = !pluginInfo.value || _name.toLowerCase().includes(pluginInfo.value.toLowerCase());
+        const descriptionMatch =
+          !pluginInfo.value || _description.toLowerCase().includes(pluginInfo.value.toLowerCase());
 
         return nameMatch || descriptionMatch;
       })
       .sort((a, b) => {
-        const aNameMatch =
-          !pluginInfo.value ||
-          (isZh.value ? a.name[0].text?.includes(pluginInfo.value) : a.nameEn?.includes(pluginInfo.value));
+        const aName = isZh.value ? a.name[0].text : a.nameEn;
+        const bName = isZh.value ? b.name[0].text : b.nameEn;
 
-        const bNameMatch =
-          !pluginInfo.value ||
-          (isZh.value ? b.name[0].text?.includes(pluginInfo.value) : b.nameEn?.includes(pluginInfo.value));
+        const aNameMatch = !pluginInfo.value || aName.toLowerCase().includes(pluginInfo.value.toLowerCase());
+        const bNameMatch = !pluginInfo.value || bName.toLowerCase().includes(pluginInfo.value.toLowerCase());
 
-        // 将匹配的数据排在前面
-        if (aNameMatch && !bNameMatch) {
-          return -1;
-        } else if (!aNameMatch && bNameMatch) {
-          return 1;
-        } else {
-          return 0;
-        }
+        // 使用 localeCompare 进行排序
+        return aNameMatch && !bNameMatch ? -1 : bNameMatch && !aNameMatch ? 1 : aName.localeCompare(bName);
       });
 
     isShowTable.value = true;
