@@ -3,13 +3,13 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-13 14:21
+ * @LastTime   : 2024-01-13 14:40
  * @desc       : 
 -->
 
 <script setup lang="ts">
   import { bitable } from '@lark-base-open/js-sdk';
-  import { LarkOne, DocDetail, Like, Code, ShareThree, PlayOne } from '@icon-park/vue-next';
+  import { LarkOne, DocDetail, Like, Code, ShareThree, PlayOne, ViewGridDetail } from '@icon-park/vue-next';
   import { dayjs } from 'element-plus';
   import { records } from './records';
   import { fieldMeteListDemo } from './fieldMeteList';
@@ -570,7 +570,7 @@
         ref="tableRef"
         :data="filterTableDataList"
         max-height="63vh"
-        empty-text="暂无数据"
+        :empty-text="$t('No data available')"
       >
         <el-table-column type="index" />
         <el-table-column
@@ -697,6 +697,10 @@
           :id="titleId"
           class="header"
         >
+          <ViewGridDetail
+            theme="outline"
+            class="header-icon"
+          />
           {{ $t('Plugin Details') }}
         </div>
         <el-button
@@ -824,6 +828,7 @@
             <PlayOne
               theme="outline"
               size="24"
+              class="startUse-icon"
             />
             <span>{{ $t('Start Trial') }}</span>
           </el-button>
@@ -1025,6 +1030,7 @@
         min-width: 135px;
         color: rgb(20, 86, 240);
         white-space: nowrap;
+        font-weight: bold;
       }
     }
   }
@@ -1046,6 +1052,11 @@
 
   .startUse {
     flex: 1;
+    font-weight: 500;
+    font-size: 16px;
+    .startUse-icon {
+      margin-right: 2px;
+    }
   }
 
   .good {
@@ -1147,9 +1158,14 @@
   }
 
   .header {
-    font-size: 16px;
+    display: flex;
+    font-size: 18px;
     color: rgb(20, 86, 240);
-    font-weight: 500;
+    font-weight: 700;
+
+    .header-icon {
+      margin-right: 5px;
+    }
   }
 
   .total {

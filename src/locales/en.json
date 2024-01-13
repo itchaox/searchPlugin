@@ -25,7 +25,7 @@
   "Please enter a plugin name or description": "Please enter a plugin name or description",
   "total": "total",
   "info": "plugins",
-  "Welcome to the Lark plugin": "Welcome to the lark plugin!",
+  "Welcome to the Lark plugin": "Welcome To The Lark Plugin",
   "Plugin name copied": "Plugin name copied, about to jump to form page",
   "Operational mini-programs": "Operational mini-programs",
   "A multi-dimensional table that can be easily turned into a workbench applet in just 3 steps": "A multi-dimensional table that can be easily turned into a workbench applet in just 3 steps",
@@ -40,5 +40,6 @@
   "Start Trial": "Start Trial",
   "share": "share",
   "View source code": "View source code",
-  "Plugin sharing links have been copied": "Plugin sharing links have been copied"
+  "Plugin sharing links have been copied": "Plugin sharing links have been copied",
+  "No data available": "No data available"
 }
