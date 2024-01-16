@@ -3,13 +3,22 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-16 23:37
+ * @LastTime   : 2024-01-16 23:56
  * @desc       : 
 -->
 
 <script setup lang="ts">
   import { bitable } from '@lark-base-open/js-sdk';
-  import { LarkOne, DocDetail, Like, Code, ShareThree, PlayOne, ViewGridDetail } from '@icon-park/vue-next';
+  import {
+    LarkOne,
+    DocDetail,
+    Like,
+    Code,
+    ShareThree,
+    PlayOne,
+    ViewGridDetail,
+    Communication,
+  } from '@icon-park/vue-next';
   import { dayjs } from 'element-plus';
   import { records } from './records';
   import { fieldMeteListDemo } from './fieldMeteList';
@@ -477,17 +486,22 @@
         strokeLinecap="square"
       />
       <span> {{ $t('Welcome to the Lark plugin') }} </span>
-      <!-- <el-tooltip
+      <el-tooltip
         placement="right"
         effect="customized"
       >
-        <template #content>没找到想要的插件?<br />提交一个需求吧。</template>
-        <el-icon
-          class="tip-icon cursor"
-          @click="submit"
-          ><QuestionFilled
-        /></el-icon>
-      </el-tooltip> -->
+        <template #content>{{ $t('Join the plugin exchange group') }}</template>
+        <Communication
+          class="com"
+          theme="outline"
+          size="20"
+          @click="
+            openUrl(
+              'https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=c48m8fd5-d2e3-43f4-b667-f1895e8faf27',
+            )
+          "
+        />
+      </el-tooltip>
     </div>
 
     <el-carousel
@@ -569,7 +583,7 @@
       <el-table
         ref="tableRef"
         :data="filterTableDataList"
-        max-height="63vh"
+        max-height="61vh"
         :empty-text="$t('No data available')"
       >
         <el-table-column type="index" />
@@ -993,11 +1007,18 @@
   }
 
   .tip {
+    display: flex;
+    align-items: center;
     color: rgb(20, 86, 240);
     opacity: 0.8;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 8px;
+  }
+
+  .com {
+    margin-left: 34px;
+    cursor: pointer;
   }
 
   .tip-icon {
