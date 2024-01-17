@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2023-12-26 23:12
+ * @LastTime   : 2024-01-17 21:13
  * @desc       : 获取记录和 gif 等时, 使用的组件
 -->
 
@@ -55,6 +55,7 @@
     }
   }
 
+  let _records = ref([]);
   async function handleTableRecordList() {
     // FIXME 获取到所有上线的插件列表
 
@@ -64,6 +65,7 @@
 
     // FIXME 从这个打印位置直接复制
     console.log('🚀  records:', records);
+    _records.value = records;
 
     // TODO 步骤一
     // debugger;
@@ -160,7 +162,12 @@
 
   async function detail(item) {
     console.log('🚀  recordId:', item.recordId);
-    console.log('🚀  【recordItem】:', item);
+    const _item = _records.value.find((_item) => _item.recordId === item.recordId);
+
+    console.log('🚀  【recordItem】:', _item);
+
+    // console.log('🚀  【recordItem】:', item);
+
     // TODO 步骤二
 
     modelValue.value = true;

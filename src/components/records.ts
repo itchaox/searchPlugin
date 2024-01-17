@@ -598,6 +598,95 @@ export const records = [
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Lottery Carousel" to add and use.',
   },
+
+  {
+    fields: {
+      fldjG7c2PH: 1704974964000,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「身份证号解析」即可使用',
+          type: 'text',
+        },
+      ],
+      fld8Zzxal9: {
+        id: 'optv6t2oOS',
+        text: '身份证号解析',
+      },
+      fldoBvqZYU: [
+        {
+          name: '身份证号解析.png',
+          size: 7161,
+          type: 'image/png',
+          token: 'W2HbbXYr3oPllCxOkoocVXxnnZe',
+          timeStamp: 1703747751480,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'rec6ZUTSF3',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: '20231207-184703.gif',
+          size: 683535,
+          type: 'image/gif',
+          token: 'OppKbRBbyoOdXwxHGE7cAJZ6nig',
+          timeStamp: 1701946085892,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'rec6ZUTSF3',
+          },
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '从身份证号中解析生日、性别、星座、生肖、籍贯等信息',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWNIUzkyR09LOmRkZmJhMjNkN2JkZjgxYmU1OGNhMmRiOTBiMDlhZDRiOjE6SDRzSUFBQUpib2dBL3dBQ0FQMy9lMzBEQUVPL3BxTUNBQUFB',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '身份证号解析',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d8e53d9a7e4e3e3',
+          link: 'https://feishu.cn/base/extension/replit_3d8e53d9a7e4e3e3',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/itchao-idCardToBirthday',
+          link: 'https://replit.com/@lark-base/itchao-idCardToBirthday',
+        },
+      ],
+    },
+    recordId: 'rec6ZUTSF3',
+    nameEn: 'ID Number Parser',
+    descriptionEn:
+      'Parse information such as birthdate, gender, zodiac sign, Chinese zodiac, and place of origin from an ID number.',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "ID Number Parser" to add and use.',
+  },
   {
     fields: {
       fldjG7c2PH: 1704881952000,
@@ -858,6 +947,93 @@ export const records = [
     authorEn: 'Zem',
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Link Preview" to add and use.',
+  },
+  {
+    fields: {
+      fldjG7c2PH: 1704882886000,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「批量复制记录」即可使用',
+          type: 'text',
+        },
+      ],
+      fld8Zzxal9: {
+        id: 'optpkpIJBB',
+        text: '批量复制记录',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'Batch Copy Records.png',
+          size: 6277,
+          type: 'image/png',
+          token: 'HKPYbiTugoHubIx87fJcAJeBnhc',
+          timeStamp: 1704881974731,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu0XnmxLf1Lo',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'Batch Copy Records.gif',
+          size: 713240,
+          type: 'image/gif',
+          token: 'VdCnb1TPZo4cZXxhlVQcPB59nef',
+          timeStamp: 1704882657143,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu0XnmxLf1Lo',
+          },
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '批量复制记录，轻而易举',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MFg4c1pqS0NDczoyYmY0NWVmOGFkMTMxNDJiNmUwNzAxODc4NmJiZDJlYjoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '批量复制记录',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d61acffd1e4e3fb',
+          link: 'https://feishu.cn/base/extension/replit_3d61acffd1e4e3fb',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://github.com/itchaox/batchCopyRecord',
+          link: 'https://github.com/itchaox/batchCopyRecord',
+        },
+      ],
+    },
+    recordId: 'recu0XnmxLf1Lo',
+    nameEn: 'Batch Copy Records',
+    descriptionEn: 'Effortlessly batch copy records.',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Batch Copy Records" to add and use.',
   },
   {
     fields: {
@@ -3669,93 +3845,6 @@ export const records = [
     authorEn: 'IMDJ',
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Shortcut Key Design" to add and use.',
-  },
-  {
-    fields: {
-      fldjG7c2PH: 1704882886000,
-      fldhYC30Ia: [
-        {
-          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「批量复制记录」即可使用',
-          type: 'text',
-        },
-      ],
-      fld8Zzxal9: {
-        id: 'optpkpIJBB',
-        text: '批量复制记录',
-      },
-      fldoBvqZYU: [
-        {
-          name: 'Batch Copy Records.png',
-          size: 6277,
-          type: 'image/png',
-          token: 'HKPYbiTugoHubIx87fJcAJeBnhc',
-          timeStamp: 1704881974731,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldoBvqZYU',
-            recordId: 'recu0XnmxLf1Lo',
-          },
-        },
-      ],
-      fldtFihTsI: [
-        {
-          name: 'Batch Copy Records.gif',
-          size: 713240,
-          type: 'image/gif',
-          token: 'VdCnb1TPZo4cZXxhlVQcPB59nef',
-          timeStamp: 1704882657143,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldtFihTsI',
-            recordId: 'recu0XnmxLf1Lo',
-          },
-        },
-      ],
-      fldSeTbEAD: [
-        {
-          type: 'text',
-          text: '批量复制记录，轻而易举',
-        },
-      ],
-      fldh3bkCM1: [
-        {
-          type: 'text',
-          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MFg4c1pqS0NDczoyYmY0NWVmOGFkMTMxNDJiNmUwNzAxODc4NmJiZDJlYjoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
-        },
-      ],
-      fldNtD9jZf: [
-        {
-          type: 'text',
-          text: 'itchao',
-        },
-      ],
-      fldf06ZXsH: [
-        {
-          type: 'text',
-          text: '批量复制记录',
-        },
-      ],
-      fldEVbT5zQ: [
-        {
-          type: 'url',
-          text: 'https://feishu.cn/base/extension/replit_3d61acffd1e4e3fb',
-          link: 'https://feishu.cn/base/extension/replit_3d61acffd1e4e3fb',
-        },
-      ],
-      fld9DbJ7HH: [
-        {
-          type: 'url',
-          text: 'https://github.com/itchaox/batchCopyRecord',
-          link: 'https://github.com/itchaox/batchCopyRecord',
-        },
-      ],
-    },
-    recordId: 'recu0XnmxLf1Lo',
-    nameEn: 'Batch Copy Records',
-    descriptionEn: 'Effortlessly batch copy records.',
-    authorEn: 'itchao',
-    useMethodEn:
-      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Batch Copy Records" to add and use.',
   },
   {
     fields: {
@@ -6831,94 +6920,6 @@ export const records = [
   },
   {
     fields: {
-      fldjG7c2PH: 1704974964000,
-      fldhYC30Ia: [
-        {
-          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「身份证号解析」即可使用',
-          type: 'text',
-        },
-      ],
-      fld8Zzxal9: {
-        id: 'optv6t2oOS',
-        text: '身份证号解析',
-      },
-      fldoBvqZYU: [
-        {
-          name: '身份证号解析.png',
-          size: 7161,
-          type: 'image/png',
-          token: 'W2HbbXYr3oPllCxOkoocVXxnnZe',
-          timeStamp: 1703747751480,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldoBvqZYU',
-            recordId: 'rec6ZUTSF3',
-          },
-        },
-      ],
-      fldtFihTsI: [
-        {
-          name: '20231207-184703.gif',
-          size: 683535,
-          type: 'image/gif',
-          token: 'OppKbRBbyoOdXwxHGE7cAJZ6nig',
-          timeStamp: 1701946085892,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldtFihTsI',
-            recordId: 'rec6ZUTSF3',
-          },
-        },
-      ],
-      fldSeTbEAD: [
-        {
-          type: 'text',
-          text: '从身份证号中解析生日、性别、星座、生肖、籍贯等信息',
-        },
-      ],
-      fldh3bkCM1: [
-        {
-          type: 'text',
-          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWNIUzkyR09LOmRkZmJhMjNkN2JkZjgxYmU1OGNhMmRiOTBiMDlhZDRiOjE6SDRzSUFBQUpib2dBL3dBQ0FQMy9lMzBEQUVPL3BxTUNBQUFB',
-        },
-      ],
-      fldNtD9jZf: [
-        {
-          type: 'text',
-          text: 'itchao',
-        },
-      ],
-      fldf06ZXsH: [
-        {
-          type: 'text',
-          text: '身份证号解析',
-        },
-      ],
-      fldEVbT5zQ: [
-        {
-          type: 'url',
-          text: 'https://feishu.cn/base/extension/replit_3d8e53d9a7e4e3e3',
-          link: 'https://feishu.cn/base/extension/replit_3d8e53d9a7e4e3e3',
-        },
-      ],
-      fld9DbJ7HH: [
-        {
-          type: 'url',
-          text: 'https://replit.com/@lark-base/itchao-idCardToBirthday',
-          link: 'https://replit.com/@lark-base/itchao-idCardToBirthday',
-        },
-      ],
-    },
-    recordId: 'rec6ZUTSF3',
-    nameEn: 'ID Number Parser',
-    descriptionEn:
-      'Parse information such as birthdate, gender, zodiac sign, Chinese zodiac, and place of origin from an ID number.',
-    authorEn: 'itchao',
-    useMethodEn:
-      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "ID Number Parser" to add and use.',
-  },
-  {
-    fields: {
       fldjG7c2PH: 1705059978000,
       fldhYC30Ia: [
         {
@@ -6990,5 +6991,182 @@ export const records = [
     authorEn: 'Ocyss_04',
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Save as Long Image" to add and use.',
+  },
+  {
+    fields: {
+      fldjG7c2PH: 1705405333000,
+      fldU9XHNob: true,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「发票验真」即可使用',
+          type: 'text',
+        },
+      ],
+      fld8Zzxal9: {
+        id: 'opteTwma34',
+        text: '发票验真',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'Invoice Verification.png',
+          size: 9656,
+          type: 'image/png',
+          token: 'TzQkbzir4o4HllxTc0YcyaEWnZd',
+          timeStamp: 1705326821417,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu1rlieYt17f',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'Invoice Verification2.gif',
+          size: 853837,
+          type: 'image/gif',
+          token: 'GJPWb09jnoZM15xSujUc2DDfnld',
+          timeStamp: 1705325760579,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu1rlieYt17f',
+          },
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/InvoiceChecking',
+          link: 'https://replit.com/@lark-base/InvoiceChecking',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '李子',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '用于批量检验发票真伪、是否作废以及发票是否全额、部分红冲',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '发票验真',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d5ad851ce8c23e3',
+          link: 'https://feishu.cn/base/extension/replit_3d5ad851ce8c23e3',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MXFwaXB3ZHMyTzpmZTRkMWU2OGQxNmU0YzRlN2FiYzExYmJjODNiN2M0ODoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+    },
+    recordId: 'recu1rlieYt17f',
+    nameEn: 'Invoice Verification',
+    descriptionEn:
+      'Used for bulk verification of invoices to check authenticity, whether they are invalidated, and if they are fully or partially red-punched.',
+    authorEn: 'Plum',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Save as Long Image" to add and use.',
+  },
+  {
+    fields: {
+      fldjG7c2PH: 1705405333000,
+      fldU9XHNob: true,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「字段批量编辑」即可使用',
+          type: 'text',
+        },
+      ],
+      fld8Zzxal9: {
+        id: 'optBQW0dVR',
+        text: '字段批量编辑',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'Batch Field Editing.png',
+          size: 5840,
+          type: 'image/png',
+          token: 'LlUZbLBFyoCh0cxMKYccJcgDnyn',
+          timeStamp: 1705391073201,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu1vJ46grnnw',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'Batch Field Editing.gif',
+          size: 1271493,
+          type: 'image/gif',
+          token: 'XrcFbYs5VomgHtxzv31cwxXSnFc',
+          timeStamp: 1705391695560,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu1vJ46grnnw',
+          },
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/fieldEditing',
+          link: 'https://replit.com/@lark-base/fieldEditing',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '谢博文',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '批量修改字段名称、类型，以及复制字段',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '字段批量编辑',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d59f5255962a3e5',
+          link: 'https://feishu.cn/base/extension/replit_3d59f5255962a3e5',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MXZ2aGxNNTBEdDoxMTNjMzAyYzM3ODRjYjFiNTRlOGE0YjJkMmE2ODkxZDoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+    },
+    recordId: 'recu1vJ46grnnw',
+    nameEn: 'Batch Field Editing',
+    descriptionEn: 'Batch modify field names, types, and copy fields.',
+    authorEn: 'Xie Bowen',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
   },
 ];
