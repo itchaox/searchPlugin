@@ -7169,4 +7169,534 @@ export const records = [
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
   },
+  {
+    fields: {
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「SQL 生成器」即可使用',
+          type: 'text',
+        },
+      ],
+      fldU9XHNob: true,
+      fldjG7c2PH: 1705568151000,
+      fld8Zzxal9: {
+        id: 'opt2G0XhDb',
+        text: 'SQL 生成器',
+      },
+      fldtFihTsI: [
+        {
+          name: 'SQL Generator.gif',
+          size: 532831,
+          type: 'image/gif',
+          token: 'CeY5bcbScobwBOxwL34c5EWGndb',
+          timeStamp: 1705567950623,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu1HFlrpLpSI',
+          },
+        },
+      ],
+      fldoBvqZYU: [
+        {
+          name: 'SQL Generator.png',
+          size: 6478,
+          type: 'image/png',
+          token: 'NRJdbSMbwoF7DQxrGkRcapERnbv',
+          timeStamp: 1705567695335,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu1HFlrpLpSI',
+          },
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: 'SQL 生成器',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@trdjdofmsvsftai/sqlSheng-Cheng-Qi',
+          link: 'https://replit.com/@trdjdofmsvsftai/sqlSheng-Cheng-Qi',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '基于多个字段数据，自动生成 insert/update SQL 脚本',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MUh1bE9DWEo5bzpiZGFiYTU2ZmI2NjFiNTViNzlkOGI1MjE4NzM0MjA0NzoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '峻枫',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d5725627babe3e4',
+          link: 'https://feishu.cn/base/extension/replit_3d5725627babe3e4',
+        },
+      ],
+    },
+    recordId: 'recu1HFlrpLpSI',
+    nameEn: 'SQL Generator',
+    descriptionEn: 'Automatically generate insert/update SQL scripts based on multiple field data',
+    authorEn: 'Junfeng',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "SQL Generator" to add and use.',
+  },
+  {
+    fields: {
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「跨表比对」即可使用',
+          type: 'text',
+        },
+      ],
+      fldU9XHNob: true,
+      fldjG7c2PH: 1705648349000,
+      fld8Zzxal9: {
+        id: 'optA8kdVF3',
+        text: '跨表比对',
+      },
+      fldtFihTsI: [
+        {
+          name: 'Cross-table Comparison.gif',
+          size: 601874,
+          type: 'image/gif',
+          token: 'Q7Libnu3PoDa8fx90jsccJ2dno7',
+          timeStamp: 1705573738672,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu1I9yzDtkon',
+          },
+        },
+      ],
+      fldoBvqZYU: [
+        {
+          name: 'Cross-table Comparison.png',
+          size: 5970,
+          type: 'image/png',
+          token: 'SVnKbhNbgo6Uj9xV6NccaESOnjg',
+          timeStamp: 1705648349418,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu1I9yzDtkon',
+          },
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '跨表比对',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/dataDiffAnalyzer',
+          link: 'https://replit.com/@lark-base/dataDiffAnalyzer',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '自动比对两个数据表的差异，高亮显示新增、删除、修改的内容',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MXJ3UU5oN1lDMzpiOWIyZGVjY2Q5NzVmNmIyYzI1ZmI3ODNiMjM1MGE1ZToxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'leyuan',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d57304473aae3e3',
+          link: 'https://feishu.cn/base/extension/replit_3d57304473aae3e3',
+        },
+      ],
+    },
+    recordId: 'recu1I9yzDtkon',
+    nameEn: 'Cross-table Comparison',
+    descriptionEn:
+      'Automatically compare the differences between two data tables, highlighting newly added, deleted, and modified content.',
+    authorEn: 'leyuan',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
+  },
+  {
+    fields: {
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「AI 对话机」即可使用',
+          type: 'text',
+        },
+      ],
+      fldU9XHNob: true,
+      fldjG7c2PH: 1705904583000,
+      fld8Zzxal9: {
+        id: 'optAxISTWM',
+        text: 'AI 对话机',
+      },
+      fldtFihTsI: [
+        {
+          name: 'AI Chatbot.gif',
+          size: 496844,
+          type: 'image/gif',
+          token: 'TMHdbKY51oAYP7xPjEocJ8iwnFg',
+          timeStamp: 1705904521882,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu24zeTVxeH1',
+          },
+        },
+      ],
+      fldoBvqZYU: [
+        {
+          name: 'AI Chatbot.png',
+          size: 7068,
+          type: 'image/png',
+          token: 'CAx1b0uh0o8sCbx8xFMc4IrKnlf',
+          timeStamp: 1705024984021,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu24zeTVxeH1',
+          },
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: 'AI 对话机',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/bs-gpt',
+          link: 'https://replit.com/@lark-base/bs-gpt',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '基于人工智能的多维表格对话查询助手，能够轻松实现对复杂数据表格的分析',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MTNEWVNpakJWRDo3ZmE2Nzk3Mjc3ZTBiYWJlMGU5ZTdiMWMxN2EyZjRkMToxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'WumaCoder',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d5f6abc597ce3e3',
+          link: 'https://feishu.cn/base/extension/replit_3d5f6abc597ce3e3',
+        },
+      ],
+    },
+    recordId: 'recu24zeTVxeH1',
+    nameEn: 'AI Chatbot',
+    descriptionEn: 'AI-based Base dialogue query assistant, capable of easily analyzing complex data tables.',
+    authorEn: 'WumaCoder',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
+  },
+  {
+    fields: {
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「排班助手」即可使用',
+          type: 'text',
+        },
+      ],
+      fldU9XHNob: true,
+      fldjG7c2PH: 1705990482000,
+      fld8Zzxal9: {
+        id: 'optcc4Lwvu',
+        text: '排班助手',
+      },
+      fldtFihTsI: [
+        {
+          name: 'Scheduling Assistant.gif',
+          size: 1780226,
+          type: 'image/gif',
+          token: 'F0z4bMusrof84QxFGxUcpua5nUA',
+          timeStamp: 1705929137553,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu266MXL1zar',
+          },
+        },
+      ],
+      fldoBvqZYU: [
+        {
+          name: 'Scheduling Assistant.png',
+          size: 9527,
+          type: 'image/png',
+          token: 'KShVb70G4oPuBcxPzfpcARZ6neg',
+          timeStamp: 1705928956874,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu266MXL1zar',
+          },
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '排班助手',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/superClass',
+          link: 'https://replit.com/@lark-base/superClass',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '根据配置的班次与条件设置，对人员快速排班',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MjVQVFFrdlNNbzphMzVjYzhhOGI1MDljMzhlZGNlMzQ5MDUzNTk4OTg4ODoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '代码与梦想',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d5190a5a5aee3e6',
+          link: 'https://feishu.cn/base/extension/replit_3d5190a5a5aee3e6',
+        },
+      ],
+    },
+    recordId: 'recu266MXL1zar',
+    nameEn: 'Scheduling Assistant',
+    descriptionEn: 'Quickly schedule staff based on configured shifts and conditions.',
+    authorEn: 'Code and Dreams',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
+  },
+  {
+    fields: {
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「分账计算」即可使用',
+          type: 'text',
+        },
+      ],
+      fldU9XHNob: true,
+      fldjG7c2PH: 1705979151000,
+      fld8Zzxal9: {
+        id: 'optanao133',
+        text: '分账计算',
+      },
+      fldtFihTsI: [
+        {
+          name: 'Split Billing Calculation.gif',
+          size: 364889,
+          type: 'image/gif',
+          token: 'TgdPbcb5uouaO8xFwcHcoNWBnSg',
+          timeStamp: 1705931524695,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu26gQHxt9ve',
+          },
+        },
+      ],
+      fldoBvqZYU: [
+        {
+          name: 'Split Billing Calculation.png',
+          size: 5612,
+          type: 'image/png',
+          token: 'LGnwbQxNpo8FdlxkDEwctuD6nhd',
+          timeStamp: 1705979150936,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu26gQHxt9ve',
+          },
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '分账计算',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/SplitExpenses',
+          link: 'https://replit.com/@lark-base/SplitExpenses',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '基于付款人和付款金额列表，给出 AA 分账方案',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MjY5ekMxSWxVRTpiNzMzNDU5NTU3NjJjZTQyNGFjYTc3ZDVkM2M0NTBmYzoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '张小刀',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d519d1a976ee3e5',
+          link: 'https://feishu.cn/base/extension/replit_3d519d1a976ee3e5',
+        },
+      ],
+    },
+    recordId: 'recu26gQHxt9ve',
+    nameEn: 'Split Billing Calculation',
+    descriptionEn: 'Based on the list of payers and payment amounts, provide an AA split billing plan.',
+    authorEn: 'Zhang Xiaodao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
+  },
+  {
+    fields: {
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「表单默认值配置器」即可使用',
+          type: 'text',
+        },
+      ],
+      fldU9XHNob: false,
+      fldjG7c2PH: 1706000523000,
+      fld8Zzxal9: {
+        id: 'optdAZ4xLR',
+        text: '表单默认值配置器',
+      },
+      fldtFihTsI: [
+        {
+          name: 'Form Default Value Configurator.gif',
+          size: 1438304,
+          type: 'image/gif',
+          token: 'UgsVbWj12oMchTxY2xicbJeBnCh',
+          timeStamp: 1706000315833,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu2aEKzE6Cid',
+          },
+        },
+      ],
+      fldoBvqZYU: [
+        {
+          name: 'Form Default Value Configurator.png',
+          size: 6169,
+          type: 'image/png',
+          token: 'CxCybNNvAog9BFxYjpZcvbgfnmf',
+          timeStamp: 1705996933421,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu2aEKzE6Cid',
+          },
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '表单默认值配置器',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/FormDefaultsConfigurator',
+          link: 'https://replit.com/@lark-base/FormDefaultsConfigurator',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '简化表单默认值的配置流程，支持一键复制和快速预览表单默认值地址',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MmF5Q0JaeGoyTjpjOGZiMjA0NWVlOGVkMjA0ZmM3ZWFkZjFmOTljYmZlMzoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d50ab50672663e5',
+          link: 'https://feishu.cn/base/extension/replit_3d50ab50672663e5',
+        },
+      ],
+    },
+    recordId: 'recu2aEKzE6Cid',
+    nameEn: 'Form Default Value Configurator',
+    descriptionEn:
+      'Simplify the process of configuring form default values, supporting one-click copy and quick preview of the form default value link.',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
+  },
 ];
