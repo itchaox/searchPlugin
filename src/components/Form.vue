@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-01-17 21:12
+ * @LastTime   : 2024-02-03 11:38
  * @desc       : 
 -->
 
@@ -205,6 +205,11 @@
 
   const isShowTable = ref(true);
   function search() {
+    if (!pluginInfo.value) {
+      reset();
+      return;
+    }
+
     inputText.value = pluginInfo.value;
 
     isShowTable.value = false;
