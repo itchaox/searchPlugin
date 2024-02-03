@@ -7699,4 +7699,438 @@ export const records = [
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
   },
+  {
+    fields: {
+      fldU9XHNob: true,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「附件转CDN链接」即可使用',
+          type: 'text',
+        },
+      ],
+      fldjG7c2PH: 1706180907000,
+      fld8Zzxal9: {
+        id: 'optxuf0i8C',
+        text: '附件转CDN链接',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'Attachment to CDN Link.png',
+          size: 13170,
+          type: 'image/png',
+          token: 'O9QKbkrwFoG5pDxrjMOcU2QdnBI',
+          timeStamp: 1706176231164,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu2mQ8vbWOzG',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'img_v3_027e_95aabcbf-afdd-4e77-bd3d-3476ce65a7bg.gif',
+          size: 1515857,
+          type: 'image/gif',
+          token: 'BqPzbHxLUowfDgx8sIkc22yMnNB',
+          timeStamp: 1706179390198,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu2mQ8vbWOzG',
+          },
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d4ded52842ea3e3',
+          link: 'https://feishu.cn/base/extension/replit_3d4ded52842ea3e3',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '附件转CDN链接',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/feishu-picsBed',
+          link: 'https://replit.com/@lark-base/feishu-picsBed',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '无意',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1Mm1sQkJmS0J6cTo5NTZlOGU3YzU5ZjAzYzVlYzhlOTQ0YTUxY2Y0MDRlMDoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '批量将附件上传至个人或公司指定CDN源，并获取CDN链接',
+        },
+      ],
+    },
+    recordId: 'recu2mQ8vbWOzG',
+    nameEn: 'Attachment to CDN Link',
+    descriptionEn: 'Batch Upload Attachments to Personal or Company-Specified CDN Sources and Retrieve CDN Links',
+    authorEn: 'Wu Yi',
+  },
+  {
+    fields: {
+      fldU9XHNob: true,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「真实水印」即可使用',
+          type: 'text',
+        },
+      ],
+      fldjG7c2PH: 1706608839000,
+      fld8Zzxal9: {
+        id: 'optcEfNuxG',
+        text: '真实水印',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'Real Watermark.png',
+          size: 7639,
+          type: 'image/png',
+          token: 'QFgsbGHs0oGvgCxWIbrcs0oBn4c',
+          timeStamp: 1706173317613,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu2PlrRjR3IF',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'Real Watermark.gif',
+          size: 3962720,
+          type: 'image/gif',
+          token: 'AeGpbnVPhoP90yx8sxhcz3EMn8f',
+          timeStamp: 1706608573704,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu2PlrRjR3IF',
+          },
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d4755fc646463e3',
+          link: 'https://feishu.cn/base/extension/replit_3d4755fc646463e3',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '真实水印',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/bereal',
+          link: 'https://replit.com/@lark-base/bereal',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '水印快拍',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1Mm1yamJCVEFpSToyN2Q4ODdkYTY4MWViNTk5NDRkOWIxZjhjMzIzODY2ZDoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '结合多维表格自动化流程，自动为表单上传的图片添加时间和地理位置水印',
+        },
+      ],
+    },
+    recordId: 'recu2PlrRjR3IF',
+    nameEn: 'Real Watermark',
+    descriptionEn:
+      'Combine Base Automated Process to Automatically Add Time and Geolocation Watermarks to Images Uploaded via Forms.',
+    authorEn: 'Watermark Quick Shot Team',
+  },
+  {
+    fields: {
+      fldU9XHNob: true,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「新表字段配置器」即可使用',
+          type: 'text',
+        },
+      ],
+      fldjG7c2PH: 1706862172000,
+      fld8Zzxal9: {
+        id: 'optIVVu32f',
+        text: '新表字段配置器',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'New Base Field Configurator.png',
+          size: 6133,
+          type: 'image/png',
+          token: 'TJg2bw5egoPoj9xlFx1cZdRvnCb',
+          timeStamp: 1706689782153,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu2VGbAe6nTE',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'New Base Field Configurator.gif',
+          size: 5515532,
+          type: 'image/gif',
+          token: 'C3xWbsT2toOSw6xsyNEcM3OKnCb',
+          timeStamp: 1706861698432,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu2VGbAe6nTE',
+          },
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d463a2ebe23e3e4',
+          link: 'https://feishu.cn/base/extension/replit_3d463a2ebe23e3e4',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '新表字段配置器',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/NewTableFieldConfigurator#src/App.vue',
+          link: 'https://replit.com/@lark-base/NewTableFieldConfigurator#src/App.vue',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MlVnOXYzSFM1dzowMTAzNGQ3NWQzNjdiNjZiZTljMDAxMzAzNDAzYzNiOToxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '新表字段配置器旨在提高数据表的创建效率，预先配置字段模板，轻松应用到新增数据表中。',
+        },
+      ],
+    },
+    recordId: 'recu2VGbAe6nTE',
+    nameEn: 'New Base Field Configurator',
+    descriptionEn:
+      'The New Base Field Configurator is designed to enhance the efficiency of creating data tables, allowing for the pre-configuration of field templates for easy application in new data tables.',
+    authorEn: 'itchao',
+  },
+  {
+    fields: {
+      fldU9XHNob: true,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「扫码出入库管理」即可使用',
+          type: 'text',
+        },
+      ],
+      fldjG7c2PH: 1706769996000,
+      fld8Zzxal9: {
+        id: 'optHLyVOnf',
+        text: '扫码出入库管理',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'Group 1321318331.png',
+          size: 8906,
+          type: 'image/png',
+          token: 'NF6tbuCT0oL7QvxiNMgcCNhince',
+          timeStamp: 1706769946423,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu30j3rAjFx0',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'Barcode Scanning for Inventory Management.GIF',
+          size: 1498392,
+          type: 'image/gif',
+          token: 'W1ZCb7Rysodml5x0w2sczatEnZg',
+          timeStamp: 1706702651515,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu30j3rAjFx0',
+          },
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d44cf79d0fee3e3',
+          link: 'https://feishu.cn/base/extension/replit_3d44cf79d0fee3e3',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '扫码出入库管理',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/inventory-management',
+          link: 'https://replit.com/@lark-base/inventory-management',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'Check',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MlZKMVQyOU5BVTo1ZDY5NDg4NjBhOGJjMTg3MDJkNzkxMGFmMjc1Y2MxMToxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '出入库管理：自动判断条码是否已存在，减少人工操作，提高效率',
+        },
+      ],
+    },
+    recordId: 'recu30j3rAjFx0',
+    nameEn: 'Barcode Scanning for Inventory Management',
+    descriptionEn:
+      'Inventory Management: Automatically determine if the barcode already exists to reduce manual operations and improve efficiency.',
+    authorEn: 'Check',
+  },
+  {
+    fields: {
+      fldU9XHNob: true,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「随机抽取数据」即可使用',
+          type: 'text',
+        },
+      ],
+      fldjG7c2PH: 1706758548000,
+      fld8Zzxal9: {
+        id: 'optAXh95SZ',
+        text: '随机抽取数据',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'Randomly Extract Data.png',
+          size: 9086,
+          type: 'image/png',
+          token: 'WpK3bOX0iozBOqx2lKMcWfsOnDc',
+          timeStamp: 1706696542515,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu30j3rAryk4',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'Randomly Extract Data.gif',
+          size: 1041986,
+          type: 'image/gif',
+          token: 'Tnfwb3TuMouPBHxG8aZc9WInnXe',
+          timeStamp: 1706757963840,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu30j3rAryk4',
+          },
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d44cfde6aeee3e5',
+          link: 'https://feishu.cn/base/extension/replit_3d44cfde6aeee3e5',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '随机抽取数据',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/RandomlyDraw',
+          link: 'https://replit.com/@lark-base/RandomlyDraw',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '黎老师',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MlZZYU1YcEl5YTozMjNjZDEzMjE1OTg2MGFlYmIwMDJkZDI3MThhNjUxNDoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '支持从多维表格中抽取奖品、题目、人员、号码等信息，支持从不同视图中读取数据，并可以设置抽取数量以及选择是否保存抽取的信息到表格中',
+        },
+      ],
+    },
+    recordId: 'recu30j3rAryk4',
+    nameEn: 'Randomly Extract Data',
+    descriptionEn:
+      'Supports extracting information such as prizes, questions, personnel, and numbers from Base, allows reading data from different views, and enables setting the extraction quantity and choosing whether to save the extracted information back to the Base.',
+    authorEn: 'Mr Li',
+  },
 ];
