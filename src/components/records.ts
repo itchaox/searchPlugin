@@ -1,6 +1,621 @@
 export const records = [
   {
     fields: {
+      fldjG7c2PH: 1704972537000,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「视图管理器」即可使用',
+          type: 'text',
+        },
+      ],
+      fld8Zzxal9: {
+        id: 'optsz3ubCE',
+        text: '视图管理器',
+      },
+      fldoBvqZYU: [
+        {
+          name: '视图管理器.png',
+          size: 5993,
+          type: 'image/png',
+          token: 'A0Dybq6fRot8EtxbVGKcFQpOn8g',
+          timeStamp: 1703747766680,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'rectZbfN8R5AKa',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: '20231226-142638.gif',
+          size: 4553642,
+          type: 'image/gif',
+          token: 'FKdWbKJk9omfXKxKUyecjEY8n7c',
+          timeStamp: 1703572180006,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'rectZbfN8R5AKa',
+          },
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '批量管理多维表格视图，删除个人视图',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWNaSm1BZERFOjZlMmNlMzRhZGJkZDJlMDA0OGNmNGFmODZiMWQ5MTFjOjE6SDRzSUFBQUpib2dBL3dBQ0FQMy9lMzBEQUVPL3BxTUNBQUFB',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '视图管理器',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d7ab3c2b87723e5',
+          link: 'https://feishu.cn/base/extension/replit_3d7ab3c2b87723e5',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/viewManager',
+          link: 'https://replit.com/@lark-base/viewManager',
+        },
+      ],
+    },
+    recordId: 'rectZbfN8R5AKa',
+    nameEn: 'View Manager',
+    descriptionEn: 'Manage multiple Base views in bulk, delete personal views',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "View Manager" to add and use.',
+  },
+  {
+    fields: {
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「表单默认值配置器」即可使用',
+          type: 'text',
+        },
+      ],
+      fldU9XHNob: false,
+      fldjG7c2PH: 1706000523000,
+      fld8Zzxal9: {
+        id: 'optdAZ4xLR',
+        text: '表单默认值配置器',
+      },
+      fldtFihTsI: [
+        {
+          name: 'Form Default Value Configurator.gif',
+          size: 1438304,
+          type: 'image/gif',
+          token: 'UgsVbWj12oMchTxY2xicbJeBnCh',
+          timeStamp: 1706000315833,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu2aEKzE6Cid',
+          },
+        },
+      ],
+      fldoBvqZYU: [
+        {
+          name: 'Form Default Value Configurator.png',
+          size: 6169,
+          type: 'image/png',
+          token: 'CxCybNNvAog9BFxYjpZcvbgfnmf',
+          timeStamp: 1705996933421,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu2aEKzE6Cid',
+          },
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '表单默认值配置器',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/FormDefaultsConfigurator',
+          link: 'https://replit.com/@lark-base/FormDefaultsConfigurator',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '简化表单默认值的配置流程，支持一键复制和快速预览表单默认值地址',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MmF5Q0JaeGoyTjpjOGZiMjA0NWVlOGVkMjA0ZmM3ZWFkZjFmOTljYmZlMzoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d50ab50672663e5',
+          link: 'https://feishu.cn/base/extension/replit_3d50ab50672663e5',
+        },
+      ],
+    },
+    recordId: 'recu2aEKzE6Cid',
+    nameEn: 'Form Default Value Configurator',
+    descriptionEn:
+      'Simplify the process of configuring form default values, supporting one-click copy and quick preview of the form default value link.',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
+  },
+  {
+    fields: {
+      fldU9XHNob: true,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「新表字段配置器」即可使用',
+          type: 'text',
+        },
+      ],
+      fldjG7c2PH: 1706862172000,
+      fld8Zzxal9: {
+        id: 'optIVVu32f',
+        text: '新表字段配置器',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'New Base Field Configurator.png',
+          size: 6133,
+          type: 'image/png',
+          token: 'TJg2bw5egoPoj9xlFx1cZdRvnCb',
+          timeStamp: 1706689782153,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu2VGbAe6nTE',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'New Base Field Configurator.gif',
+          size: 5515532,
+          type: 'image/gif',
+          token: 'C3xWbsT2toOSw6xsyNEcM3OKnCb',
+          timeStamp: 1706861698432,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu2VGbAe6nTE',
+          },
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d463a2ebe23e3e4',
+          link: 'https://feishu.cn/base/extension/replit_3d463a2ebe23e3e4',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '新表字段配置器',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/NewTableFieldConfigurator#src/App.vue',
+          link: 'https://replit.com/@lark-base/NewTableFieldConfigurator#src/App.vue',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MlVnOXYzSFM1dzowMTAzNGQ3NWQzNjdiNjZiZTljMDAxMzAzNDAzYzNiOToxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '新表字段配置器旨在提高数据表的创建效率，预先配置字段模板，轻松应用到新增数据表中。',
+        },
+      ],
+    },
+    recordId: 'recu2VGbAe6nTE',
+    nameEn: 'New Base Field Configurator',
+    descriptionEn:
+      'The New Base Field Configurator is designed to enhance the efficiency of creating data tables, allowing for the pre-configuration of field templates for easy application in new data tables.',
+    authorEn: 'itchao',
+  },
+  {
+    fields: {
+      fldjG7c2PH: 1704882886000,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「批量复制记录」即可使用',
+          type: 'text',
+        },
+      ],
+      fld8Zzxal9: {
+        id: 'optpkpIJBB',
+        text: '批量复制记录',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'Batch Copy Records.png',
+          size: 6277,
+          type: 'image/png',
+          token: 'HKPYbiTugoHubIx87fJcAJeBnhc',
+          timeStamp: 1704881974731,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu0XnmxLf1Lo',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'Batch Copy Records.gif',
+          size: 713240,
+          type: 'image/gif',
+          token: 'VdCnb1TPZo4cZXxhlVQcPB59nef',
+          timeStamp: 1704882657143,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu0XnmxLf1Lo',
+          },
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '批量复制记录，轻而易举',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MFg4c1pqS0NDczoyYmY0NWVmOGFkMTMxNDJiNmUwNzAxODc4NmJiZDJlYjoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '批量复制记录',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d61acffd1e4e3fb',
+          link: 'https://feishu.cn/base/extension/replit_3d61acffd1e4e3fb',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://github.com/itchaox/batchCopyRecord',
+          link: 'https://github.com/itchaox/batchCopyRecord',
+        },
+      ],
+    },
+    recordId: 'recu0XnmxLf1Lo',
+    nameEn: 'Batch Copy Records',
+    descriptionEn: 'Effortlessly batch copy records.',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Batch Copy Records" to add and use.',
+  },
+  {
+    fields: {
+      fldjG7c2PH: 1704974964000,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「身份证号解析」即可使用',
+          type: 'text',
+        },
+      ],
+      fld8Zzxal9: {
+        id: 'optv6t2oOS',
+        text: '身份证号解析',
+      },
+      fldoBvqZYU: [
+        {
+          name: '身份证号解析.png',
+          size: 7161,
+          type: 'image/png',
+          token: 'W2HbbXYr3oPllCxOkoocVXxnnZe',
+          timeStamp: 1703747751480,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'rec6ZUTSF3',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: '20231207-184703.gif',
+          size: 683535,
+          type: 'image/gif',
+          token: 'OppKbRBbyoOdXwxHGE7cAJZ6nig',
+          timeStamp: 1701946085892,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'rec6ZUTSF3',
+          },
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '从身份证号中解析生日、性别、星座、生肖、籍贯等信息',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWNIUzkyR09LOmRkZmJhMjNkN2JkZjgxYmU1OGNhMmRiOTBiMDlhZDRiOjE6SDRzSUFBQUpib2dBL3dBQ0FQMy9lMzBEQUVPL3BxTUNBQUFB',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '身份证号解析',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d8e53d9a7e4e3e3',
+          link: 'https://feishu.cn/base/extension/replit_3d8e53d9a7e4e3e3',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/itchao-idCardToBirthday',
+          link: 'https://replit.com/@lark-base/itchao-idCardToBirthday',
+        },
+      ],
+    },
+    recordId: 'rec6ZUTSF3',
+    nameEn: 'ID Number Parser',
+    descriptionEn:
+      'Parse information such as birthdate, gender, zodiac sign, Chinese zodiac, and place of origin from an ID number.',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "ID Number Parser" to add and use.',
+  },
+  {
+    fields: {
+      fldjG7c2PH: 1704975109000,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「简体繁体互转」即可使用',
+          type: 'text',
+        },
+      ],
+      fld8Zzxal9: {
+        id: 'optsUyTd0V',
+        text: '简体繁体互转',
+      },
+      fldoBvqZYU: [
+        {
+          name: '简体繁体互转.png',
+          size: 20102,
+          type: 'image/png',
+          token: 'JYvjbEdehoSCntxG7p9cTAswnIG',
+          timeStamp: 1703747746169,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'rec0mjqCje',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'Xnip2023-12-06_18-18-28.png',
+          size: 319312,
+          type: 'image/png',
+          token: 'E31obt1z1oPQqNxAANccAAy1n8f',
+          timeStamp: 1701858204163,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'rec0mjqCje',
+          },
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '用于简体和繁体互转，支持多种繁体和转换模式',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWNCMERKTnFNOjExMzMxY2E0NjIyMTNiNDQ1M2JkNmU2YmY5MjBlOGEyOjE6SDRzSUFBQUpib2dBL3dBQ0FQMy9lMzBEQUVPL3BxTUNBQUFB',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '简体繁体互转',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d8ffe7b0d6823e5',
+          link: 'https://feishu.cn/base/extension/replit_3d8ffe7b0d6823e5',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/SimplifiedTraditionalConverter',
+          link: 'https://replit.com/@lark-base/SimplifiedTraditionalConverter',
+        },
+      ],
+    },
+    recordId: 'rec0mjqCje',
+    nameEn: 'Simplified and Traditional Chinese conversion',
+    descriptionEn:
+      'Used for converting between Simplified and Traditional Chinese, supporting multiple Traditional Chinese variants and conversion modes',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Simplified and Traditional Chinese conversion" to add and use.',
+  },
+  {
+    fields: {
+      fldjG7c2PH: 1704774206000,
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「插件搜索」即可使用',
+          type: 'text',
+        },
+      ],
+      fld8Zzxal9: {
+        id: 'optaij7l0g',
+        text: '插件搜索',
+      },
+      fldoBvqZYU: [
+        {
+          name: 'search.png',
+          size: 8862,
+          type: 'image/png',
+          token: 'ECwwbH6eaosGoAxPRnoc0sJsnEc',
+          timeStamp: 1704362689320,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu0nyT4XDcMi',
+          },
+        },
+      ],
+      fldtFihTsI: [
+        {
+          name: 'search.gif',
+          size: 1332324,
+          type: 'image/gif',
+          token: 'Rv5abzNrVoWxwgxIb5qcMcTZnLg',
+          timeStamp: 1704355462600,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu0nyT4XDcMi',
+          },
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '高效搜索、智能筛选，让插件市场尽在掌握，找到心仪插件轻松又快捷',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MGhFWTFnVUx4eDplYzliZTY5MDY3NDE2MDM4MDYxYzAyNzg3MDgwNmFiMjoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: 'itchao',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '插件搜索',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d69a53a4321e3e5',
+          link: 'https://feishu.cn/base/extension/replit_3d69a53a4321e3e5',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/searchPlugin',
+          link: 'https://replit.com/@lark-base/searchPlugin',
+        },
+      ],
+    },
+    recordId: 'recu0nyT4XDcMi',
+    nameEn: 'Extension Search',
+    descriptionEn:
+      'Efficiently search and intelligently filter to master the Extension marketplace, easily and quickly finding the desired Extension.',
+    authorEn: 'itchao',
+    useMethodEn:
+      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Extension Search" to add and use.',
+  },
+
+  {
+    fields: {
       fldjG7c2PH: 1704364263000,
       fldhYC30Ia: [
         {
@@ -87,93 +702,7 @@ export const records = [
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Batch Upload Attachments" to add and use.',
   },
-  {
-    fields: {
-      fldjG7c2PH: 1704972537000,
-      fldhYC30Ia: [
-        {
-          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「视图管理器」即可使用',
-          type: 'text',
-        },
-      ],
-      fld8Zzxal9: {
-        id: 'optsz3ubCE',
-        text: '视图管理器',
-      },
-      fldoBvqZYU: [
-        {
-          name: '视图管理器.png',
-          size: 5993,
-          type: 'image/png',
-          token: 'A0Dybq6fRot8EtxbVGKcFQpOn8g',
-          timeStamp: 1703747766680,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldoBvqZYU',
-            recordId: 'rectZbfN8R5AKa',
-          },
-        },
-      ],
-      fldtFihTsI: [
-        {
-          name: '20231226-142638.gif',
-          size: 4553642,
-          type: 'image/gif',
-          token: 'FKdWbKJk9omfXKxKUyecjEY8n7c',
-          timeStamp: 1703572180006,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldtFihTsI',
-            recordId: 'rectZbfN8R5AKa',
-          },
-        },
-      ],
-      fldSeTbEAD: [
-        {
-          type: 'text',
-          text: '批量管理多维表格视图，删除个人视图',
-        },
-      ],
-      fldh3bkCM1: [
-        {
-          type: 'text',
-          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWNaSm1BZERFOjZlMmNlMzRhZGJkZDJlMDA0OGNmNGFmODZiMWQ5MTFjOjE6SDRzSUFBQUpib2dBL3dBQ0FQMy9lMzBEQUVPL3BxTUNBQUFB',
-        },
-      ],
-      fldNtD9jZf: [
-        {
-          type: 'text',
-          text: 'itchao',
-        },
-      ],
-      fldf06ZXsH: [
-        {
-          type: 'text',
-          text: '视图管理器',
-        },
-      ],
-      fldEVbT5zQ: [
-        {
-          type: 'url',
-          text: 'https://feishu.cn/base/extension/replit_3d7ab3c2b87723e5',
-          link: 'https://feishu.cn/base/extension/replit_3d7ab3c2b87723e5',
-        },
-      ],
-      fld9DbJ7HH: [
-        {
-          type: 'url',
-          text: 'https://replit.com/@lark-base/viewManager',
-          link: 'https://replit.com/@lark-base/viewManager',
-        },
-      ],
-    },
-    recordId: 'rectZbfN8R5AKa',
-    nameEn: 'View Manager',
-    descriptionEn: 'Manage multiple Base views in bulk, delete personal views',
-    authorEn: 'itchao',
-    useMethodEn:
-      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "View Manager" to add and use.',
-  },
+
   {
     fields: {
       fldjG7c2PH: 1704975172000,
@@ -436,94 +965,7 @@ export const records = [
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Image Exif Information Extraction" to add and use.',
   },
-  {
-    fields: {
-      fldjG7c2PH: 1704774206000,
-      fldhYC30Ia: [
-        {
-          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「插件搜索」即可使用',
-          type: 'text',
-        },
-      ],
-      fld8Zzxal9: {
-        id: 'optaij7l0g',
-        text: '插件搜索',
-      },
-      fldoBvqZYU: [
-        {
-          name: 'search.png',
-          size: 8862,
-          type: 'image/png',
-          token: 'ECwwbH6eaosGoAxPRnoc0sJsnEc',
-          timeStamp: 1704362689320,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldoBvqZYU',
-            recordId: 'recu0nyT4XDcMi',
-          },
-        },
-      ],
-      fldtFihTsI: [
-        {
-          name: 'search.gif',
-          size: 1332324,
-          type: 'image/gif',
-          token: 'Rv5abzNrVoWxwgxIb5qcMcTZnLg',
-          timeStamp: 1704355462600,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldtFihTsI',
-            recordId: 'recu0nyT4XDcMi',
-          },
-        },
-      ],
-      fldSeTbEAD: [
-        {
-          type: 'text',
-          text: '高效搜索、智能筛选，让插件市场尽在掌握，找到心仪插件轻松又快捷',
-        },
-      ],
-      fldh3bkCM1: [
-        {
-          type: 'text',
-          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MGhFWTFnVUx4eDplYzliZTY5MDY3NDE2MDM4MDYxYzAyNzg3MDgwNmFiMjoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
-        },
-      ],
-      fldNtD9jZf: [
-        {
-          type: 'text',
-          text: 'itchao',
-        },
-      ],
-      fldf06ZXsH: [
-        {
-          type: 'text',
-          text: '插件搜索',
-        },
-      ],
-      fldEVbT5zQ: [
-        {
-          type: 'url',
-          text: 'https://feishu.cn/base/extension/replit_3d69a53a4321e3e5',
-          link: 'https://feishu.cn/base/extension/replit_3d69a53a4321e3e5',
-        },
-      ],
-      fld9DbJ7HH: [
-        {
-          type: 'url',
-          text: 'https://replit.com/@lark-base/searchPlugin',
-          link: 'https://replit.com/@lark-base/searchPlugin',
-        },
-      ],
-    },
-    recordId: 'recu0nyT4XDcMi',
-    nameEn: 'Extension Search',
-    descriptionEn:
-      'Efficiently search and intelligently filter to master the Extension marketplace, easily and quickly finding the desired Extension.',
-    authorEn: 'itchao',
-    useMethodEn:
-      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Extension Search" to add and use.',
-  },
+
   {
     fields: {
       fldjG7c2PH: 1704438003000,
@@ -599,94 +1041,6 @@ export const records = [
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Lottery Carousel" to add and use.',
   },
 
-  {
-    fields: {
-      fldjG7c2PH: 1704974964000,
-      fldhYC30Ia: [
-        {
-          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「身份证号解析」即可使用',
-          type: 'text',
-        },
-      ],
-      fld8Zzxal9: {
-        id: 'optv6t2oOS',
-        text: '身份证号解析',
-      },
-      fldoBvqZYU: [
-        {
-          name: '身份证号解析.png',
-          size: 7161,
-          type: 'image/png',
-          token: 'W2HbbXYr3oPllCxOkoocVXxnnZe',
-          timeStamp: 1703747751480,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldoBvqZYU',
-            recordId: 'rec6ZUTSF3',
-          },
-        },
-      ],
-      fldtFihTsI: [
-        {
-          name: '20231207-184703.gif',
-          size: 683535,
-          type: 'image/gif',
-          token: 'OppKbRBbyoOdXwxHGE7cAJZ6nig',
-          timeStamp: 1701946085892,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldtFihTsI',
-            recordId: 'rec6ZUTSF3',
-          },
-        },
-      ],
-      fldSeTbEAD: [
-        {
-          type: 'text',
-          text: '从身份证号中解析生日、性别、星座、生肖、籍贯等信息',
-        },
-      ],
-      fldh3bkCM1: [
-        {
-          type: 'text',
-          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWNIUzkyR09LOmRkZmJhMjNkN2JkZjgxYmU1OGNhMmRiOTBiMDlhZDRiOjE6SDRzSUFBQUpib2dBL3dBQ0FQMy9lMzBEQUVPL3BxTUNBQUFB',
-        },
-      ],
-      fldNtD9jZf: [
-        {
-          type: 'text',
-          text: 'itchao',
-        },
-      ],
-      fldf06ZXsH: [
-        {
-          type: 'text',
-          text: '身份证号解析',
-        },
-      ],
-      fldEVbT5zQ: [
-        {
-          type: 'url',
-          text: 'https://feishu.cn/base/extension/replit_3d8e53d9a7e4e3e3',
-          link: 'https://feishu.cn/base/extension/replit_3d8e53d9a7e4e3e3',
-        },
-      ],
-      fld9DbJ7HH: [
-        {
-          type: 'url',
-          text: 'https://replit.com/@lark-base/itchao-idCardToBirthday',
-          link: 'https://replit.com/@lark-base/itchao-idCardToBirthday',
-        },
-      ],
-    },
-    recordId: 'rec6ZUTSF3',
-    nameEn: 'ID Number Parser',
-    descriptionEn:
-      'Parse information such as birthdate, gender, zodiac sign, Chinese zodiac, and place of origin from an ID number.',
-    authorEn: 'itchao',
-    useMethodEn:
-      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "ID Number Parser" to add and use.',
-  },
   {
     fields: {
       fldjG7c2PH: 1704881952000,
@@ -948,93 +1302,7 @@ export const records = [
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Link Preview" to add and use.',
   },
-  {
-    fields: {
-      fldjG7c2PH: 1704882886000,
-      fldhYC30Ia: [
-        {
-          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「批量复制记录」即可使用',
-          type: 'text',
-        },
-      ],
-      fld8Zzxal9: {
-        id: 'optpkpIJBB',
-        text: '批量复制记录',
-      },
-      fldoBvqZYU: [
-        {
-          name: 'Batch Copy Records.png',
-          size: 6277,
-          type: 'image/png',
-          token: 'HKPYbiTugoHubIx87fJcAJeBnhc',
-          timeStamp: 1704881974731,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldoBvqZYU',
-            recordId: 'recu0XnmxLf1Lo',
-          },
-        },
-      ],
-      fldtFihTsI: [
-        {
-          name: 'Batch Copy Records.gif',
-          size: 713240,
-          type: 'image/gif',
-          token: 'VdCnb1TPZo4cZXxhlVQcPB59nef',
-          timeStamp: 1704882657143,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldtFihTsI',
-            recordId: 'recu0XnmxLf1Lo',
-          },
-        },
-      ],
-      fldSeTbEAD: [
-        {
-          type: 'text',
-          text: '批量复制记录，轻而易举',
-        },
-      ],
-      fldh3bkCM1: [
-        {
-          type: 'text',
-          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MFg4c1pqS0NDczoyYmY0NWVmOGFkMTMxNDJiNmUwNzAxODc4NmJiZDJlYjoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
-        },
-      ],
-      fldNtD9jZf: [
-        {
-          type: 'text',
-          text: 'itchao',
-        },
-      ],
-      fldf06ZXsH: [
-        {
-          type: 'text',
-          text: '批量复制记录',
-        },
-      ],
-      fldEVbT5zQ: [
-        {
-          type: 'url',
-          text: 'https://feishu.cn/base/extension/replit_3d61acffd1e4e3fb',
-          link: 'https://feishu.cn/base/extension/replit_3d61acffd1e4e3fb',
-        },
-      ],
-      fld9DbJ7HH: [
-        {
-          type: 'url',
-          text: 'https://github.com/itchaox/batchCopyRecord',
-          link: 'https://github.com/itchaox/batchCopyRecord',
-        },
-      ],
-    },
-    recordId: 'recu0XnmxLf1Lo',
-    nameEn: 'Batch Copy Records',
-    descriptionEn: 'Effortlessly batch copy records.',
-    authorEn: 'itchao',
-    useMethodEn:
-      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Batch Copy Records" to add and use.',
-  },
+
   {
     fields: {
       fldjG7c2PH: 1704976012000,
@@ -4069,94 +4337,7 @@ export const records = [
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Random Sorting" to add and use.',
   },
-  {
-    fields: {
-      fldjG7c2PH: 1704975109000,
-      fldhYC30Ia: [
-        {
-          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「简体繁体互转」即可使用',
-          type: 'text',
-        },
-      ],
-      fld8Zzxal9: {
-        id: 'optsUyTd0V',
-        text: '简体繁体互转',
-      },
-      fldoBvqZYU: [
-        {
-          name: '简体繁体互转.png',
-          size: 20102,
-          type: 'image/png',
-          token: 'JYvjbEdehoSCntxG7p9cTAswnIG',
-          timeStamp: 1703747746169,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldoBvqZYU',
-            recordId: 'rec0mjqCje',
-          },
-        },
-      ],
-      fldtFihTsI: [
-        {
-          name: 'Xnip2023-12-06_18-18-28.png',
-          size: 319312,
-          type: 'image/png',
-          token: 'E31obt1z1oPQqNxAANccAAy1n8f',
-          timeStamp: 1701858204163,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldtFihTsI',
-            recordId: 'rec0mjqCje',
-          },
-        },
-      ],
-      fldSeTbEAD: [
-        {
-          type: 'text',
-          text: '用于简体和繁体互转，支持多种繁体和转换模式',
-        },
-      ],
-      fldh3bkCM1: [
-        {
-          type: 'text',
-          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWNCMERKTnFNOjExMzMxY2E0NjIyMTNiNDQ1M2JkNmU2YmY5MjBlOGEyOjE6SDRzSUFBQUpib2dBL3dBQ0FQMy9lMzBEQUVPL3BxTUNBQUFB',
-        },
-      ],
-      fldNtD9jZf: [
-        {
-          type: 'text',
-          text: 'itchao',
-        },
-      ],
-      fldf06ZXsH: [
-        {
-          type: 'text',
-          text: '简体繁体互转',
-        },
-      ],
-      fldEVbT5zQ: [
-        {
-          type: 'url',
-          text: 'https://feishu.cn/base/extension/replit_3d8ffe7b0d6823e5',
-          link: 'https://feishu.cn/base/extension/replit_3d8ffe7b0d6823e5',
-        },
-      ],
-      fld9DbJ7HH: [
-        {
-          type: 'url',
-          text: 'https://replit.com/@lark-base/SimplifiedTraditionalConverter',
-          link: 'https://replit.com/@lark-base/SimplifiedTraditionalConverter',
-        },
-      ],
-    },
-    recordId: 'rec0mjqCje',
-    nameEn: 'Simplified and Traditional Chinese conversion',
-    descriptionEn:
-      'Used for converting between Simplified and Traditional Chinese, supporting multiple Traditional Chinese variants and conversion modes',
-    authorEn: 'itchao',
-    useMethodEn:
-      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Simplified and Traditional Chinese conversion" to add and use.',
-  },
+
   {
     fields: {
       fldjG7c2PH: 1705051282000,
@@ -7610,95 +7791,7 @@ export const records = [
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
   },
-  {
-    fields: {
-      fldhYC30Ia: [
-        {
-          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「表单默认值配置器」即可使用',
-          type: 'text',
-        },
-      ],
-      fldU9XHNob: false,
-      fldjG7c2PH: 1706000523000,
-      fld8Zzxal9: {
-        id: 'optdAZ4xLR',
-        text: '表单默认值配置器',
-      },
-      fldtFihTsI: [
-        {
-          name: 'Form Default Value Configurator.gif',
-          size: 1438304,
-          type: 'image/gif',
-          token: 'UgsVbWj12oMchTxY2xicbJeBnCh',
-          timeStamp: 1706000315833,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldtFihTsI',
-            recordId: 'recu2aEKzE6Cid',
-          },
-        },
-      ],
-      fldoBvqZYU: [
-        {
-          name: 'Form Default Value Configurator.png',
-          size: 6169,
-          type: 'image/png',
-          token: 'CxCybNNvAog9BFxYjpZcvbgfnmf',
-          timeStamp: 1705996933421,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldoBvqZYU',
-            recordId: 'recu2aEKzE6Cid',
-          },
-        },
-      ],
-      fldf06ZXsH: [
-        {
-          type: 'text',
-          text: '表单默认值配置器',
-        },
-      ],
-      fld9DbJ7HH: [
-        {
-          type: 'url',
-          text: 'https://replit.com/@lark-base/FormDefaultsConfigurator',
-          link: 'https://replit.com/@lark-base/FormDefaultsConfigurator',
-        },
-      ],
-      fldSeTbEAD: [
-        {
-          type: 'text',
-          text: '简化表单默认值的配置流程，支持一键复制和快速预览表单默认值地址',
-        },
-      ],
-      fldh3bkCM1: [
-        {
-          type: 'text',
-          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MmF5Q0JaeGoyTjpjOGZiMjA0NWVlOGVkMjA0ZmM3ZWFkZjFmOTljYmZlMzoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
-        },
-      ],
-      fldNtD9jZf: [
-        {
-          type: 'text',
-          text: 'itchao',
-        },
-      ],
-      fldEVbT5zQ: [
-        {
-          type: 'url',
-          text: 'https://feishu.cn/base/extension/replit_3d50ab50672663e5',
-          link: 'https://feishu.cn/base/extension/replit_3d50ab50672663e5',
-        },
-      ],
-    },
-    recordId: 'recu2aEKzE6Cid',
-    nameEn: 'Form Default Value Configurator',
-    descriptionEn:
-      'Simplify the process of configuring form default values, supporting one-click copy and quick preview of the form default value link.',
-    authorEn: 'itchao',
-    useMethodEn:
-      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "" to add and use.',
-  },
+
   {
     fields: {
       fldU9XHNob: true,
@@ -7872,93 +7965,7 @@ export const records = [
       'Combine Base Automated Process to Automatically Add Time and Geolocation Watermarks to Images Uploaded via Forms.',
     authorEn: 'Watermark Quick Shot Team',
   },
-  {
-    fields: {
-      fldU9XHNob: true,
-      fldhYC30Ia: [
-        {
-          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「新表字段配置器」即可使用',
-          type: 'text',
-        },
-      ],
-      fldjG7c2PH: 1706862172000,
-      fld8Zzxal9: {
-        id: 'optIVVu32f',
-        text: '新表字段配置器',
-      },
-      fldoBvqZYU: [
-        {
-          name: 'New Base Field Configurator.png',
-          size: 6133,
-          type: 'image/png',
-          token: 'TJg2bw5egoPoj9xlFx1cZdRvnCb',
-          timeStamp: 1706689782153,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldoBvqZYU',
-            recordId: 'recu2VGbAe6nTE',
-          },
-        },
-      ],
-      fldtFihTsI: [
-        {
-          name: 'New Base Field Configurator.gif',
-          size: 5515532,
-          type: 'image/gif',
-          token: 'C3xWbsT2toOSw6xsyNEcM3OKnCb',
-          timeStamp: 1706861698432,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldtFihTsI',
-            recordId: 'recu2VGbAe6nTE',
-          },
-        },
-      ],
-      fldEVbT5zQ: [
-        {
-          type: 'url',
-          text: 'https://feishu.cn/base/extension/replit_3d463a2ebe23e3e4',
-          link: 'https://feishu.cn/base/extension/replit_3d463a2ebe23e3e4',
-        },
-      ],
-      fldf06ZXsH: [
-        {
-          type: 'text',
-          text: '新表字段配置器',
-        },
-      ],
-      fld9DbJ7HH: [
-        {
-          type: 'url',
-          text: 'https://replit.com/@lark-base/NewTableFieldConfigurator#src/App.vue',
-          link: 'https://replit.com/@lark-base/NewTableFieldConfigurator#src/App.vue',
-        },
-      ],
-      fldNtD9jZf: [
-        {
-          type: 'text',
-          text: 'itchao',
-        },
-      ],
-      fldh3bkCM1: [
-        {
-          type: 'text',
-          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MlVnOXYzSFM1dzowMTAzNGQ3NWQzNjdiNjZiZTljMDAxMzAzNDAzYzNiOToxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
-        },
-      ],
-      fldSeTbEAD: [
-        {
-          type: 'text',
-          text: '新表字段配置器旨在提高数据表的创建效率，预先配置字段模板，轻松应用到新增数据表中。',
-        },
-      ],
-    },
-    recordId: 'recu2VGbAe6nTE',
-    nameEn: 'New Base Field Configurator',
-    descriptionEn:
-      'The New Base Field Configurator is designed to enhance the efficiency of creating data tables, allowing for the pre-configuration of field templates for easy application in new data tables.',
-    authorEn: 'itchao',
-  },
+
   {
     fields: {
       fldU9XHNob: true,
