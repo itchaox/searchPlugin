@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-02-03 11:38
+ * @LastTime   : 2024-02-23 19:05
  * @desc       : 
 -->
 
@@ -427,9 +427,36 @@
    * @return {any}
    */
   const tryPlugin = (record) => {
-    let url = getLink(record?.detailUrl);
+    // 假设这是你的URL
+    let url = record.detailUrl[0]?.text;
 
-    window.open(url, '_blank');
+    // 使用URL的split方法分割字符串
+    // 以'/'为分隔符，得到一个数组
+    let parts = url.split('/');
+
+    // 假设你想要获取的是最后一个部分
+    let lastPart = parts[parts.length - 1];
+
+    bitable.bridge.navigateToExtension(lastPart);
+
+    console.log(lastPart); // 输出: replit_3d7ab3c2b87723e5
+
+    // let url = getLink(record?.detailUrl);
+
+    // window.open(url, '_blank');
+  };
+
+  const run = (url) => {
+    // 使用URL的split方法分割字符串
+    // 以'/'为分隔符，得到一个数组
+    let parts = url.split('/');
+
+    // 假设你想要获取的是最后一个部分
+    let lastPart = parts[parts.length - 1];
+
+    bitable.bridge.navigateToExtension(lastPart);
+
+    console.log(lastPart); // 输出: replit_3d7ab3c2b87723e5
   };
 
   /**
@@ -766,7 +793,7 @@
           <el-button
             type="primary"
             class="startUse"
-            @click="openUrl(getLink(activeItem?.detailUrl))"
+            @click="run(getLink(activeItem?.detailUrl))"
             v-if="getLink(activeItem?.detailUrl)"
           >
             <PlayOne
