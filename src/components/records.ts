@@ -8140,4 +8140,273 @@ export const records = [
       'Supports extracting information such as prizes, questions, personnel, and numbers from Base, allows reading data from different views, and enables setting the extraction quantity and choosing whether to save the extracted information back to the Base.',
     authorEn: 'Mr Li',
   },
+  {
+    fields: {
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「统计描述」即可使用',
+          type: 'text',
+        },
+      ],
+      fldjG7c2PH: 1708486069000,
+      fldU9XHNob: true,
+      fld8Zzxal9: {
+        id: 'optEMomRqk',
+        text: '统计描述',
+      },
+      fldtFihTsI: [
+        {
+          name: 'Statistical Description.gif',
+          size: 3002459,
+          type: 'image/gif',
+          token: 'VZ5kbsZpPoelH0xBkHrcoNnvnWV',
+          timeStamp: 1706864461145,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu4CGpsuRSPv',
+          },
+        },
+      ],
+      fldoBvqZYU: [
+        {
+          name: 'Statistical Description.png',
+          size: 5609,
+          type: 'image/png',
+          token: 'YcR3bdbjio2gjGxXd2WcOXDrnWd',
+          timeStamp: 1708243302142,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu4CGpsuRSPv',
+          },
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '这是一款高效的数据分析工具，能够快速计算并展示数据的关键统计指标',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MzVTbURvc2dHZjo5NTQ0MWZjMTQ4ZWZhNmUyNjg1MjlmMzAzZTZkYTg3ZjoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/Statistical-Description',
+          link: 'https://replit.com/@lark-base/Statistical-Description',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d4362b8a0ae23e4',
+          link: 'https://feishu.cn/base/extension/replit_3d4362b8a0ae23e4',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '异理',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '统计描述',
+        },
+      ],
+    },
+    recordId: 'recu4CGpsuRSPv',
+    nameEn: 'Statistical Description',
+    descriptionEn:
+      'This is an efficient data analysis tool, capable of quickly calculating and displaying key statistical metrics.',
+    authorEn: 'Yi Li',
+  },
+  {
+    fields: {
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「打印设计器」即可使用',
+          type: 'text',
+        },
+      ],
+      fldjG7c2PH: 1708486545000,
+      fldU9XHNob: true,
+      fld8Zzxal9: {
+        id: 'optpxLSDM3',
+        text: '打印设计器',
+      },
+      fldtFihTsI: [
+        {
+          name: 'Print Designer.gif',
+          size: 1337656,
+          type: 'image/gif',
+          token: 'EpDFb5wi1o8ucaxSJjocgr9pnCd',
+          timeStamp: 1708245173587,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu4CVDt2D1ky',
+          },
+        },
+      ],
+      fldoBvqZYU: [
+        {
+          name: 'Print Designer.png',
+          size: 6157,
+          type: 'image/png',
+          token: 'DdvZbPjJhoBt6NxwbM8c1tQHnhc',
+          timeStamp: 1708224384885,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu4CVDt2D1ky',
+          },
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '自定义模块打印插件',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1MmFIbjI2R0E0Yzo1NDM3YjJiYzcxYjAwYjkwZWE2YTQ5OWIzOWI5NTZkZDoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/react-table-designer',
+          link: 'https://replit.com/@lark-base/react-table-designer',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d2e7b49c9e8a3e6',
+          link: 'https://feishu.cn/base/extension/replit_3d2e7b49c9e8a3e6',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '刘毅',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '打印设计器',
+        },
+      ],
+    },
+    recordId: 'recu4CVDt2D1ky',
+    nameEn: 'Print Designer',
+    descriptionEn: 'Custom Module Print Extension',
+    authorEn: 'Liu Yi',
+  },
+  {
+    fields: {
+      fldhYC30Ia: [
+        {
+          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「抖音助手」即可使用',
+          type: 'text',
+        },
+      ],
+      fldjG7c2PH: 1708693058000,
+      fldU9XHNob: false,
+      fld8Zzxal9: {
+        id: 'optGabybmE',
+        text: '抖音助手',
+      },
+      fldtFihTsI: [
+        {
+          name: 'TikTok Assistant.gif',
+          size: 1538821,
+          type: 'image/gif',
+          token: 'Vgombh2XzoHgwcxfJUxcdbAknmc',
+          timeStamp: 1708585885889,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldtFihTsI',
+            recordId: 'recu578GZ4XroK',
+          },
+        },
+      ],
+      fldoBvqZYU: [
+        {
+          name: 'douyin.png',
+          size: 14467,
+          type: 'image/png',
+          token: 'Mc6MbnZKJo72FQxNtMzcfQxGnRd',
+          timeStamp: 1708691841348,
+          permission: {
+            tableId: 'tbloPppeyAHR1qX4',
+            fieldId: 'fldoBvqZYU',
+            recordId: 'recu578GZ4XroK',
+          },
+        },
+      ],
+      fldSeTbEAD: [
+        {
+          type: 'text',
+          text: '批量获取授权的抖音用户的视频信息:播放数,转发数,下载数,分享数,视频标题,视频封面,视频状态等',
+        },
+      ],
+      fldh3bkCM1: [
+        {
+          type: 'text',
+          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWN1M3RpcjZJcmQxejplMGNkOGJjODU1MDkyZjkzNWU1YzJkNDVhMGEyZWYzNzoxOkg0c0lBQUFKYm9nQS93QUNBUDMvZTMwREFFTy9wcU1DQUFBQQ==',
+        },
+      ],
+      fld9DbJ7HH: [
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/fsdyserver',
+          link: 'https://replit.com/@lark-base/fsdyserver',
+        },
+        {
+          type: 'url',
+          text: 'https://replit.com/@lark-base/switchDy',
+          link: 'https://replit.com/@lark-base/switchDy',
+        },
+        {
+          type: 'text',
+          text: '',
+        },
+      ],
+      fldEVbT5zQ: [
+        {
+          type: 'url',
+          text: 'https://feishu.cn/base/extension/replit_3d27b11e5be823fb',
+          link: 'https://feishu.cn/base/extension/replit_3d27b11e5be823fb',
+        },
+      ],
+      fldNtD9jZf: [
+        {
+          type: 'text',
+          text: '代码与梦想',
+        },
+      ],
+      fldf06ZXsH: [
+        {
+          type: 'text',
+          text: '抖音助手',
+        },
+      ],
+    },
+    recordId: 'recu578GZ4XroK',
+    nameEn: 'Douyin Assistant',
+    descriptionEn:
+      "Batch retrieve authorized Douyin users' video information: view count, forward count, download count, share count, video title, video cover, video status, etc.",
+    authorEn: 'Code and dreams',
+  },
 ];
