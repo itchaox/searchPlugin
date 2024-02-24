@@ -5384,93 +5384,93 @@ export const records = [
     useMethodEn:
       'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "QR Code/barcode Generator" to add and use.',
   },
-  {
-    fields: {
-      fldjG7c2PH: 1704975989000,
-      fldhYC30Ia: [
-        {
-          text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「简易富文本」即可使用',
-          type: 'text',
-        },
-      ],
-      fld8Zzxal9: {
-        id: 'optAulNkPS',
-        text: '简易富文本',
-      },
-      fldoBvqZYU: [
-        {
-          name: '简易富文本.png',
-          size: 7512,
-          type: 'image/png',
-          token: 'Ca7ubKvFQoYIujxZBL5c75Dcn2b',
-          timeStamp: 1703747742025,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldoBvqZYU',
-            recordId: 'rec1gTbIjh',
-          },
-        },
-      ],
-      fldtFihTsI: [
-        {
-          name: '20231129-195742.gif',
-          size: 901180,
-          type: 'image/gif',
-          token: 'VdNmbzJn5obRguxUvHKc28AZnke',
-          timeStamp: 1701259090636,
-          permission: {
-            tableId: 'tbloPppeyAHR1qX4',
-            fieldId: 'fldtFihTsI',
-            recordId: 'rec1gTbIjh',
-          },
-        },
-      ],
-      fldSeTbEAD: [
-        {
-          type: 'text',
-          text: '支持将纯文本 Markdown 渲染成富文本',
-        },
-      ],
-      fldh3bkCM1: [
-        {
-          type: 'text',
-          text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWNsMTdFeFhiOjMzMTFjYzc0NmU0YzQ2OWE4ZjI1NDQ1YjFhNTc0NTQzOjE6SDRzSUFBQUpib2dBL3dBQ0FQMy9lMzBEQUVPL3BxTUNBQUFB',
-        },
-      ],
-      fldNtD9jZf: [
-        {
-          type: 'text',
-          text: '树根',
-        },
-      ],
-      fldf06ZXsH: [
-        {
-          type: 'text',
-          text: '简易富文本',
-        },
-      ],
-      fldEVbT5zQ: [
-        {
-          type: 'url',
-          text: 'https://feishu.cn/base/extension/replit_3d98c2269767a3e4',
-          link: 'https://feishu.cn/base/extension/replit_3d98c2269767a3e4',
-        },
-      ],
-      fld9DbJ7HH: [
-        {
-          type: 'url',
-          text: 'https://replit.com/@lark-base/easy-rich-text-plugin',
-          link: 'https://replit.com/@lark-base/easy-rich-text-plugin',
-        },
-      ],
-    },
-    recordId: 'rec1gTbIjh',
-    nameEn: 'Simple Rich Text',
-    descriptionEn: 'Supports rendering plain text Markdown into rich text.',
-    authorEn: 'Tree Root',
-    useMethodEn:
-      'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Simple Rich Text" to add and use.',
-  },
+  // {
+  //   fields: {
+  //     fldjG7c2PH: 1704975989000,
+  //     fldhYC30Ia: [
+  //       {
+  //         text: '在浏览器打开任意多维表格，点击右侧「插件」，找到「简易富文本」即可使用',
+  //         type: 'text',
+  //       },
+  //     ],
+  //     fld8Zzxal9: {
+  //       id: 'optAulNkPS',
+  //       text: '简易富文本',
+  //     },
+  //     fldoBvqZYU: [
+  //       {
+  //         name: '简易富文本.png',
+  //         size: 7512,
+  //         type: 'image/png',
+  //         token: 'Ca7ubKvFQoYIujxZBL5c75Dcn2b',
+  //         timeStamp: 1703747742025,
+  //         permission: {
+  //           tableId: 'tbloPppeyAHR1qX4',
+  //           fieldId: 'fldoBvqZYU',
+  //           recordId: 'rec1gTbIjh',
+  //         },
+  //       },
+  //     ],
+  //     fldtFihTsI: [
+  //       {
+  //         name: '20231129-195742.gif',
+  //         size: 901180,
+  //         type: 'image/gif',
+  //         token: 'VdNmbzJn5obRguxUvHKc28AZnke',
+  //         timeStamp: 1701259090636,
+  //         permission: {
+  //           tableId: 'tbloPppeyAHR1qX4',
+  //           fieldId: 'fldtFihTsI',
+  //           recordId: 'rec1gTbIjh',
+  //         },
+  //       },
+  //     ],
+  //     fldSeTbEAD: [
+  //       {
+  //         type: 'text',
+  //         text: '支持将纯文本 Markdown 渲染成富文本',
+  //       },
+  //     ],
+  //     fldh3bkCM1: [
+  //       {
+  //         type: 'text',
+  //         text: 'NzI2NzgwNTg5NTU0MTk4MTE4NjpyZWNsMTdFeFhiOjMzMTFjYzc0NmU0YzQ2OWE4ZjI1NDQ1YjFhNTc0NTQzOjE6SDRzSUFBQUpib2dBL3dBQ0FQMy9lMzBEQUVPL3BxTUNBQUFB',
+  //       },
+  //     ],
+  //     fldNtD9jZf: [
+  //       {
+  //         type: 'text',
+  //         text: '树根',
+  //       },
+  //     ],
+  //     fldf06ZXsH: [
+  //       {
+  //         type: 'text',
+  //         text: '简易富文本',
+  //       },
+  //     ],
+  //     fldEVbT5zQ: [
+  //       {
+  //         type: 'url',
+  //         text: 'https://feishu.cn/base/extension/replit_3d98c2269767a3e4',
+  //         link: 'https://feishu.cn/base/extension/replit_3d98c2269767a3e4',
+  //       },
+  //     ],
+  //     fld9DbJ7HH: [
+  //       {
+  //         type: 'url',
+  //         text: 'https://replit.com/@lark-base/easy-rich-text-plugin',
+  //         link: 'https://replit.com/@lark-base/easy-rich-text-plugin',
+  //       },
+  //     ],
+  //   },
+  //   recordId: 'rec1gTbIjh',
+  //   nameEn: 'Simple Rich Text',
+  //   descriptionEn: 'Supports rendering plain text Markdown into rich text.',
+  //   authorEn: 'Tree Root',
+  //   useMethodEn:
+  //     'Open any Lark Base on web, click on the “Extensions” button in the upper right corner, find the "Simple Rich Text" to add and use.',
+  // },
   {
     fields: {
       fldjG7c2PH: 1704974877000,
