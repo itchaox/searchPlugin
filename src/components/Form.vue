@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-02-23 19:05
+ * @LastTime   : 2024-02-25 11:05
  * @desc       : 
 -->
 
@@ -507,6 +507,22 @@
   function openUrl(url) {
     window.open(url, '_blank');
   }
+
+  function clickImage(url, name) {
+    console.log(url);
+    // window.open(url, '_blank');
+
+    // 在新标签页中打开URL
+    const newWindow = window.open(url, '_blank');
+
+    // 如果新标签页成功打开，设置其标题
+    if (newWindow) {
+      // 这里需要延迟设置标题，因为新标签页可能还没有完全加载
+      setTimeout(() => {
+        newWindow.document.title = name + ' ' + t('preview');
+      }, 20);
+    }
+  }
 </script>
 
 <template>
@@ -845,7 +861,8 @@
           <!-- <div class="label">{{ $t('Feature Preview') }}</div> -->
 
           <div v-if="activeGif === '无'">{{ $t('No feature preview available') }}</div>
-          <el-image
+          <!-- <el-image
+            @click="clickImage(activeGif, isZh ? activeItem.name[0].text : activeItem.nameEn)"
             v-else-if="activeGif"
             :src="activeGif"
             :zoom-rate="1.2"
@@ -854,6 +871,14 @@
             :preview-src-list="[activeGif]"
             hide-on-click-modal
             fit="cover"
+          /> -->
+
+          <img
+            class="gif-class"
+            @click="clickImage(activeGif, isZh ? activeItem.name[0].text : activeItem.nameEn)"
+            v-else-if="activeGif"
+            :src="activeGif"
+            :title="$t('Click to view full screen')"
           />
 
           <div
@@ -1259,6 +1284,14 @@
   .item-desc {
     color: #646a73;
     line-height: 1.5;
+  }
+
+  .gif-class {
+    width: 100%;
+    height: 100%;
+    &:hover {
+      cursor: pointer;
+    }
   }
 </style>
 
