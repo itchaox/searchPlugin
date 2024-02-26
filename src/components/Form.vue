@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-02-27 00:34
+ * @LastTime   : 2024-02-27 01:02
  * @desc       : 
 -->
 
@@ -524,7 +524,7 @@
       // 这里需要延迟设置标题，因为新标签页可能还没有完全加载
       setTimeout(() => {
         newWindow.document.title = name + ' ' + t('preview');
-      }, 20);
+      }, 100);
     }
   }
 </script>
