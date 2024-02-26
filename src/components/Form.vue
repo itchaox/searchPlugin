@@ -3,7 +3,7 @@
  * @Author     : itchaox
  * @Date       : 2023-12-23 09:34
  * @LastAuthor : itchaox
- * @LastTime   : 2024-02-25 11:05
+ * @LastTime   : 2024-02-27 00:34
  * @desc       : 
 -->
 
@@ -21,6 +21,7 @@
   } from '@icon-park/vue-next';
   import { dayjs } from 'element-plus';
   import { records } from './records';
+  import { records as recordsLark } from './records-lark';
   import { fieldMeteListDemo } from './fieldMeteList';
 
   import _ from 'lodash';
@@ -144,8 +145,11 @@
 
     // FIXME 从这个打印位置直接复制
     // console.log('🚀  records:', records);
+    const env = await bitable.bridge.getEnv();
 
-    records.forEach((item) => {
+    const _records = env.product === 'feishu' ? records : recordsLark;
+
+    _records.forEach((item) => {
       let _recordData = {};
       for (const fieldId in item.fields) {
         for (const key in fieldValues) {
