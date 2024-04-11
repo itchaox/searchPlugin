@@ -17,7 +17,7 @@ export const records = [
           name: '视图管理器.png',
           size: 5993,
           type: 'image/png',
-          token: 'A0Dybq6fRot8EtxbVGKcFQpOn8g',
+          demo: 'A0Dybq6fRot8EtxbVGKcFQpOn8g',
           timeStamp: 1703747766680,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -31,7 +31,7 @@ export const records = [
           name: '20231226-142638.gif',
           size: 4553642,
           type: 'image/gif',
-          token: 'FKdWbKJk9omfXKxKUyecjEY8n7c',
+          demo: 'FKdWbKJk9omfXKxKUyecjEY8n7c',
           timeStamp: 1703572180006,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -105,7 +105,7 @@ export const records = [
           name: 'Form Default Value Configurator.gif',
           size: 1438304,
           type: 'image/gif',
-          token: 'UgsVbWj12oMchTxY2xicbJeBnCh',
+          demo: 'UgsVbWj12oMchTxY2xicbJeBnCh',
           timeStamp: 1706000315833,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -119,7 +119,7 @@ export const records = [
           name: 'Form Default Value Configurator.png',
           size: 6169,
           type: 'image/png',
-          token: 'CxCybNNvAog9BFxYjpZcvbgfnmf',
+          demo: 'CxCybNNvAog9BFxYjpZcvbgfnmf',
           timeStamp: 1705996933421,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -194,7 +194,7 @@ export const records = [
           name: 'New Base Field Configurator.png',
           size: 6133,
           type: 'image/png',
-          token: 'TJg2bw5egoPoj9xlFx1cZdRvnCb',
+          demo: 'TJg2bw5egoPoj9xlFx1cZdRvnCb',
           timeStamp: 1706689782153,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -208,7 +208,7 @@ export const records = [
           name: 'New Base Field Configurator.gif',
           size: 5515532,
           type: 'image/gif',
-          token: 'C3xWbsT2toOSw6xsyNEcM3OKnCb',
+          demo: 'C3xWbsT2toOSw6xsyNEcM3OKnCb',
           timeStamp: 1706861698432,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -280,7 +280,7 @@ export const records = [
           name: 'Batch Copy Records.png',
           size: 6277,
           type: 'image/png',
-          token: 'HKPYbiTugoHubIx87fJcAJeBnhc',
+          demo: 'HKPYbiTugoHubIx87fJcAJeBnhc',
           timeStamp: 1704881974731,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -294,7 +294,7 @@ export const records = [
           name: 'Batch Copy Records.gif',
           size: 713240,
           type: 'image/gif',
-          token: 'VdCnb1TPZo4cZXxhlVQcPB59nef',
+          demo: 'VdCnb1TPZo4cZXxhlVQcPB59nef',
           timeStamp: 1704882657143,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -367,7 +367,7 @@ export const records = [
           name: '身份证号解析.png',
           size: 7161,
           type: 'image/png',
-          token: 'W2HbbXYr3oPllCxOkoocVXxnnZe',
+          demo: 'W2HbbXYr3oPllCxOkoocVXxnnZe',
           timeStamp: 1703747751480,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -381,7 +381,7 @@ export const records = [
           name: '20231207-184703.gif',
           size: 683535,
           type: 'image/gif',
-          token: 'OppKbRBbyoOdXwxHGE7cAJZ6nig',
+          demo: 'OppKbRBbyoOdXwxHGE7cAJZ6nig',
           timeStamp: 1701946085892,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -455,7 +455,7 @@ export const records = [
           name: '简体繁体互转.png',
           size: 20102,
           type: 'image/png',
-          token: 'JYvjbEdehoSCntxG7p9cTAswnIG',
+          demo: 'JYvjbEdehoSCntxG7p9cTAswnIG',
           timeStamp: 1703747746169,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -469,7 +469,7 @@ export const records = [
           name: 'Xnip2023-12-06_18-18-28.png',
           size: 319312,
           type: 'image/png',
-          token: 'E31obt1z1oPQqNxAANccAAy1n8f',
+          demo: 'E31obt1z1oPQqNxAANccAAy1n8f',
           timeStamp: 1701858204163,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -543,7 +543,7 @@ export const records = [
           name: 'search.png',
           size: 8862,
           type: 'image/png',
-          token: 'ECwwbH6eaosGoAxPRnoc0sJsnEc',
+          demo: 'ECwwbH6eaosGoAxPRnoc0sJsnEc',
           timeStamp: 1704362689320,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -557,7 +557,7 @@ export const records = [
           name: 'search.gif',
           size: 1332324,
           type: 'image/gif',
-          token: 'Rv5abzNrVoWxwgxIb5qcMcTZnLg',
+          demo: 'Rv5abzNrVoWxwgxIb5qcMcTZnLg',
           timeStamp: 1704355462600,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -632,7 +632,7 @@ export const records = [
           name: '批量上传附件.png',
           size: 6822,
           type: 'image/png',
-          token: 'AEzobtovlontwfxWA7zc50gZnKb',
+          demo: 'AEzobtovlontwfxWA7zc50gZnKb',
           timeStamp: 1703747713532,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -646,7 +646,7 @@ export const records = [
           name: '20230913-170358.gif',
           size: 4433355,
           type: 'image/gif',
-          token: 'GQV6bmk7doMEdLxT7u7cubuYnnh',
+          demo: 'GQV6bmk7doMEdLxT7u7cubuYnnh',
           timeStamp: 1694595924833,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -721,7 +721,7 @@ export const records = [
           name: '时区转换.png',
           size: 9661,
           type: 'image/png',
-          token: 'MqmabYZD7oWV5NxTLyXci45Kn0e',
+          demo: 'MqmabYZD7oWV5NxTLyXci45Kn0e',
           timeStamp: 1703747737704,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -735,7 +735,7 @@ export const records = [
           name: '20231201-173558.gif',
           size: 488341,
           type: 'image/gif',
-          token: 'NiqEbpBhGo8S1BxFEZkcaRVSnNg',
+          demo: 'NiqEbpBhGo8S1BxFEZkcaRVSnNg',
           timeStamp: 1701423490954,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -808,7 +808,7 @@ export const records = [
           name: '导出为 Markdown.png',
           size: 6411,
           type: 'image/png',
-          token: 'LRHQbCOTTo7kuExg81scbstEnW2',
+          demo: 'LRHQbCOTTo7kuExg81scbstEnW2',
           timeStamp: 1703747767925,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -822,7 +822,7 @@ export const records = [
           name: 'markdown.gif',
           size: 324811,
           type: 'image/gif',
-          token: 'Ks4kbY9mRoQOCsxLQ0AcpYZGnje',
+          demo: 'Ks4kbY9mRoQOCsxLQ0AcpYZGnje',
           timeStamp: 1702535872486,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -895,7 +895,7 @@ export const records = [
           name: '图片 Exif 信息提取器.png',
           size: 7951,
           type: 'image/png',
-          token: 'OuTFbJoGAo8ZqCxC4YociYtvn9d',
+          demo: 'OuTFbJoGAo8ZqCxC4YociYtvn9d',
           timeStamp: 1703747775760,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -909,7 +909,7 @@ export const records = [
           name: '20231226-170657.gif',
           size: 1041360,
           type: 'image/gif',
-          token: 'XgffbbtZaooWjkxWpiRcAlMDnBf',
+          demo: 'XgffbbtZaooWjkxWpiRcAlMDnBf',
           timeStamp: 1703581633456,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -985,7 +985,7 @@ export const records = [
   //         name: '20240105-125830.gif',
   //         size: 7157532,
   //         type: 'image/gif',
-  //         token: 'MshbbdyProqgPRxqtnVcqnlan8g',
+  //         demo: 'MshbbdyProqgPRxqtnVcqnlan8g',
   //         timeStamp: 1704430729076,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -1059,7 +1059,7 @@ export const records = [
           name: 'Xiaohongshu Assistant.png',
           size: 26807,
           type: 'image/png',
-          token: 'IwwfbfOHloCKKVxTm24cZO7xnUF',
+          demo: 'IwwfbfOHloCKKVxTm24cZO7xnUF',
           timeStamp: 1704881944644,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1073,7 +1073,7 @@ export const records = [
           name: '20240110-165741.gif',
           size: 1241224,
           type: 'image/gif',
-          token: 'UNt6bpQrJof2xNxMONlcrt4Gnvd',
+          demo: 'UNt6bpQrJof2xNxMONlcrt4Gnvd',
           timeStamp: 1704877100554,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1159,7 +1159,7 @@ export const records = [
           name: '银行卡号解析.png',
           size: 6474,
           type: 'image/png',
-          token: 'TymMbU2NdocvFPxjPUucveaZnCe',
+          demo: 'TymMbU2NdocvFPxjPUucveaZnCe',
           timeStamp: 1703747756393,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1173,7 +1173,7 @@ export const records = [
           name: 'Xnip2023-12-11_16-42-05.png',
           size: 360186,
           type: 'image/png',
-          token: 'Q5bTbvl7PopgoexMQRTcvAKMnyc',
+          demo: 'Q5bTbvl7PopgoexMQRTcvAKMnyc',
           timeStamp: 1702284148281,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1247,7 +1247,7 @@ export const records = [
           name: '网页预览.png',
           size: 6334,
           type: 'image/png',
-          token: 'ZPGOb8cM3ogUcvx9TPpcBVp7nif',
+          demo: 'ZPGOb8cM3ogUcvx9TPpcBVp7nif',
           timeStamp: 1703747695874,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1322,7 +1322,7 @@ export const records = [
           name: 'Excel 对比导入.png',
           size: 7355,
           type: 'image/png',
-          token: 'SX1RbWee2ohKUMx3WJ2cwRIZn2e',
+          demo: 'SX1RbWee2ohKUMx3WJ2cwRIZn2e',
           timeStamp: 1703747700931,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1397,7 +1397,7 @@ export const records = [
           name: '税后薪资计算器.png',
           size: 6674,
           type: 'image/png',
-          token: 'W5Ewb5Z00ozzplxmKpYcms0cnj2',
+          demo: 'W5Ewb5Z00ozzplxmKpYcms0cnj2',
           timeStamp: 1703747732796,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1411,7 +1411,7 @@ export const records = [
           name: '20231123-113952.gif',
           size: 1190720,
           type: 'image/gif',
-          token: 'Mz8Nb3ErpoTgYPxcgm8cM7NNnxe',
+          demo: 'Mz8Nb3ErpoTgYPxcgm8cM7NNnxe',
           timeStamp: 1700710858149,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1486,7 +1486,7 @@ export const records = [
           name: '迷你图表.png',
           size: 5945,
           type: 'image/png',
-          token: 'VObNbIDehodUn8x1ZzZcqqUSnxf',
+          demo: 'VObNbIDehodUn8x1ZzZcqqUSnxf',
           timeStamp: 1703747736483,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1500,7 +1500,7 @@ export const records = [
           name: '20231130-155335.gif',
           size: 522414,
           type: 'image/gif',
-          token: 'SgYubJY2homt8zxliHXcjsMFnoe',
+          demo: 'SgYubJY2homt8zxliHXcjsMFnoe',
           timeStamp: 1701330957337,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1575,7 +1575,7 @@ export const records = [
           name: '选项去重.png',
           size: 6698,
           type: 'image/png',
-          token: 'UY5hbst34oMAqOx2E6Hc7Wp0nxc',
+          demo: 'UY5hbst34oMAqOx2E6Hc7Wp0nxc',
           timeStamp: 1703747740655,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1589,7 +1589,7 @@ export const records = [
           name: '20231201-200456.gif',
           size: 629300,
           type: 'image/gif',
-          token: 'UIl3bPdTRo3hQCxOLK5cB7W1n1d',
+          demo: 'UIl3bPdTRo3hQCxOLK5cB7W1n1d',
           timeStamp: 1701432321649,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1663,7 +1663,7 @@ export const records = [
           name: '字段翻译.png',
           size: 11789,
           type: 'image/png',
-          token: 'F4Fgb2yyjoAMbaxrZsDcZLdin7d',
+          demo: 'F4Fgb2yyjoAMbaxrZsDcZLdin7d',
           timeStamp: 1703747692199,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1738,7 +1738,7 @@ export const records = [
           name: '分位数计算.png',
           size: 9283,
           type: 'image/png',
-          token: 'NJOYb9E8GoZEsQxGyMwcabIwn2d',
+          demo: 'NJOYb9E8GoZEsQxGyMwcabIwn2d',
           timeStamp: 1703747757675,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1752,7 +1752,7 @@ export const records = [
           name: 'Quantile Calculation.png',
           size: 356626,
           type: 'image/png',
-          token: 'P9WCbRITmoBT9oxOuAMcIAG1nGe',
+          demo: 'P9WCbRITmoBT9oxOuAMcIAG1nGe',
           timeStamp: 1702379502104,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1827,7 +1827,7 @@ export const records = [
           name: '排版打印（Word 版）.png',
           size: 6983,
           type: 'image/png',
-          token: 'K2swbBdVhogGVhxiUwfcaR94nfe',
+          demo: 'K2swbBdVhogGVhxiUwfcaR94nfe',
           timeStamp: 1703747771733,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1841,7 +1841,7 @@ export const records = [
           name: '20231220-110650.jpeg',
           size: 162134,
           type: 'image/jpeg',
-          token: 'MUW3bAecsoVe03xuN9oczFrSnVg',
+          demo: 'MUW3bAecsoVe03xuN9oczFrSnVg',
           timeStamp: 1703041629313,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1916,7 +1916,7 @@ export const records = [
           name: '数据视界.png',
           size: 12496,
           type: 'image/png',
-          token: 'OOGCblUegoATmIxcgVhcs6NUngf',
+          demo: 'OOGCblUegoATmIxcgVhcs6NUngf',
           timeStamp: 1703747777110,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -1930,7 +1930,7 @@ export const records = [
           name: 'Data View.gif',
           size: 1466928,
           type: 'image/gif',
-          token: 'GcJ7beepro72z1x4u0Xcsv0Xnbb',
+          demo: 'GcJ7beepro72z1x4u0Xcsv0Xnbb',
           timeStamp: 1703587325796,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2004,7 +2004,7 @@ export const records = [
           name: '桑基图.png',
           size: 5642,
           type: 'image/png',
-          token: 'YbaybZLPyo50BNxOxTkcby5gntg',
+          demo: 'YbaybZLPyo50BNxOxTkcby5gntg',
           timeStamp: 1703747762921,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2018,7 +2018,7 @@ export const records = [
           name: 'Sankey Diagram2.png',
           size: 644736,
           type: 'image/png',
-          token: 'XsjnbOka6o3LQHxGQj4cDQOannb',
+          demo: 'XsjnbOka6o3LQHxGQj4cDQOannb',
           timeStamp: 1702375044289,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2091,7 +2091,7 @@ export const records = [
           name: '数据表管理器.png',
           size: 6129,
           type: 'image/png',
-          token: 'Ja1NbQo4Co0e7Vx10jYc6aknnoe',
+          demo: 'Ja1NbQo4Co0e7Vx10jYc6aknnoe',
           timeStamp: 1703747760301,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2105,7 +2105,7 @@ export const records = [
           name: 'Base Table Manager.png',
           size: 365991,
           type: 'image/png',
-          token: 'O3k3b9COJoH6TjxDDBtcpVdPnec',
+          demo: 'O3k3b9COJoH6TjxDDBtcpVdPnec',
           timeStamp: 1702614898229,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2178,7 +2178,7 @@ export const records = [
           name: '自定义图表.png',
           size: 5599,
           type: 'image/png',
-          token: 'YWNbb51VgofukJxJTgPcIIjonRb',
+          demo: 'YWNbb51VgofukJxJTgPcIIjonRb',
           timeStamp: 1703747765371,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2192,7 +2192,7 @@ export const records = [
           name: 'Customize charts.gif',
           size: 747258,
           type: 'image/gif',
-          token: 'Zas9bDYSfoGkaVxhQLMcSziSnnh',
+          demo: 'Zas9bDYSfoGkaVxhQLMcSziSnnh',
           timeStamp: 1702885321432,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2266,7 +2266,7 @@ export const records = [
           name: '地理位置转换.png',
           size: 10653,
           type: 'image/png',
-          token: 'GCZ5bxDvdoKAQCxBpdhcTW5Enhg',
+          demo: 'GCZ5bxDvdoKAQCxBpdhcTW5Enhg',
           timeStamp: 1703747693464,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2341,7 +2341,7 @@ export const records = [
           name: '货币转换.png',
           size: 13290,
           type: 'image/png',
-          token: 'QKhUbPJPEodDcSxRvOjcyZemnvg',
+          demo: 'QKhUbPJPEodDcSxRvOjcyZemnvg',
           timeStamp: 1703747697184,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2414,7 +2414,7 @@ export const records = [
           name: '开发工具.png',
           size: 7150,
           type: 'image/png',
-          token: 'NRWIbviQPossk5x1ikEcemnDnQ0',
+          demo: 'NRWIbviQPossk5x1ikEcemnDnQ0',
           timeStamp: 1703747706009,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2428,7 +2428,7 @@ export const records = [
           name: 'devtoolfs.gif',
           size: 469614,
           type: 'image/gif',
-          token: 'OEQ8bJliioG9G9xAgHtcfY00nch',
+          demo: 'OEQ8bJliioG9G9xAgHtcfY00nch',
           timeStamp: 1693202767945,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2502,7 +2502,7 @@ export const records = [
           name: '图片转文字.png',
           size: 9593,
           type: 'image/png',
-          token: 'T8IRbWSFDoL4zQxaLw3cnrzknib',
+          demo: 'T8IRbWSFDoL4zQxaLw3cnrzknib',
           timeStamp: 1703747723938,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2516,7 +2516,7 @@ export const records = [
           name: '20231011-171548.gif',
           size: 651402,
           type: 'image/gif',
-          token: 'BSbrbo0BKogPW4xihTWcVzUwnPd',
+          demo: 'BSbrbo0BKogPW4xihTWcVzUwnPd',
           timeStamp: 1697015804904,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2589,7 +2589,7 @@ export const records = [
           name: '异常数据检测.png',
           size: 6550,
           type: 'image/png',
-          token: 'ZwYubgr2yob4wOxT3OAciYCSnUh',
+          demo: 'ZwYubgr2yob4wOxT3OAciYCSnUh',
           timeStamp: 1703747747716,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2603,7 +2603,7 @@ export const records = [
           name: 'Anomaly Detection.png',
           size: 618830,
           type: 'image/png',
-          token: 'Qttib7MrWoYorpx9veqcFfeMn5d',
+          demo: 'Qttib7MrWoYorpx9veqcFfeMn5d',
           timeStamp: 1701934842870,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2676,7 +2676,7 @@ export const records = [
           name: 'Group 1321318306.png',
           size: 6715,
           type: 'image/png',
-          token: 'F9CNbTkAXouX35xR8kfcASsBnbb',
+          demo: 'F9CNbTkAXouX35xR8kfcASsBnbb',
           timeStamp: 1704363026866,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2690,7 +2690,7 @@ export const records = [
           name: 'Record Relationship Diagram.gif',
           size: 1293338,
           type: 'image/gif',
-          token: 'NTqQbDZpkoaHTIxV9MscktCsnTb',
+          demo: 'NTqQbDZpkoaHTIxV9MscktCsnTb',
           timeStamp: 1703750465630,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2763,7 +2763,7 @@ export const records = [
           name: '字段管理器.png',
           size: 6147,
           type: 'image/png',
-          token: 'WXgSb9OjOo8SrfxzvWaczyuZn3W',
+          demo: 'WXgSb9OjOo8SrfxzvWaczyuZn3W',
           timeStamp: 1703747744561,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2777,7 +2777,7 @@ export const records = [
           name: '20231130-192545.gif',
           size: 1146074,
           type: 'image/gif',
-          token: 'TvygblSm5oWssHx4Z8qcYSYlnte',
+          demo: 'TvygblSm5oWssHx4Z8qcYSYlnte',
           timeStamp: 1701343589380,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2852,7 +2852,7 @@ export const records = [
           name: '时间区间数据拆分.png',
           size: 9450,
           type: 'image/png',
-          token: 'TlCtbSCj0oeMedxyAvEcvcHAnue',
+          demo: 'TlCtbSCj0oeMedxyAvEcvcHAnue',
           timeStamp: 1703747764092,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2866,7 +2866,7 @@ export const records = [
           name: 'Time Interval Data Splitting.png',
           size: 314173,
           type: 'image/png',
-          token: 'A6nCbRz7nomFwZx1Guqc5xULndb',
+          demo: 'A6nCbRz7nomFwZx1Guqc5xULndb',
           timeStamp: 1702438515973,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2939,7 +2939,7 @@ export const records = [
           name: 'bilibili.png',
           size: 5668,
           type: 'image/png',
-          token: 'Ns95b7DeJokTMqxzsm6cBUv4nxf',
+          demo: 'Ns95b7DeJokTMqxzsm6cBUv4nxf',
           timeStamp: 1705028091096,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -2953,7 +2953,7 @@ export const records = [
           name: 'bilibili2.gif',
           size: 979405,
           type: 'image/gif',
-          token: 'Ov8bb6HUionoGax8kRccNsosnVf',
+          demo: 'Ov8bb6HUionoGax8kRccNsosnVf',
           timeStamp: 1705028975697,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3027,7 +3027,7 @@ export const records = [
           name: '链接转附件.png',
           size: 9406,
           type: 'image/png',
-          token: 'GKVEbubQ3oj9gaxvykqcvalJnvh',
+          demo: 'GKVEbubQ3oj9gaxvykqcvalJnvh',
           timeStamp: 1703747688621,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3102,7 +3102,7 @@ export const records = [
           name: 'Proper 函数.png',
           size: 9651,
           type: 'image/png',
-          token: 'SMRBbc3dyoztT6xnw18cR2qNnIb',
+          demo: 'SMRBbc3dyoztT6xnw18cR2qNnIb',
           timeStamp: 1703747689832,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3176,7 +3176,7 @@ export const records = [
           name: '整表搜索.png',
           size: 9902,
           type: 'image/png',
-          token: 'SxQmbCe7Yo7JlOxN0MMcipT4n4c',
+          demo: 'SxQmbCe7Yo7JlOxN0MMcipT4n4c',
           timeStamp: 1703747708464,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3190,7 +3190,7 @@ export const records = [
           name: '20230831-113248.gif',
           size: 994638,
           type: 'image/gif',
-          token: 'LsdBbw5ScoYz4MxwfG4cmVtenYg',
+          demo: 'LsdBbw5ScoYz4MxwfG4cmVtenYg',
           timeStamp: 1693453273365,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3264,7 +3264,7 @@ export const records = [
           name: 'JS 代码运行器.png',
           size: 10047,
           type: 'image/png',
-          token: 'UKLrbQXXKoRCxZxW0uucNBZUnEg',
+          demo: 'UKLrbQXXKoRCxZxW0uucNBZUnEg',
           timeStamp: 1703747722593,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3278,7 +3278,7 @@ export const records = [
           name: '20231011-150206.gif',
           size: 639718,
           type: 'image/gif',
-          token: 'Rw7EbkqzioeL4vxef6ccwxlVnGd',
+          demo: 'Rw7EbkqzioeL4vxef6ccwxlVnGd',
           timeStamp: 1697007772086,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3353,7 +3353,7 @@ export const records = [
   //         name: '数字金额转大写.png',
   //         size: 7044,
   //         type: 'image/png',
-  //         token: 'HxUIbuBbDoKSevxseBQcBZSrnde',
+  //         demo: 'HxUIbuBbDoKSevxseBQcBZSrnde',
   //         timeStamp: 1703747731557,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -3367,7 +3367,7 @@ export const records = [
   //         name: '20231115-155450.gif',
   //         size: 327894,
   //         type: 'image/gif',
-  //         token: 'PgoubozdyoWCIKxvhURc109endf',
+  //         demo: 'PgoubozdyoWCIKxvhURc109endf',
   //         timeStamp: 1700035430553,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -3442,7 +3442,7 @@ export const records = [
           name: '图片压缩.png',
           size: 6463,
           type: 'image/png',
-          token: 'UetNbtfdeoD544xLWTbcpgwunxg',
+          demo: 'UetNbtfdeoD544xLWTbcpgwunxg',
           timeStamp: 1703747739439,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3456,7 +3456,7 @@ export const records = [
           name: '20231201-114422.gif',
           size: 362031,
           type: 'image/gif',
-          token: 'Sm4ZbbbNQot79nxtphccpMgSnRb',
+          demo: 'Sm4ZbbbNQot79nxtphccpMgSnRb',
           timeStamp: 1701402293054,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3529,7 +3529,7 @@ export const records = [
           name: '图书ISBN信息提取.png',
           size: 6692,
           type: 'image/png',
-          token: 'VtrebKqC1omGKxxNRAzcLxXKnef',
+          demo: 'VtrebKqC1omGKxxNRAzcLxXKnef',
           timeStamp: 1703747761576,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3543,7 +3543,7 @@ export const records = [
           name: '20231212-193715.gif',
           size: 728180,
           type: 'image/gif',
-          token: 'TfiMbk0eyo99olxaF9icPWA3n4e',
+          demo: 'TfiMbk0eyo99olxaF9icPWA3n4e',
           timeStamp: 1702381677134,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3617,7 +3617,7 @@ export const records = [
           name: '快速筛选记录.png',
           size: 6347,
           type: 'image/png',
-          token: 'AEmCbKsRHoyg1vx0eONcKEuSnfh',
+          demo: 'AEmCbKsRHoyg1vx0eONcKEuSnfh',
           timeStamp: 1703747769128,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3631,7 +3631,7 @@ export const records = [
           name: '20231214-154659.gif',
           size: 1541529,
           type: 'image/gif',
-          token: 'BhF7bxjDjo5cBKxwi6GcBsopnkg',
+          demo: 'BhF7bxjDjo5cBKxwi6GcBsopnkg',
           timeStamp: 1702540159148,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3705,7 +3705,7 @@ export const records = [
   //         name: '拆分至数据表.png',
   //         size: 7363,
   //         type: 'image/png',
-  //         token: 'LsaibRFoGoZYwmxjb7Icu6mAnrh',
+  //         demo: 'LsaibRFoGoZYwmxjb7Icu6mAnrh',
   //         timeStamp: 1703747709713,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -3719,7 +3719,7 @@ export const records = [
   //         name: '20230906-115929.gif',
   //         size: 870451,
   //         type: 'image/gif',
-  //         token: 'QzYDbZWLOo1q62xw4iqcTkPanOe',
+  //         demo: 'QzYDbZWLOo1q62xw4iqcTkPanOe',
   //         timeStamp: 1693972806126,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -3794,7 +3794,7 @@ export const records = [
           name: 'SQL 查询.png',
           size: 12493,
           type: 'image/png',
-          token: 'CSlPb2uY9ou36oxyv2FcxBRGnvg',
+          demo: 'CSlPb2uY9ou36oxyv2FcxBRGnvg',
           timeStamp: 1703747717315,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3808,7 +3808,7 @@ export const records = [
           name: '20231011-193441.gif',
           size: 280761,
           type: 'image/gif',
-          token: 'UFOEbgr1loJAZqxME3JcM4iQnFb',
+          demo: 'UFOEbgr1loJAZqxME3JcM4iQnFb',
           timeStamp: 1697024129001,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3881,7 +3881,7 @@ export const records = [
           name: '图片编辑器.png',
           size: 10136,
           type: 'image/png',
-          token: 'NrMZbmS9QoPkrLxSuHfcptQwnwf',
+          demo: 'NrMZbmS9QoPkrLxSuHfcptQwnwf',
           timeStamp: 1703747725232,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3895,7 +3895,7 @@ export const records = [
           name: '20231011-184246.gif',
           size: 1210409,
           type: 'image/gif',
-          token: 'TInaby2VnoZb3MxzaM5ckFAnnsb',
+          demo: 'TInaby2VnoZb3MxzaM5ckFAnnsb',
           timeStamp: 1697021050364,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -3969,7 +3969,7 @@ export const records = [
   //         name: '拼音速查与转换.png',
   //         size: 9227,
   //         type: 'image/png',
-  //         token: 'U4vMbvKhwovjSvxijlycr5Yznnd',
+  //         demo: 'U4vMbvKhwovjSvxijlycr5Yznnd',
   //         timeStamp: 1703747730341,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -3983,7 +3983,7 @@ export const records = [
   //         name: '20231106-105027.gif',
   //         size: 1239342,
   //         type: 'image/gif',
-  //         token: 'VWtDbNQk6oP2u9xGYDdcOUntnJd',
+  //         demo: 'VWtDbNQk6oP2u9xGYDdcOUntnJd',
   //         timeStamp: 1699239164000,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -4058,7 +4058,7 @@ export const records = [
           name: '快捷键设计.png',
           size: 14069,
           type: 'image/png',
-          token: 'BB09bzbvEovn6UxTNwUcE1QDn6e',
+          demo: 'BB09bzbvEovn6UxTNwUcE1QDn6e',
           timeStamp: 1703747735245,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4072,7 +4072,7 @@ export const records = [
           name: '20231127-171600.gif',
           size: 493706,
           type: 'image/gif',
-          token: 'RYDab2wsFo4b96xmJcacAfHansd',
+          demo: 'RYDab2wsFo4b96xmJcacAfHansd',
           timeStamp: 1701076669289,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4146,7 +4146,7 @@ export const records = [
           name: '查找替换.png',
           size: 8759,
           type: 'image/png',
-          token: 'JLH6bmzsDozk2WxwWnNc9JjZn5K',
+          demo: 'JLH6bmzsDozk2WxwWnNc9JjZn5K',
           timeStamp: 1703747683725,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4220,7 +4220,7 @@ export const records = [
           name: '填充随机值.png',
           size: 7161,
           type: 'image/png',
-          token: 'AkC2bTvmyowmF7xKBEBc4gnMnLe',
+          demo: 'AkC2bTvmyowmF7xKBEBc4gnMnLe',
           timeStamp: 1703747687424,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4294,7 +4294,7 @@ export const records = [
           name: '记录随机排序.png',
           size: 8139,
           type: 'image/png',
-          token: 'XZGeb5SZBoQFxnx02fAcSXfCnvg',
+          demo: 'XZGeb5SZBoQFxnx02fAcSXfCnvg',
           timeStamp: 1703747691016,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4369,7 +4369,7 @@ export const records = [
   //         name: '多维表格小助手.png',
   //         size: 9697,
   //         type: 'image/png',
-  //         token: 'Q97mbeKrMoo5g4xvM0tcGwgNnyd',
+  //         demo: 'Q97mbeKrMoo5g4xvM0tcGwgNnyd',
   //         timeStamp: 1703747759065,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -4383,7 +4383,7 @@ export const records = [
   //         name: '20231225-183854.gif',
   //         size: 1617222,
   //         type: 'image/gif',
-  //         token: 'K95wbN6KKotEqtxCfnGc9wrmnHd',
+  //         demo: 'K95wbN6KKotEqtxCfnGc9wrmnHd',
   //         timeStamp: 1703500750765,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -4458,7 +4458,7 @@ export const records = [
           name: '导出 Excel：内嵌图片.png',
           size: 9187,
           type: 'image/png',
-          token: 'RPOBbvMBXooAotxV8JScts4pnpd',
+          demo: 'RPOBbvMBXooAotxV8JScts4pnpd',
           timeStamp: 1703747684976,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4532,7 +4532,7 @@ export const records = [
           name: '删除重复记录.png',
           size: 9311,
           type: 'image/png',
-          token: 'NOvKbxpGloMQvRxbNkSc0OfjnRe',
+          demo: 'NOvKbxpGloMQvRxbNkSc0OfjnRe',
           timeStamp: 1703747686220,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4606,7 +4606,7 @@ export const records = [
   //         name: '批量删除数据.png',
   //         size: 6266,
   //         type: 'image/png',
-  //         token: 'HKn4bKclgoJudoxBibxchdjvnTd',
+  //         demo: 'HKn4bKclgoJudoxBibxchdjvnTd',
   //         timeStamp: 1703747707218,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -4620,7 +4620,7 @@ export const records = [
   //         name: 'deletefs.gif',
   //         size: 1335972,
   //         type: 'image/gif',
-  //         token: 'QezObP1mro3asfxi0WJcVfacn9t',
+  //         demo: 'QezObP1mro3asfxi0WJcVfacn9t',
   //         timeStamp: 1693208503960,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -4695,7 +4695,7 @@ export const records = [
   //         name: '工作日计算器.png',
   //         size: 6202,
   //         type: 'image/png',
-  //         token: 'M41PbJEcroENhUxEifkce6HRnEh',
+  //         demo: 'M41PbJEcroENhUxEifkce6HRnEh',
   //         timeStamp: 1703747734064,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -4709,7 +4709,7 @@ export const records = [
   //         name: '20231123-153705.gif',
   //         size: 775797,
   //         type: 'image/gif',
-  //         token: 'QBSLbtKdsop9jdx3hjjcte1bnOd',
+  //         demo: 'QBSLbtKdsop9jdx3hjjcte1bnOd',
   //         timeStamp: 1700725119488,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -4784,7 +4784,7 @@ export const records = [
           name: '分屏视图.png',
           size: 6356,
           type: 'image/png',
-          token: 'G4Z9bI1AxokqBhxuBkFcZ4NXn1c',
+          demo: 'G4Z9bI1AxokqBhxuBkFcZ4NXn1c',
           timeStamp: 1703747743253,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4798,7 +4798,7 @@ export const records = [
           name: '20231201-203833.gif',
           size: 965887,
           type: 'image/gif',
-          token: 'Q3xsbIRIuo66ufxicpTcADwGnVg',
+          demo: 'Q3xsbIRIuo66ufxicpTcADwGnVg',
           timeStamp: 1701434376447,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4872,7 +4872,7 @@ export const records = [
           name: '多数据表合并.png',
           size: 7853,
           type: 'image/png',
-          token: 'GhPVbu5QaouEXyxIeONciqUVnHg',
+          demo: 'GhPVbu5QaouEXyxIeONciqUVnHg',
           timeStamp: 1703747718642,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4886,7 +4886,7 @@ export const records = [
           name: '20231007-134923.gif',
           size: 924371,
           type: 'image/gif',
-          token: 'DhgLbalmkopQD1xatwocHossnCf',
+          demo: 'DhgLbalmkopQD1xatwocHossnCf',
           timeStamp: 1696657906653,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -4960,7 +4960,7 @@ export const records = [
           name: '20240112-154712.gif',
           size: 982178,
           type: 'image/gif',
-          token: 'Kp2cbvUVWo3ovpxOOTgc2IKJnTd',
+          demo: 'Kp2cbvUVWo3ovpxOOTgc2IKJnTd',
           timeStamp: 1705045663657,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5034,7 +5034,7 @@ export const records = [
           name: '简易抽奖.png',
           size: 9157,
           type: 'image/png',
-          token: 'XZKibXcFTojZfNxz5GvceWVwnFe',
+          demo: 'XZKibXcFTojZfNxz5GvceWVwnFe',
           timeStamp: 1703747694666,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5108,7 +5108,7 @@ export const records = [
           name: '即时翻译-哪里不会点哪里.png',
           size: 11147,
           type: 'image/png',
-          token: 'GRwnbGvCnoGWBtxkYZjc85HNn3g',
+          demo: 'GRwnbGvCnoGWBtxkYZjc85HNn3g',
           timeStamp: 1703747702156,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5182,7 +5182,7 @@ export const records = [
           name: '数据表融合.png',
           size: 11369,
           type: 'image/png',
-          token: 'TzJDbXaoQoLSHWxnExCcmyeanzb',
+          demo: 'TzJDbXaoQoLSHWxnExCcmyeanzb',
           timeStamp: 1703747704708,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5196,7 +5196,7 @@ export const records = [
           name: 'fusionfs.gif',
           size: 518560,
           type: 'image/gif',
-          token: 'QzkjbpyNcoewT5xm6nwc8OBPnod',
+          demo: 'QzkjbpyNcoewT5xm6nwc8OBPnod',
           timeStamp: 1692847619305,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5271,7 +5271,7 @@ export const records = [
           name: '文本拆分多列.png',
           size: 6629,
           type: 'image/png',
-          token: 'H5ikbDzppou3tDxpmPlcKMChnSc',
+          demo: 'H5ikbDzppou3tDxpmPlcKMChnSc',
           timeStamp: 1703747698445,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5345,7 +5345,7 @@ export const records = [
           name: '6480490031703747064664.png',
           size: 6026,
           type: 'image/png',
-          token: 'P3r1baQyaovJP0xogpVcBjn0nLg',
+          demo: 'P3r1baQyaovJP0xogpVcBjn0nLg',
           timeStamp: 1703748043994,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5420,7 +5420,7 @@ export const records = [
   //         name: '简易富文本.png',
   //         size: 7512,
   //         type: 'image/png',
-  //         token: 'Ca7ubKvFQoYIujxZBL5c75Dcn2b',
+  //         demo: 'Ca7ubKvFQoYIujxZBL5c75Dcn2b',
   //         timeStamp: 1703747742025,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -5434,7 +5434,7 @@ export const records = [
   //         name: '20231129-195742.gif',
   //         size: 901180,
   //         type: 'image/gif',
-  //         token: 'VdNmbzJn5obRguxUvHKc28AZnke',
+  //         demo: 'VdNmbzJn5obRguxUvHKc28AZnke',
   //         timeStamp: 1701259090636,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -5508,7 +5508,7 @@ export const records = [
           name: '跨表内容补全.png',
           size: 6162,
           type: 'image/png',
-          token: 'USjbbG3eSow1o7x8nC9c9p2dnVf',
+          demo: 'USjbbG3eSow1o7x8nC9c9p2dnVf',
           timeStamp: 1703747770513,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5522,7 +5522,7 @@ export const records = [
           name: 'Cross-table Content Completion.gif',
           size: 579468,
           type: 'image/gif',
-          token: 'Kc30bazWnomFgixfFr8cMo3Dn6d',
+          demo: 'Kc30bazWnomFgixfFr8cMo3Dn6d',
           timeStamp: 1702872355495,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5595,7 +5595,7 @@ export const records = [
           name: '-16253391521704162522783.png',
           size: 5875,
           type: 'image/png',
-          token: 'S4YHbw6GaoSR90x42fycl7AHnef',
+          demo: 'S4YHbw6GaoSR90x42fycl7AHnef',
           timeStamp: 1704162720214,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5609,7 +5609,7 @@ export const records = [
           name: '20231228-170945.gif',
           size: 1071200,
           type: 'image/gif',
-          token: 'Nbifbq8oGozeCuxslMtcOjgDn9c',
+          demo: 'Nbifbq8oGozeCuxslMtcOjgDn9c',
           timeStamp: 1703754607719,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5683,7 +5683,7 @@ export const records = [
           name: '录单大师.png',
           size: 6125,
           type: 'image/png',
-          token: 'H8l8bThgsoFDF6xbA3tcsPQBnEd',
+          demo: 'H8l8bThgsoFDF6xbA3tcsPQBnEd',
           timeStamp: 1703747773020,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5697,7 +5697,7 @@ export const records = [
           name: '画板 94.png',
           size: 200262,
           type: 'image/png',
-          token: 'Z0mwb03Fto285Lxy6UncFnqDnVb',
+          demo: 'Z0mwb03Fto285Lxy6UncFnqDnVb',
           timeStamp: 1703038634115,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5771,7 +5771,7 @@ export const records = [
           name: '拆分多行.png',
           size: 6409,
           type: 'image/png',
-          token: 'SWJEbQwtwoDcwuxf5oncdMQJnce',
+          demo: 'SWJEbQwtwoDcwuxf5oncdMQJnce',
           timeStamp: 1703747703449,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5785,7 +5785,7 @@ export const records = [
           name: 'split-rows.gif',
           size: 1380502,
           type: 'image/gif',
-          token: 'O9ogbtXs1oxMX0xQuUdc4ls0nPf',
+          demo: 'O9ogbtXs1oxMX0xQuUdc4ls0nPf',
           timeStamp: 1692699443934,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5859,7 +5859,7 @@ export const records = [
           name: '自动关联字段.png',
           size: 11125,
           type: 'image/png',
-          token: 'B9ZabzkZyoWzRnxH3qZcjb2Pnmg',
+          demo: 'B9ZabzkZyoWzRnxH3qZcjb2Pnmg',
           timeStamp: 1703747719949,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5873,7 +5873,7 @@ export const records = [
           name: '20230928-183642.gif',
           size: 1284419,
           type: 'image/gif',
-          token: 'GhSGbuWzXoFPt8x0GWtcjMJOnFh',
+          demo: 'GhSGbuWzXoFPt8x0GWtcjMJOnFh',
           timeStamp: 1695897474517,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5946,7 +5946,7 @@ export const records = [
           name: '多维关系图.png',
           size: 8628,
           type: 'image/png',
-          token: 'DZI3bYm7CoOmoUxOnGRcQsDWn2f',
+          demo: 'DZI3bYm7CoOmoUxOnGRcQsDWn2f',
           timeStamp: 1703747750218,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -5960,7 +5960,7 @@ export const records = [
           name: 'screenshot-20231206-160850.png',
           size: 749053,
           type: 'image/png',
-          token: 'Nkt4bH0UsooNtxxqRmqcK7s4n4e',
+          demo: 'Nkt4bH0UsooNtxxqRmqcK7s4n4e',
           timeStamp: 1701850183644,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6033,7 +6033,7 @@ export const records = [
           name: '正则表达式.png',
           size: 12013,
           type: 'image/png',
-          token: 'GUQAb5pE9odPGoxxSrPccZPdnrh',
+          demo: 'GUQAb5pE9odPGoxxSrPccZPdnrh',
           timeStamp: 1703747748931,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6047,7 +6047,7 @@ export const records = [
           name: '20231207-111408.gif',
           size: 555133,
           type: 'image/gif',
-          token: 'EQgebIE5NodrXWx83n8cGN1lnEe',
+          demo: 'EQgebIE5NodrXWx83n8cGN1lnEe',
           timeStamp: 1701918870275,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6120,7 +6120,7 @@ export const records = [
           name: '保存到 Cubox.png',
           size: 18052,
           type: 'image/png',
-          token: 'VKFvbsHndob5PIxQQzwcEtFAnCg',
+          demo: 'VKFvbsHndob5PIxQQzwcEtFAnCg',
           timeStamp: 1703747753897,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6134,7 +6134,7 @@ export const records = [
           name: 'Save to Cubox.png',
           size: 566378,
           type: 'image/png',
-          token: 'NKYObQY5eoNNlYxAcyVchPBZnrb',
+          demo: 'NKYObQY5eoNNlYxAcyVchPBZnrb',
           timeStamp: 1702277892686,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6208,7 +6208,7 @@ export const records = [
           name: '附件批量下载.png',
           size: 6791,
           type: 'image/png',
-          token: 'E9FhbJROwowoLhx5vytcvca7nNb',
+          demo: 'E9FhbJROwowoLhx5vytcvca7nNb',
           timeStamp: 1703747699730,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6284,7 +6284,7 @@ export const records = [
           name: '自动编号.png',
           size: 7684,
           type: 'image/png',
-          token: 'PBlWb65vKoAPuHxmRFncJUXTn3g',
+          demo: 'PBlWb65vKoAPuHxmRFncJUXTn3g',
           timeStamp: 1703747721282,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6358,7 +6358,7 @@ export const records = [
           name: '日期筛选.png',
           size: 6296,
           type: 'image/png',
-          token: 'AR9jbpe4yodyYRxq759czCG2nfc',
+          demo: 'AR9jbpe4yodyYRxq759czCG2nfc',
           timeStamp: 1703747726476,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6372,7 +6372,7 @@ export const records = [
           name: '20231012-162917.gif',
           size: 625529,
           type: 'image/gif',
-          token: 'JwtUbopDpoxgQXxBot2cI4MOn7g',
+          demo: 'JwtUbopDpoxgQXxBot2cI4MOn7g',
           timeStamp: 1697101269321,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6446,7 +6446,7 @@ export const records = [
           name: '附件管理器.png',
           size: 6256,
           type: 'image/png',
-          token: 'QYhwboSjjo5TZIxfWqzc94GSnCh',
+          demo: 'QYhwboSjjo5TZIxfWqzc94GSnCh',
           timeStamp: 1703747729098,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6460,7 +6460,7 @@ export const records = [
           name: '20231031-213529.gif',
           size: 1138659,
           type: 'image/gif',
-          token: 'FUCFbFbeeo4VvBx3kzycXER8n9P',
+          demo: 'FUCFbFbeeo4VvBx3kzycXER8n9P',
           timeStamp: 1698759358346,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6534,7 +6534,7 @@ export const records = [
           name: '文本转多选.png',
           size: 6634,
           type: 'image/png',
-          token: 'RRPrbUsgUoXHmmxuWcUc4PrAnwg',
+          demo: 'RRPrbUsgUoXHmmxuWcUc4PrAnwg',
           timeStamp: 1703747711034,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6548,7 +6548,7 @@ export const records = [
           name: '20230907-225802.gif',
           size: 764997,
           type: 'image/gif',
-          token: 'KseHbvh0pokhQ4xOla2cgORhnlb',
+          demo: 'KseHbvh0pokhQ4xOla2cgORhnlb',
           timeStamp: 1694098755987,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6624,7 +6624,7 @@ export const records = [
   //         name: '草料二维码.png',
   //         size: 10930,
   //         type: 'image/png',
-  //         token: 'D4XHbKLe7o9MncxxWGec5eosnOc',
+  //         demo: 'D4XHbKLe7o9MncxxWGec5eosnOc',
   //         timeStamp: 1703747716049,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -6699,7 +6699,7 @@ export const records = [
           name: '保存到 Flomo.png',
           size: 9802,
           type: 'image/png',
-          token: 'ZCVZboSZ1otqtRxozmXcrWpFnxo',
+          demo: 'ZCVZboSZ1otqtRxozmXcrWpFnxo',
           timeStamp: 1703747755218,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6713,7 +6713,7 @@ export const records = [
           name: 'savetoflomo.jpeg',
           size: 137595,
           type: 'image/jpeg',
-          token: 'BSIpbcsq7oFTBSxghfRct5DznUc',
+          demo: 'BSIpbcsq7oFTBSxghfRct5DznUc',
           timeStamp: 1702029137736,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6786,7 +6786,7 @@ export const records = [
           name: '地址解析.png',
           size: 6157,
           type: 'image/png',
-          token: 'ChcJb5bZpo9lsWxFg4icnPEYned',
+          demo: 'ChcJb5bZpo9lsWxFg4icnPEYned',
           timeStamp: 1703747774410,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6800,7 +6800,7 @@ export const records = [
           name: '20231226-173952.gif',
           size: 662589,
           type: 'image/gif',
-          token: 'SdQ5bNJEGoqj8ixSWj5cTlw6nlh',
+          demo: 'SdQ5bNJEGoqj8ixSWj5cTlw6nlh',
           timeStamp: 1703583608120,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -6875,7 +6875,7 @@ export const records = [
   //         name: '批量复制字段.png',
   //         size: 6639,
   //         type: 'image/png',
-  //         token: 'VN2pbWFfOoVwMyxp9rNc8TwJnOQ',
+  //         demo: 'VN2pbWFfOoVwMyxp9rNc8TwJnOQ',
   //         timeStamp: 1703747712262,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -6889,7 +6889,7 @@ export const records = [
   //         name: '20230912-113742.gif',
   //         size: 1566130,
   //         type: 'image/gif',
-  //         token: 'UcadbmWTYor9QjxmGPyc2gAAnDe',
+  //         demo: 'UcadbmWTYor9QjxmGPyc2gAAnDe',
   //         timeStamp: 1694489927564,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -6964,7 +6964,7 @@ export const records = [
   //         name: '公历农历转换.png',
   //         size: 6286,
   //         type: 'image/png',
-  //         token: 'GhXzbry35oaIQYxaEwhcSOqknca',
+  //         demo: 'GhXzbry35oaIQYxaEwhcSOqknca',
   //         timeStamp: 1703747714822,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -6978,7 +6978,7 @@ export const records = [
   //         name: '20230919-153316.gif',
   //         size: 654106,
   //         type: 'image/gif',
-  //         token: 'Dvu8bnBbUoGN2vxady0cWWtvnic',
+  //         demo: 'Dvu8bnBbUoGN2vxady0cWWtvnic',
   //         timeStamp: 1695109046903,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -7053,7 +7053,7 @@ export const records = [
           name: 'JSON 转换器.png',
           size: 11006,
           type: 'image/png',
-          token: 'R1GwbXW59oW7aCx2Gb3cgTYznxe',
+          demo: 'R1GwbXW59oW7aCx2Gb3cgTYznxe',
           timeStamp: 1703747727790,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7067,7 +7067,7 @@ export const records = [
           name: '20231023-135406.gif',
           size: 1144993,
           type: 'image/gif',
-          token: 'RRsWbc6iCohW7kxSgO2cHZ2vnth',
+          demo: 'RRsWbc6iCohW7kxSgO2cHZ2vnth',
           timeStamp: 1698040500545,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7142,7 +7142,7 @@ export const records = [
           name: 'Save as a long image.gif',
           size: 1455085,
           type: 'image/gif',
-          token: 'BYwubH3kGoWBZZx7l4scR9XZnmb',
+          demo: 'BYwubH3kGoWBZZx7l4scR9XZnmb',
           timeStamp: 1705054826869,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7216,7 +7216,7 @@ export const records = [
           name: 'Invoice Verification.png',
           size: 9656,
           type: 'image/png',
-          token: 'TzQkbzir4o4HllxTc0YcyaEWnZd',
+          demo: 'TzQkbzir4o4HllxTc0YcyaEWnZd',
           timeStamp: 1705326821417,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7230,7 +7230,7 @@ export const records = [
           name: 'Invoice Verification2.gif',
           size: 853837,
           type: 'image/gif',
-          token: 'GJPWb09jnoZM15xSujUc2DDfnld',
+          demo: 'GJPWb09jnoZM15xSujUc2DDfnld',
           timeStamp: 1705325760579,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7305,7 +7305,7 @@ export const records = [
           name: 'Batch Field Editing.png',
           size: 5840,
           type: 'image/png',
-          token: 'LlUZbLBFyoCh0cxMKYccJcgDnyn',
+          demo: 'LlUZbLBFyoCh0cxMKYccJcgDnyn',
           timeStamp: 1705391073201,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7319,7 +7319,7 @@ export const records = [
           name: 'Batch Field Editing.gif',
           size: 1271493,
           type: 'image/gif',
-          token: 'XrcFbYs5VomgHtxzv31cwxXSnFc',
+          demo: 'XrcFbYs5VomgHtxzv31cwxXSnFc',
           timeStamp: 1705391695560,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7393,7 +7393,7 @@ export const records = [
           name: 'SQL Generator.gif',
           size: 532831,
           type: 'image/gif',
-          token: 'CeY5bcbScobwBOxwL34c5EWGndb',
+          demo: 'CeY5bcbScobwBOxwL34c5EWGndb',
           timeStamp: 1705567950623,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7407,7 +7407,7 @@ export const records = [
           name: 'SQL Generator.png',
           size: 6478,
           type: 'image/png',
-          token: 'NRJdbSMbwoF7DQxrGkRcapERnbv',
+          demo: 'NRJdbSMbwoF7DQxrGkRcapERnbv',
           timeStamp: 1705567695335,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7481,7 +7481,7 @@ export const records = [
           name: 'Cross-table Comparison.gif',
           size: 601874,
           type: 'image/gif',
-          token: 'Q7Libnu3PoDa8fx90jsccJ2dno7',
+          demo: 'Q7Libnu3PoDa8fx90jsccJ2dno7',
           timeStamp: 1705573738672,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7495,7 +7495,7 @@ export const records = [
           name: 'Cross-table Comparison.png',
           size: 5970,
           type: 'image/png',
-          token: 'SVnKbhNbgo6Uj9xV6NccaESOnjg',
+          demo: 'SVnKbhNbgo6Uj9xV6NccaESOnjg',
           timeStamp: 1705648349418,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7570,7 +7570,7 @@ export const records = [
           name: 'AI Chatbot.gif',
           size: 496844,
           type: 'image/gif',
-          token: 'TMHdbKY51oAYP7xPjEocJ8iwnFg',
+          demo: 'TMHdbKY51oAYP7xPjEocJ8iwnFg',
           timeStamp: 1705904521882,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7584,7 +7584,7 @@ export const records = [
           name: 'AI Chatbot.png',
           size: 7068,
           type: 'image/png',
-          token: 'CAx1b0uh0o8sCbx8xFMc4IrKnlf',
+          demo: 'CAx1b0uh0o8sCbx8xFMc4IrKnlf',
           timeStamp: 1705024984021,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7658,7 +7658,7 @@ export const records = [
           name: 'Scheduling Assistant.gif',
           size: 1780226,
           type: 'image/gif',
-          token: 'F0z4bMusrof84QxFGxUcpua5nUA',
+          demo: 'F0z4bMusrof84QxFGxUcpua5nUA',
           timeStamp: 1705929137553,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7672,7 +7672,7 @@ export const records = [
           name: 'Scheduling Assistant.png',
           size: 9527,
           type: 'image/png',
-          token: 'KShVb70G4oPuBcxPzfpcARZ6neg',
+          demo: 'KShVb70G4oPuBcxPzfpcARZ6neg',
           timeStamp: 1705928956874,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7746,7 +7746,7 @@ export const records = [
           name: 'Split Billing Calculation.gif',
           size: 364889,
           type: 'image/gif',
-          token: 'TgdPbcb5uouaO8xFwcHcoNWBnSg',
+          demo: 'TgdPbcb5uouaO8xFwcHcoNWBnSg',
           timeStamp: 1705931524695,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7760,7 +7760,7 @@ export const records = [
           name: 'Split Billing Calculation.png',
           size: 5612,
           type: 'image/png',
-          token: 'LGnwbQxNpo8FdlxkDEwctuD6nhd',
+          demo: 'LGnwbQxNpo8FdlxkDEwctuD6nhd',
           timeStamp: 1705979150936,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7836,7 +7836,7 @@ export const records = [
   //         name: 'Attachment to CDN Link.png',
   //         size: 13170,
   //         type: 'image/png',
-  //         token: 'O9QKbkrwFoG5pDxrjMOcU2QdnBI',
+  //         demo: 'O9QKbkrwFoG5pDxrjMOcU2QdnBI',
   //         timeStamp: 1706176231164,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -7850,7 +7850,7 @@ export const records = [
   //         name: 'img_v3_027e_95aabcbf-afdd-4e77-bd3d-3476ce65a7bg.gif',
   //         size: 1515857,
   //         type: 'image/gif',
-  //         token: 'BqPzbHxLUowfDgx8sIkc22yMnNB',
+  //         demo: 'BqPzbHxLUowfDgx8sIkc22yMnNB',
   //         timeStamp: 1706179390198,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -7926,7 +7926,7 @@ export const records = [
           name: 'Real Watermark.png',
           size: 7639,
           type: 'image/png',
-          token: 'QFgsbGHs0oGvgCxWIbrcs0oBn4c',
+          demo: 'QFgsbGHs0oGvgCxWIbrcs0oBn4c',
           timeStamp: 1706173317613,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -7940,7 +7940,7 @@ export const records = [
           name: 'Real Watermark.gif',
           size: 3962720,
           type: 'image/gif',
-          token: 'AeGpbnVPhoP90yx8sxhcz3EMn8f',
+          demo: 'AeGpbnVPhoP90yx8sxhcz3EMn8f',
           timeStamp: 1706608573704,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -8014,7 +8014,7 @@ export const records = [
           name: 'Group 1321318331.png',
           size: 8906,
           type: 'image/png',
-          token: 'NF6tbuCT0oL7QvxiNMgcCNhince',
+          demo: 'NF6tbuCT0oL7QvxiNMgcCNhince',
           timeStamp: 1706769946423,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -8028,7 +8028,7 @@ export const records = [
           name: 'Barcode Scanning for Inventory Management.GIF',
           size: 1498392,
           type: 'image/gif',
-          token: 'W1ZCb7Rysodml5x0w2sczatEnZg',
+          demo: 'W1ZCb7Rysodml5x0w2sczatEnZg',
           timeStamp: 1706702651515,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -8101,7 +8101,7 @@ export const records = [
           name: 'Randomly Extract Data.png',
           size: 9086,
           type: 'image/png',
-          token: 'WpK3bOX0iozBOqx2lKMcWfsOnDc',
+          demo: 'WpK3bOX0iozBOqx2lKMcWfsOnDc',
           timeStamp: 1706696542515,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -8115,7 +8115,7 @@ export const records = [
           name: 'Randomly Extract Data.gif',
           size: 1041986,
           type: 'image/gif',
-          token: 'Tnfwb3TuMouPBHxG8aZc9WInnXe',
+          demo: 'Tnfwb3TuMouPBHxG8aZc9WInnXe',
           timeStamp: 1706757963840,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -8188,7 +8188,7 @@ export const records = [
           name: 'Statistical Description.gif',
           size: 3002459,
           type: 'image/gif',
-          token: 'VZ5kbsZpPoelH0xBkHrcoNnvnWV',
+          demo: 'VZ5kbsZpPoelH0xBkHrcoNnvnWV',
           timeStamp: 1706864461145,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -8202,7 +8202,7 @@ export const records = [
           name: 'Statistical Description.png',
           size: 5609,
           type: 'image/png',
-          token: 'YcR3bdbjio2gjGxXd2WcOXDrnWd',
+          demo: 'YcR3bdbjio2gjGxXd2WcOXDrnWd',
           timeStamp: 1708243302142,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -8275,7 +8275,7 @@ export const records = [
           name: 'Print Designer.gif',
           size: 1337656,
           type: 'image/gif',
-          token: 'EpDFb5wi1o8ucaxSJjocgr9pnCd',
+          demo: 'EpDFb5wi1o8ucaxSJjocgr9pnCd',
           timeStamp: 1708245173587,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -8289,7 +8289,7 @@ export const records = [
           name: 'Print Designer.png',
           size: 6157,
           type: 'image/png',
-          token: 'DdvZbPjJhoBt6NxwbM8c1tQHnhc',
+          demo: 'DdvZbPjJhoBt6NxwbM8c1tQHnhc',
           timeStamp: 1708224384885,
           permission: {
             tableId: 'tbloPppeyAHR1qX4',
@@ -8362,7 +8362,7 @@ export const records = [
   //         name: 'TikTok Assistant.gif',
   //         size: 1538821,
   //         type: 'image/gif',
-  //         token: 'Vgombh2XzoHgwcxfJUxcdbAknmc',
+  //         demo: 'Vgombh2XzoHgwcxfJUxcdbAknmc',
   //         timeStamp: 1708585885889,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
@@ -8376,7 +8376,7 @@ export const records = [
   //         name: 'douyin.png',
   //         size: 14467,
   //         type: 'image/png',
-  //         token: 'Mc6MbnZKJo72FQxNtMzcfQxGnRd',
+  //         demo: 'Mc6MbnZKJo72FQxNtMzcfQxGnRd',
   //         timeStamp: 1708691841348,
   //         permission: {
   //           tableId: 'tbloPppeyAHR1qX4',
